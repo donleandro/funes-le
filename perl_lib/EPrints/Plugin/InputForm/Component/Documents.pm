@@ -317,7 +317,7 @@ sub export
 		return if $doc->value( "eprintid" ) != $self->{workflow}->{item}->id;
 
 		my $hide = $self->{session}->param( "docid" );
-		#$hide = !defined($hide) || $hide ne $docid;
+		$hide = !defined($hide) || $hide ne $docid;
 		$frag = $self->_render_doc_div( $doc, $hide );
 	}
 
@@ -748,7 +748,7 @@ sub parse_config
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

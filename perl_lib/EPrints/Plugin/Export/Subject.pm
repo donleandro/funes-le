@@ -48,10 +48,7 @@ sub output_dataobj
 	push @parts, $dataobj->is_set( "depositable" ) && $dataobj->get_value( "depositable" ) eq "TRUE" ? "1" : "0";
 
 	# percent-encode ":" to "%3A"
-	foreach my $i (0..$#parts)
-	{
-		$parts[$i] =~ s/:/%3A/g;	
-	}
+	@parts = map { s/:/%3A/g } @parts;
 
 	return join(":", @parts)."\n";
 }
@@ -62,7 +59,7 @@ sub output_dataobj
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

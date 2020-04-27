@@ -113,13 +113,6 @@ sub action_request
 
 	my $email = $request->value( "requester_email" );
 
-	my $blacklist = $session->config( 'email_blacklist' );
-	if( $email && $blacklist && grep { $email eq $_ } @$blacklist )
-	{
-		$self->{processor}->add_message( "error", $session->html_phrase( "general:email_denied" ) );
-		return;
-	}
-
 	my $eprint = $self->{processor}->{eprint};
 	my $doc = $self->{processor}->{document};
 	my $contact_email = $self->{processor}->{contact_email};
@@ -335,7 +328,7 @@ sub render_document
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

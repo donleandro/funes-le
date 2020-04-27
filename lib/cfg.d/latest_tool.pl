@@ -9,8 +9,7 @@
 ######################################################################
 
 $c->{latest_tool_modes} = {
-	default => { citation => "result" },
-	fplatest => { citation => "result", max => 3 }
+	default => { citation => "result" }
 };
 
 # Example of a latest_tool mode. This makes a mode=articles option
@@ -24,18 +23,13 @@ $c->{latest_tool_modes} = {
 #		max => 20
 #	}
 
-# Make sure the appropriate Export plugins are also enabled.
-$c->{latest_tool_feeds} = {
-#       Atom => { enabled => 1, "label" => "Atom" },
-#       RSS => { enabled => 1, "label" => "RSS 1.0" },
-        RSS2 => { enabled => 1, "label" => "RSS 2.0" },
-};
+
 
 =head1 COPYRIGHT
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

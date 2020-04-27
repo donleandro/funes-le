@@ -2,7 +2,6 @@
 
 use FindBin;
 use lib "$FindBin::Bin/../perl_lib";
-no if $] >= 5.017011, warnings => 'experimental::smartmatch';
 
 ######################################################################
 #
@@ -199,7 +198,7 @@ Remove the database entries for the given field, can not be undone!
 
 =item B<epadmin> update I<repository_id>
 
-This will add tables and columns to your SQL database to bring it in-line with your current configuration. It will not remove data. Use with caution on a live database. Database backup is recommended before use on live systems.
+This will add tables and columns to your SQL database to bring it in-line with your current configuration. It will not remove data. Use with caution on a live database. Database backup is recommended befire use on live systems.
 
 =item B<epadmin> update_dry_run I<repository_id>
 
@@ -381,7 +380,7 @@ sub create
     pod2usage( 2 ) if( scalar @ARGV > 1 ); 
 
     my $conf = $EPrints::SystemSettings::conf;
-    my @flavours =  keys %{$conf->{flavours}};
+    my @flavours =  keys $conf->{flavours};
     my $repo_type = $ARGV[0]? $ARGV[0]:"";
     if (not $repo_type ~~ @flavours)
     {
@@ -3271,7 +3270,7 @@ sub upgrade_3_3_3_to_3_3_4
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

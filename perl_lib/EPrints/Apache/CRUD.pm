@@ -1001,7 +1001,7 @@ sub handler
 
 	my $user = $repo->current_user;
 
-	my( $rc, $owner ) = $self->on_behalf_of( $user );
+	my( $rc, $owner ) = on_behalf_of( $repo, $r, $user );
 	return $rc if $rc != OK;
 
 	# Subject URI's redirect to the top of that particular subject tree
@@ -1756,15 +1756,12 @@ sub servicedocument
 
 	my $user = $repo->current_user;
 	EPrints->abort( "unprotected" ) if !defined $user; # Rewrite foobar
-	my ( $status, $on_behalf_of ) = $self->on_behalf_of( $user );
-	if( $status != OK )
+	my $on_behalf_of = on_behalf_of( $repo, $r, $user );
+	if( $on_behalf_of->{status} != OK )
 	{
-		return $self->sword_error(
-                	status => HTTP_FORBIDDEN,
-	                href => "http://purl.org/net/sword/error/TargetOwnerUnknown",
-        	        summary => "Target user unknown or no permission to act on-behalf-of",
-		);
+		return sword_error( $repo, $r, %$on_behalf_of );
 	}
+	$on_behalf_of = $on_behalf_of->{on_behalf_of};
 
 # SERVICE and WORKSPACE DEFINITION
 
@@ -1858,10 +1855,13 @@ sub servicedocument
 
 sub on_behalf_of
 {
-	my( $self, $user ) = @_;
+	my( $repo, $r, $user ) = @_;
 
-	my $repo = $self->repository;
-	my $r = $self->request; 
+	my $err = {
+		status => HTTP_FORBIDDEN,
+		href => "http://purl.org/net/sword/error/TargetOwnerUnknown",
+		summary => "Target user unknown or no permission to act on-behalf-of",
+	};
 
 	my $on_behalf_of =
 		$r->headers_in->{'On-Behalf-Of'} || # SWORD 2.0
@@ -1871,9 +1871,9 @@ sub on_behalf_of
 
 	my $owner = $repo->user_by_username( $on_behalf_of );
 
-	return ( HTTP_FORBIDDEN, undef )
+	return sword_error($repo, $r, %$err )
 		if !defined $owner;
-	return ( HTTP_FORBIDDEN, undef )
+	return sword_error($repo, $r, %$err ) 
 		if !$user->allow( "user/mediate", $owner );
 
 	return( OK, $owner );
@@ -2146,7 +2146,7 @@ http://en.wikipedia.org/wiki/Content_negotiation
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

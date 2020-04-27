@@ -67,9 +67,10 @@ sub logic
 	my @logic;
 	foreach my $cond (@{$self->{params}})
 	{
-		push @logic, sprintf("%s LIKE %s",
+		# escape $cond value in any way?
+		push @logic, sprintf("%s LIKE '%s'",
 			$db->quote_identifier( $table, "grepstring" ),
-			$db->quote_value( $cond ) );
+			$cond );
 	}
 
 	return sprintf( "%s=%s AND (%s)",
@@ -84,7 +85,7 @@ sub logic
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

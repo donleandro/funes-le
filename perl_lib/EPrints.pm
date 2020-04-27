@@ -115,7 +115,7 @@ use Carp;
 
 use strict;
 
-our $VERSION = v3.4.1;
+our $VERSION = v3.4.0;
 $conf->{version} = "EPrints ".EPrints->human_version;
 $conf->{versionid} = "eprints-".EPrints->human_version;
 
@@ -301,7 +301,6 @@ use EPrints::DataObj::Triple;
 use EPrints::DataObj::UploadProgress;
 use EPrints::DataObj::User;
 use EPrints::DataSet;
-use EPrints::DOI;
 use EPrints::Email;
 use EPrints::Extras;
 use EPrints::Index;
@@ -525,7 +524,7 @@ sub abort
 </head>
 <body>
 <h1>EPrints System Error</h1>
-<p><code>$htmlerrmsg</code></p>
+<p><tt>$htmlerrmsg</tt></p>
 </body>
 </html>
 END
@@ -633,7 +632,7 @@ sub abort
 </head>
 <body>
 <h1>EPrints System Error</h1>
-<p><code>$htmlerrmsg</code></p>
+<p><tt>$htmlerrmsg</tt></p>
 </body>
 </html>
 END
@@ -860,7 +859,7 @@ EPrints::Config::init();
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

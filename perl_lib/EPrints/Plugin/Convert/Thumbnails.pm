@@ -566,20 +566,20 @@ sub call_convert
 		# geom^ requires 6.3.8
 		if( $version > 6.3 )
 		{
-			$self->_system($convert, "-strip", "-colorspace", "sRGB", "-background", "white", "-thumbnail","$geom^", "-gravity", "center", "-extent", $geom, "-bordercolor", "gray", "-border", "1x1", $src."[0]", "JPEG:$dst");
+			$self->_system($convert, "-strip", "-colorspace", "RGB", "-background", "white", "-thumbnail","$geom^", "-gravity", "center", "-extent", $geom, "-bordercolor", "gray", "-border", "1x1", $src."[0]", "JPEG:$dst");
 		}
 		else
 		{
-			$self->_system($convert, "-strip", "-colorspace", "sRGB", "-background", "white", "-thumbnail","$geom>", "-extract", $geom, "-bordercolor", "gray", "-border", "1x1", $src."[0]", "JPEG:$dst");
+			$self->_system($convert, "-strip", "-colorspace", "RGB", "-background", "white", "-thumbnail","$geom>", "-extract", $geom, "-bordercolor", "gray", "-border", "1x1", $src."[0]", "JPEG:$dst");
 		}
 	}
 	elsif( $size eq "medium" )
 	{
-		$self->_system($convert, "-strip", "-colorspace", "sRGB", "-trim", "+repage", "-size", "$geom", "-thumbnail","$geom>", "-background", "white", "-gravity", "center", "-extent", $geom, "-bordercolor", "white", "-border", "0x0", $src."[0]", "JPEG:$dst");
+		$self->_system($convert, "-strip", "-colorspace", "RGB", "-trim", "+repage", "-size", "$geom", "-thumbnail","$geom>", "-background", "white", "-gravity", "center", "-extent", $geom, "-bordercolor", "white", "-border", "0x0", $src."[0]", "JPEG:$dst");
 	}
 	else
 	{
-		$self->_system($convert, "-strip", "-colorspace", "sRGB", "-background", "white", "-thumbnail","$geom>", "-extract", $geom, "-bordercolor", "white", "-border", "0x0", $src."[0]", "JPEG:$dst");
+		$self->_system($convert, "-strip", "-colorspace", "RGB", "-background", "white", "-thumbnail","$geom>", "-extract", $geom, "-bordercolor", "white", "-border", "0x0", $src."[0]", "JPEG:$dst");
 	}
 
 	if( -s $dst )
@@ -889,7 +889,7 @@ This module is released under the GPLv3 license.
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

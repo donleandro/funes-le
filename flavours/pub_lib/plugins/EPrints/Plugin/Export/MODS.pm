@@ -197,7 +197,7 @@ sub _make_issue_date
 	my $originInfo = $session->make_element( "${PREFIX}originInfo" );
 	$originInfo->appendChild( my $dateIssued = $session->make_element(
 		"${PREFIX}dateIssued",
-		"encoding" => "iso8601"
+		"encoding" => "iso8061"
 	));
 	$dateIssued->appendChild( $session->make_text( $val ));
 	
@@ -251,7 +251,7 @@ sub _make_genre
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

@@ -2,24 +2,24 @@
 
 {
 	my $uri = URI->new( "http://" );
-        if( EPrints::Utils::is_set( $c->{securehost} ) )
-        {
-                $uri->scheme( "https" );
-                $uri->host( $c->{securehost} );
-                $uri->port( $c->{secureport} );
-                $uri = $uri->canonical;
-                $uri->path( $c->{https_root} );
-        }
-        else
-        {
-                $uri->scheme( "http" );
-                $uri->host( $c->{host} );
-                $uri->port( $c->{port} );
-                $uri = $uri->canonical;
-                $uri->path( $c->{http_root} );
-        }
+	if( EPrints::Utils::is_set( $c->{host} ) )
+	{
+		$uri->scheme( "http" );
+		$uri->host( $c->{host} );
+		$uri->port( $c->{port} );
+		$uri = $uri->canonical;
+		$uri->path( $c->{http_root} );
+	}
+	else
+	{
+		$uri->scheme( "https" );
+		$uri->host( $c->{securehost} );
+		$uri->port( $c->{secureport} );
+		$uri = $uri->canonical;
+		$uri->path( $c->{https_root} );
+	}
 
-# EPrints base URL without trailing slash and http URL with
+# EPrints base URL without trailing slash
 	$c->{base_url} = "$uri";
 # CGI base URL without trailing slash
 	$c->{perl_url} = "$uri/cgi";
@@ -31,15 +31,11 @@
 # Will match http://yourrepo/myspecial/cgi
 #$c->{rewrite_exceptions} = [];
 
-#if turned on, the abstract page url will be: http://domain.com/id/eprint/43/. This format helps google scholar to index eprints repository.
-#if turned off: http://domain.com/43/
-$c->{use_long_url_format} = 0;
-
 =head1 COPYRIGHT
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

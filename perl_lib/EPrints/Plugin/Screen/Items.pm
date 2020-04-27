@@ -124,9 +124,7 @@ sub get_filters
 	my @f = @{$user->preference( $pref ) || []};
 	if( !scalar @f )
 	{
-		# sf2 - 2010-08-04 - define local filters
-		my $lf = $self->{session}->config( "items_filters" );
-		@f = ( defined $lf ) ? @$lf : ( inbox=>1, buffer=>1, archive=>1, deletion=>1 );
+		@f = ( inbox=>1, buffer=>1, archive=>1, deletion=>1 );
 	}
 
 	foreach my $i (0..$#f)
@@ -205,7 +203,7 @@ sub render
 			$options{title} = $self->html_phrase( "help_title" );
 			$options{content} = $repo->html_phrase( $phraseid );
 			$options{collapsed} = 1;
-			$options{show_icon_url} = "$imagesurl/help.gif";
+			$options{show_icon_url} = "$imagesurl/help.png";
 			my $box = $repo->make_element( "div", style=>"text-align: left" );
 			$box->appendChild( EPrints::Box::render( %options ) );
 			$chunk->appendChild( $box );
@@ -241,19 +239,13 @@ sub render_items
 	]};
 
 	my $filter_div = $session->make_element( "div", class=>"ep_items_filters" );
-	# EPrints Services/tmb 2011-02-15 add opportunity to bypass hardcoded order
-	my @order = @{ $session->config( 'items_filters_order' ) || [] };
-	@order = qw/ inbox buffer archive deletion / unless( scalar(@order) );
-	# EPrints Services/tmb end
-	foreach my $f ( @order )
+	foreach my $f ( qw/ inbox buffer archive deletion / )
 	{
 		my $url = URI->new( $session->current_url() );
 		my %q = $self->hidden_bits;
 		$q{"set_show_$f"} = !$filters{$f};
 		$url->query_form( %q );
 		my $link = $session->render_link( $url );
-		# http://servicesjira.eprints.org:8080/browse/RCA-175
-		$link->setAttribute( 'class', "ep_items_filters_$f" );
 		if( $filters{$f} )
 		{
 			$link->appendChild( $session->make_element(
@@ -271,7 +263,7 @@ sub render_items
 		$link->appendChild( $session->make_text( " " ) );
 		$link->appendChild( $session->html_phrase( "eprint_fieldopt_eprint_status_$f" ) );
 		$filter_div->appendChild( $link );
-		#$filter_div->appendChild( $session->make_text( ". " ) );
+		$filter_div->appendChild( $session->make_text( ". " ) );
 	}
 
 	my $columns = $session->current_user->get_value( "items_fields" );
@@ -480,7 +472,7 @@ sub render_items
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

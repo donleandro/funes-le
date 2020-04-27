@@ -76,7 +76,7 @@ sub render_title
 	if( defined( my $user = $self->{session}->current_user ) )
 	{
 		return $self->html_phrase( "title:logged_in",
-			user => $user->render_citation( 'login' ),
+			user => $user->render_description,
 		);
 	}
 	else
@@ -213,7 +213,7 @@ sub hidden_bits
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

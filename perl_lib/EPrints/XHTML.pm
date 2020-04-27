@@ -142,22 +142,6 @@ sub form
 		$form->setAttribute( enctype => "multipart/form-data" );
 	}
 
-	# Add a CSRF token to the form if a salt has been set and there is a logged in user.
-	if ( defined $self->{repository}->config( "csrf_token_salt" ) && defined $self->{repository}->current_user )
-        {
-                use Digest::MD5;
-                my $ctx = Digest::MD5->new;
-                my $timestamp = time();
-                $ctx->add( $timestamp, $self->{repository}->current_user->get_id, $self->{repository}->config( "csrf_token_salt" ) );
-                my $csrf_token_input = $self->{repository}->xml->create_element( "input",
-			id => "csrf_token",
-			name => "csrf_token",
-			type => "hidden", 
-			value => $timestamp . ":" . $ctx->hexdigest,
-                );
-		$form->appendChild( $csrf_token_input );
-        }
-
 	return $form;
 }
 
@@ -558,6 +542,7 @@ Option "template" uses a different template to "default.xml".
 sub page
 {
 	my( $self, $map, %options ) = @_;
+
 	my $repo = $self->{repository};
 
 	# if mainonly=yes is in effect return the page content
@@ -623,11 +608,6 @@ sub page
 			1 );
 		$pt->appendChild( $ptnew );
 		$map->{$_} = $pt;
-	}
-
-	if( $repo->get_online && defined $repo->param( "template" ) )
-	{
-		$options{template} = $repo->param( "template" );
 	}
 
 	if( !defined $options{template} )
@@ -1000,7 +980,7 @@ END
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

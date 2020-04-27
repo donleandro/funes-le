@@ -15,7 +15,7 @@ sub render
 {
 	my( $self, $component ) = @_;
 
-	my $surround = $self->{session}->make_element( "div", class => "ep_sr_none", id => $component->{prefix} );
+	my $surround = $self->{session}->make_element( "div", class => "ep_sr_none" );
 	$surround->appendChild( $self->{session}->make_element( "a", name=>$component->{prefix} ) );
 	foreach my $field_id ( $component->get_fields_handled )
 	{
@@ -34,7 +34,7 @@ sub render
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

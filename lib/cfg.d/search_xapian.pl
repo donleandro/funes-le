@@ -96,7 +96,7 @@ $c->add_trigger( EP_TRIGGER_INDEX_FIELDS, sub {
 			{
 				$value = $v;
 			}
-			next if !EPrints::Utils::is_set( $value ) || ref($value) ne ""; 
+			next if !EPrints::Utils::is_set( $value );
 			$tg->index_text( $value );
 			$tg->increase_termpos();
 			next if length($value) > 200; # Xapian term length limit-ish
@@ -118,7 +118,6 @@ $c->add_trigger( EP_TRIGGER_INDEX_FIELDS, sub {
 				$langid, # TODO: non-English ordervalues?
 				$dataset
 			);
-			next if ref($ordervalue) ne ""; 
 			my $key = $dataset->base_id . '.' . $field->name . '.' . $langid;
 			$doc->add_value( $field_pos{$key}, $ordervalue );
 		}
@@ -194,7 +193,7 @@ $c->add_trigger( EP_TRIGGER_INDEX_REMOVED, sub {
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

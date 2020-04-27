@@ -244,7 +244,6 @@ sub get_system_field_info
 		make_value_orderkey => "EPrints::DataObj::EPrint::order_issues_newest_open_timestamp",
 		render_value=>"EPrints::DataObj::EPrint::render_issues",
 		volatile => 1,
-		export_as_xml => 0,
 	},
 
 	{ name=>"item_issues_count", type=>"int",  volatile=>1 },
@@ -262,7 +261,6 @@ sub get_system_field_info
 		render_value=>"EPrints::DataObj::EPrint::render_edit_lock",
  	},
 	
-	{ name=>"template", type=>"namedset", set_name=>"template", required=>1 },
 	)
 }
 
@@ -2053,9 +2051,7 @@ sub in_editorial_scope_of
 	my $searches = $possible_editor->get_value( 'editperms' );
 	if( scalar @{$searches} == 0 )
 	{
-		# test for editperms_none_by_default role, if absent allow edit as per previous versions
-		my $has_role = $possible_editor->has_role( 'editperms_none_by_default' );
-		return ($has_role) ? 0 : 1;
+		return 1;
 	}
 
 	foreach my $s ( @{$searches} )
@@ -2316,7 +2312,7 @@ See L<ArchiveRenderConfig/eprint_render>.
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

@@ -177,13 +177,13 @@ $c->add_dataset_trigger( "eprint", EP_TRIGGER_RDF, sub {
 
 	if( $eprint->dataset->has_field( "id_number" ) && $eprint->is_set( "id_number" ) )
 	{
-		my $doi = EPrints::DOI->parse( $eprint->get_value( "id_number" ) );
-		if ( $doi )
+		my $doi = $eprint->get_value( "id_number" );
+		if( $doi =~ s/^doi:/info:doi\// )
 		{
 			$o{"graph"}->add(
-				  subject => $eprint_uri,
-				predicate => "owl:sameAs",
-				   object => "<$doi>" );	
+			   	  subject => $eprint_uri,
+			 	predicate => "owl:sameAs",
+			    	   object => "<$doi>" );
 		}
 	}
 
@@ -605,7 +605,7 @@ $c->add_dataset_trigger( "eprint", EP_TRIGGER_RDF, sub {
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

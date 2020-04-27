@@ -156,24 +156,15 @@ sub render_result_row
 	my $staff = $self->{processor}->{sconf}->{staff};
 	my $citation = $self->{processor}->{sconf}->{citation};
 
-	#if we have a template, add it on the end of the item's url
-	my %params;
-	if( defined $self->{processor}->{sconf}->{template} )
-	{
-		$params{url} = $result->url . "?template=" . $self->{processor}->{sconf}->{template};
-        }
-
-	$params{n} = [$n,"INTEGER"];
-
 	if( $staff )
 	{
 		return $result->render_citation_link_staff( $citation, 
-			%params );
+			n => [$n,"INTEGER"] );
 	}
 	else
 	{
 		return $result->render_citation_link( $citation,
-			%params );
+			n => [$n,"INTEGER"] );
 	}
 }
 
@@ -397,31 +388,7 @@ sub properties_from
 	$processor->{template} = $sconf->{template};
 }
 
-sub default_search_config
-{
-	my( $self ) = @_;
-
-	my $processor = $self->{processor};
-	my $repo = $self->{session};
-
-	my $sconf = undef;
-
-	#we haven't found an sconf in the config...
-	#so try to derive an sconf from the searchid...
-	my $searchid = $processor->{searchid};
-	if( $searchid =~ /^([a-zA-z]+)_(\d+)_([a-zA-Z]+)/)
-        {
-		#get the sconf from the dataobj (this is probably an ingredients/eprints_list list)
-		my $ds = $repo->dataset( $1 );
-		if( defined $ds )
-                {
-                        my $dataobj = $ds->dataobj( $2 );
-                        $sconf = $dataobj->get_sconf( $repo, $3 ) if defined $dataobj && $dataobj->can( "get_sconf" );
-                }
-
-	}
-	return $sconf;
-}
+sub default_search_config {}
 
 sub from
 {
@@ -589,7 +556,7 @@ sub from
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

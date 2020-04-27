@@ -49,7 +49,7 @@ Check all items list in the comma-separated list of IDs.
 
 =item B<--facets> 
 
-Check search results using the facets matching protocol rather than the standard Xapian matching protocol.
+Use matching for search results based on Xapian database being faceted.
 
 =item B<--days=n>
 
@@ -360,7 +360,6 @@ for ( my $i = 0; $i < $listcount; $i++ )
 	{
 		$title = $title->[0]{'text'};
 	}
-	$title = "" unless defined $title;
         my $sanitized_title = $title;
         $sanitized_title =~ s/[^\w0-9,\;\:\.\?!%£\$&\(\)\[\]\@ -]/ /g;
         my @results = ();
@@ -447,7 +446,7 @@ for ( my $i = 0; $i < $listcount; $i++ )
         }
         print "\n" if !$reindex && ( !$found || !$status_correct );
 	$unfound++ unless $found;
-	$status_wrong++ unless $status_correct || !$found;
+	$status_wrong++ unless $status_correct;
         $counter++;
 }
 print "\n$unfound/$counter EPrints in the live archive were found not to be indexed by Xapian$period.\n" unless $quiet;
@@ -463,7 +462,7 @@ exit;
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

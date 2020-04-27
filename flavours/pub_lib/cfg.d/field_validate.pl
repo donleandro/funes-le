@@ -94,7 +94,7 @@ $c->{validate_field} = sub
 		# Applies to all subclasses of Id: Text, Longtext, Url etc.
 		if( $field->isa( "EPrints::MetaField::Id" ) )
 		{
-			if( EPrints::Utils::is_set( $v ) && length($v) > $field->property( "maxlength" ) )
+			if( length($v) > $field->property( "maxlength" ) )
 			{
 				push @problems,
 					$repository->html_phrase( "validate:truncated",
@@ -113,7 +113,7 @@ $c->{validate_field} = sub
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

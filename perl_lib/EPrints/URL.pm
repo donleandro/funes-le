@@ -136,8 +136,7 @@ sub get
 		else
 		{
 			$uri->scheme( "http" );
-			my $host = EPrints::Utils::is_set( $session->config( "host" ) ) ? $session->config( "host" ) :  $session->config( "securehost" );
-			$uri->host( $host );
+			$uri->host( $session->config( "host" ) );
 			my $port = $session->config( "port" ) || 80;
 			$uri->port( $port ) if $port != 80;
 		}
@@ -203,7 +202,7 @@ sub get
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

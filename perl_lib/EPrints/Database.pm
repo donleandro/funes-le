@@ -161,7 +161,6 @@ sub build_connection_string
         {
                 $dsn.= ";mysql_socket=".$params{dbsock};
         }
-	$dsn.= ";mysql_enable_utf8=1";
         return $dsn;
 }
 
@@ -1094,8 +1093,7 @@ sub create_index
 
 	return 1 unless @columns;
 
-	# Note: limit to 64 characters
-	my $index_name = join('_', substr($columns[0], 0, 60), scalar @columns - 1 );
+	my $index_name = join('_', $table, $columns[0], scalar @columns );
 
 	my $sql = sprintf("CREATE INDEX %s ON %s (%s)",
 		$self->quote_identifier( $index_name ),
@@ -1122,7 +1120,7 @@ sub create_unique_index
 	return 1 unless @columns;
 
 	# MySQL max index name length is 64 chars
-	my $index_name = substr(join("_",@columns),0,63);
+	my $index_name = substr(join("_",$table,@columns),0,63);
 
 	my $sql = "CREATE UNIQUE INDEX $index_name ON $table(".join(',',map { $self->quote_identifier($_) } @columns).")";
 
@@ -4542,7 +4540,7 @@ sub duplicate_error
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

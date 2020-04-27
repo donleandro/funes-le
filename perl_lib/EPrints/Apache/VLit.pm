@@ -358,9 +358,9 @@ END
 			$urlh2=~s/'/&squot;/g;
 			$msg.=<<END;
 <p>Cut and paste HTML for pop-up window:</p>
-<div style="margin-left: 10px"><code>
+<div style="margin-left: 10px"><tt>
 &lt;a href="#" onclick="javascript:window.open( '$urlh2', 'transclude_window', 'width=666, height=444, scrollbars');"&gt;$title&lt;/a&gt;
-</code></div>
+</tt></div>
 </div>
 END
 		}
@@ -600,7 +600,7 @@ sub cache_file
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

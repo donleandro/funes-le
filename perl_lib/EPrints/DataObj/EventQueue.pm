@@ -290,9 +290,8 @@ sub _execute
 	my $rc = eval { $plugin->$action( @params ) };
 	if( $@ )
 	{
-		my $error_message = $@;
-		$self->message( "error", $xml->create_text_node( "Error during execution: $error_message" ) );
-		$self->set_value( "description", $error_message );
+		$self->message( "error", $xml->create_text_node( "Error during execution: $@" ) );
+		$self->set_value( "description", $@ );
 		return EPrints::Const::HTTP_INTERNAL_SERVER_ERROR;
 	}
 
@@ -326,7 +325,7 @@ sub message
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

@@ -1167,8 +1167,8 @@ sub render_citation_link
 {
 	my( $self , $style , %params ) = @_;
 
-	$params{url} = $self->get_url unless $params{url};
-
+	$params{url} = $self->get_url;
+	
 	return $self->render_citation( $style, %params );
 }
 
@@ -1410,12 +1410,7 @@ sub uri
 	{
 		return $self->get_session->get_repository->call( [ "dataobj_uri", $ds_id ], $self );
 	}
-		
-	if ( EPrints::Utils::is_set( $self->get_session->get_repository->get_conf( "uri_url" ) ) )
-        {
-                return $self->get_session->get_repository->get_conf( "uri_url" ).$self->internal_uri;
-        }
-	
+			
 	return $self->get_session->get_repository->get_conf( "base_url" ).$self->internal_uri;
 }
 
@@ -2490,7 +2485,7 @@ sub characters
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

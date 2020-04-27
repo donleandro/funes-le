@@ -3,7 +3,7 @@ $c->{set_eprint_automatic_fields} = sub
 {
 	my( $eprint ) = @_;
 
-	my $type = $eprint->value( "type" );
+	my $type = $eprint->value( "type" ) || "";
 	if( $type eq "monograph" || $type eq "thesis" )
 	{
 		unless( $eprint->is_set( "institution" ) )
@@ -49,7 +49,7 @@ $c->{set_eprint_automatic_fields} = sub
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

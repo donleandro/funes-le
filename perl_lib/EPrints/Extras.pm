@@ -250,7 +250,7 @@ sub render_related_url
 	{
 		my $li = $session->make_element( "li" );
 		my $link = $session->render_link( $row->{url} );
-		if( EPrints::Utils::is_set( $row->{type} ) )
+		if( defined $row->{type} )
 		{
 			$link->appendChild( $fmap->{type}->render_single_value( $session, $row->{type} ) );
 		}
@@ -300,19 +300,32 @@ If the field looks like it contains a DOI then link it.
 
 sub render_possible_doi
 {
-	my( $session, $field, $value ) = @_;
+	my( $session, $field, $value ) = @_; 
 
 	$value = "" unless defined $value;
-	my $doi = EPrints::DOI->parse( $value );
-	if( !$doi )
+	if( $value =~ m!^
+			(?:https?://(?:dx\.)?doi\.org/)?  # add this again later anyway
+            (?:doi:?\s*)?                   # don't need any namespace stuff
+			(10(\.[^./]+)+/.+)              # the actual DOI => $1
+		!ix )
+	{
+		# The only part we care about is the actual DOI.
+		$value = $1;
+	}
+	else
 	{
 		# Doesn't look like a DOI we can turn into a link,
 		# so just render it as-is.
 		return $session->make_text( $value );
 	}
-	my $link = $session->render_link( $doi->to_uri, "_blank" );
-	$link->appendChild( $session->make_text( $doi->to_string( noprefix=>1 ) ) );
-	return $link;
+
+	my $url = "https://doi.org/$value";
+	my $link = $session->render_link( $url, "_blank" ); 
+	my $render_as_is = $session->get_conf( "render_possible_doi_as_is" );
+	$render_as_is ||= 0;
+	$link->appendChild( $session->make_text( $url ) ) unless $render_as_is;
+	$link->appendChild( $session->make_text( $value ) ) if $render_as_is;
+	return $link; 
 }
 
 
@@ -331,7 +344,7 @@ sub render_possible_doi
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

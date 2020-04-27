@@ -41,17 +41,11 @@ sub handler
 		last;
 	}	
 	if( !defined $robots )
-	{
-		my $http_cgiroot = $repository->config( 'http_cgiroot' );
-		my $https_cgiroot = $repository->config( 'https_cgiroot' ); 
+	{ 
 		$robots = <<END;
 User-agent: *
-Disallow: $http_cgiroot/
+Disallow: /cgi/
 END
-		if( $http_cgiroot ne $https_cgiroot )
-		{
-			$robots .= "\nDisallow: $https_cgiroot/";
-		}
 	}
 
 	my $sitemap = "Sitemap: ".$repository->config( 'http_url' )."/sitemap.xml";
@@ -74,7 +68,7 @@ END
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

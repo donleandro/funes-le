@@ -58,7 +58,6 @@ use File::Copy qw();
 use Text::Wrap qw();
 use LWP::UserAgent;
 use URI;
-use JSON;
 use EPrints::Const qw( :crypt );
 
 use strict;
@@ -146,8 +145,7 @@ sub make_name_string
 	}
 	if( defined $name->{lineage} && $name->{lineage} ne "" )
 	{
-		$secondbit .= " " if $secondbit;
-		$secondbit .= $name->{lineage};
+		$secondbit .= " ".$name->{lineage};
 	}
 
 	
@@ -1333,16 +1331,28 @@ sub mtime
 
 # return a quoted string safe to go in javascript
 
+my %JSON_ESC = (
+	"\b" => "\\b",
+	"\f" => "\\f",
+	"\n" => "\\n",
+	"\r" => "\\r",
+	"\t" => "\\t",
+	"\"" => "\\\"",
+	"\'" => "\\'",
+	"\\" => "\\\\",
+	"\/" => "\\\/",
+);
 sub js_string
 {
 	my( $string ) = @_;
 
 	return 'null' if !defined $string || $string eq '';
 
-	# 'ascii' forces all non-ASCII characters to be quoted, including
-	# simple \uXXXX codepoints and \uAAAA\uBBBB astral surrogates.
-	my $json = JSON->new->ascii->allow_nonref;
-	return $json->encode( "$string" );
+	$string =~ s/([\x2f\x22\x5c\n\r\t\f\b])/$JSON_ESC{$1}/g;
+    $string =~ s/[\x{2028}\x{2029}]//g;
+	$string =~ s/([\x00-\x08\x0b\x0e-\x1f])/'\\u00' . unpack('H2', $1)/eg;
+
+	return "\"$string\"";
 }
 
 # EPrints::Utils::process_parameters( $params, $defaults );
@@ -1424,7 +1434,7 @@ sub make_sitemap_url
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

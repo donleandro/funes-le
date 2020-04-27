@@ -560,7 +560,7 @@ sub run_doc_size
 	if( !$doc->[0]->is_set( "main" ) )
 	{
 		# this must be an array ref so it can be passed to human_readable
-		return [ 0, "INTEGER" ];
+		return [0];
 	}
 
 	my %files = $doc->[0]->files;
@@ -915,37 +915,6 @@ sub run_documents
 	return [ [$eprint->[0]->get_all_documents()],  "ARRAY" ];
 }
 
-=item OBJ.render_value_function( FUNC, FIELD[, EXTRA...] )
-
-Extracts the value of the given FIELD from the OBJ data object, and renders
-it using the callback FUNC.
-
-FUNC must accept at least three parameters: $session, $field, and $value,
-and return an XHTML DOM structure.
-
-If EXTRAs are given, they will be passed to FUNC as the fourth, fifth, etc.
-parameters.
-
-=cut
-
-sub run_render_value_function
-{
-	my( $self, $state, $dataobj, $funcname, $fieldname, @extra ) = @_;
-
-	my( $value, $field ) = @{$self->run_property( $state, $dataobj, $fieldname )};
-
-	no strict "refs";
-	my $xhtml = $funcname->[0](
-		$state->{session},
-		$field,
-		$value,
-		map {$_->[0]} @extra
-	);
-	use strict "refs";
-
-	return [ $xhtml, "XHTML" ];
-}
-
 
 1;
 
@@ -953,7 +922,7 @@ sub run_render_value_function
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/

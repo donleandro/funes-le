@@ -944,9 +944,8 @@ sub characters
 		{
 			use bytes;
 			$_ .= $data->{Data};
-			$_ =~ s/\s+//g;
-			print $tmpfile MIME::Base64::decode_base64( substr($_,0,length($_) - length($_)%4) );
-			$_ = substr($_,length($_) - length($_)%4);
+			print $tmpfile MIME::Base64::decode_base64( substr($_,0,length($_) - length($_)%77) );
+			$_ = substr($_,length($_) - length($_)%77);
 		}
 	}
 }
@@ -994,7 +993,7 @@ L<EPrints::DataObj> and L<EPrints::DataSet>.
 
 =for COPYRIGHT BEGIN
 
-Copyright 2019 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/
