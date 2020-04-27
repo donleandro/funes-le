@@ -39,8 +39,10 @@
 </div>
 
 
-
-
+<div align="left">
+prueba 1
+ <epc:pin ref="menu" />
+ <table width="720" class="ep_tm_main"><tr><td align="left">
 <div align="center">
   <epc:pin ref="toolbar" />
   <table width="720" class="ep_tm_main"><tr><td align="left">

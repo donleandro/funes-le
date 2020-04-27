@@ -1,29 +1,17 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" standalone="no" ?>
 <!DOCTYPE html SYSTEM "entities.dtd" >
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
-    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/> - Universidad de los Andes</title>
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
     <script src="{$config{base_url}}/javascript/auto.js" type="text/javascript"><!-- nope --></script>
     <style type="text/css" media="screen">@import url(<epc:print expr="$config{base_url}"/>/style/auto.css);</style>
-    <style type="text/css" media="screen">@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css);</style>
-    
     <style type="text/css" media="print">@import url(<epc:print expr="$config{base_url}"/>/style/print.css);</style>
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="Top" href="{$config{frontpage}}"/>
     <link rel="Search" href="{$config{perl_url}}/search"/>
     <epc:pin ref="head"/>
-    
-    <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15980034-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
   </head>
   <body bgcolor="#ffffff" text="#000000" onload="{$config{onload}}">
     <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
@@ -33,7 +21,7 @@ pageTracker._trackPageview();
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
       <td align="left">
-    <div><a href="https://www.uniandes.edu.co" target="_blank"><img alt="Uniandes" src="{$config{base_url}}/images/uniandes.jpg" border="0" /></a></div>
+    <div><a href="http://www.uniandes.edu.co" target="_blank"><img alt="Uniandes" src="{$config{base_url}}/images/uniandes.jpg" border="0" /></a></div>
     </td>
           <td align="center">
     <div><a href="/" target="_blank"><img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/></a></div>
@@ -51,16 +39,15 @@ pageTracker._trackPageview();
     </tr>
   </table>
   
-  <ul class="ep_tm_menu"><li><a href="{$config{http_url}}">Página Inicial</a></li><li><a href="{$config{http_url}}/information.html">Acerca de</a></li><li><a href="{$config{http_url}}/help/index.html">Ayuda</a></li></ul>
+  <ul class="ep_tm_menu"><li><a href="{$config{http_url}}">P&aacute;gina Inicial</a></li><li><a href="{$config{http_url}}/information.html">Acerca de</a></li><li><a href="{$config{http_url}}/help/index.html">Ayuda</a></li></ul>
 
   <table class="ep_tm_searchbar" border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left"><epc:pin ref="login_status"/></td>
       <td align="right" style="white-space: nowrap">
-      
-        <form class="form-inline d-flex justify-content-center md-form form-sm mt-0" method="get" accept-charset="utf-8" action="{$config{perl_url}}/search" style="display:inline">
-          <input class="ep_tm_searchbarboxs form-control form-control-sm ml-3 w-75" accept-charset="utf-8" size="20" type="text" name="q"/>
-          <input class="ep_tm_searchbarbuttons btn btn-primary indigo btn-rounded btn-sm my-0" value="Buscar" type="submit" name="_action_search"/>
+        <form method="get" accept-charset="utf-8" action="{$config{perl_url}}/search" style="display:inline">
+          <input class="ep_tm_searchbarbox" accept-charset="utf-8" size="20" type="text" name="q"/>
+          <input class="ep_tm_searchbarbutton" value="Buscar" type="submit" name="_action_search"/>
           <input type="hidden" name="_order" value="bytitle"/>
           <input type="hidden" name="basic_srchtype" value="ALL"/>
           <input type="hidden" name="_satisfyall" value="ALL"/>
@@ -77,7 +64,7 @@ pageTracker._trackPageview();
       <epc:pin ref="left_menu" />
                     <ul>
                                 <li class="navtitle">
-                                       <strong> Búsquedas </strong>
+                                       <strong> B&uacute;squedas </strong>
                                         <ul>
                                                 <li class="navlink">
                                                         <a href="/cgi/search/simple">Simple</a>
@@ -91,14 +78,14 @@ pageTracker._trackPageview();
                                         <strong> Explorar por </strong>
                                         <ul>
                                                <li class="navlink">
-                                                        <a href="/view/subjects/">Término Clave</a>
+                                                        <a href="/view/subjects/">T&eacute;rmino Clave</a>
                                                 </li>
                                                 <li class="navlink">
                                                         <a href="/view/creators/">Autor</a>
                                                 </li>
 
                                                 <li class="navlink">
-                                                        <a href="/view/valoration/">Valoración</a>
+                                                        <a href="/view/valoration/">Valoraci&oacute;n</a>
                                                 </li>
                                                 <li class="navlink">
                                                         <a href="/view/enfoque/">Enfoque</a>
@@ -113,7 +100,7 @@ pageTracker._trackPageview();
                                                         <a href="/view/editorial/">Editorial</a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/view/year/">Año</a>
+                                                        <a href="/view/year/">A&ntilde;o</a>
                                                 </li>                                                
                                         </ul>
                                 </li>
@@ -127,10 +114,10 @@ pageTracker._trackPageview();
                                                         <a href="/legales.html"> Cuestiones Legales </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/policies.html"> PolÃ­ticas de Uso </a>
+                                                        <a href="/policies.html"> Pol&iacute;ticas de Uso </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/help/index.html#Depositing"> Depósito de Registros </a>
+                                                        <a href="/help/index.html#Depositing"> Dep&oacute;sito de Registros </a>
                                                 </li>                         
                                         </ul>
                                 </li>  
@@ -141,13 +128,12 @@ pageTracker._trackPageview();
 </td>
 
 <td>
-<div class="container" align="center">
+<div align="center">
   <epc:pin ref="toolbar" />
-  
+  <table width="625" class="ep_tm_main"><tr><td align="left">
     <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
     <epc:pin ref="page"/>
-  
-  
+  </td></tr></table>
 </div>
 </td>
 </tr>
@@ -159,7 +145,7 @@ pageTracker._trackPageview();
  <hr class="ep_tm_last"/>
  <div style="font-size: 100%;">
    <div>
-  <epc:phrase ref="archive_name" /> es un proyecto de  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a> (<a href="http://cife.uniandes.edu.co/">CIFE</a>, <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, BogotÃ¡, Colombia), en colaboración con el grupo <a href="http://fqm193.ugr.es/">FQM-193</a> del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de AndalucÃ­a. <epc:phrase ref="archive_name" /> tiene el patrocinio del <a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
+  <epc:phrase ref="archive_name" /> es un proyecto de  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a> (<a href="http://cife.uniandes.edu.co/">CIFE</a>, <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogot&aacute;, Colombia), en colaboraci&oacute;n con el grupo <a href="http://fqm193.ugr.es/">FQM-193</a> del Plan Andaluz de Investigaci&oacute;n, Desarrollo e Innovaci&oacute;n de la Junta de Andaluc&iacute;a. <epc:phrase ref="archive_name" /> tiene el patrocinio del <a href="www.mineducacion.gov.co/">Ministerio de Educaci&oacute;n Nacional de Colombia</a>.
    </div>
    <hr style="width: 100%; height: 2px;"/>
 <table style="width: 100%; text-align: center; margin-left: 0px; margin-right: auto;" border="0" cellpadding="6" cellspacing="6">
@@ -175,6 +161,14 @@ pageTracker._trackPageview();
 </table>
  </div>
 </div>
-
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15980034-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
   </body>
 </html>

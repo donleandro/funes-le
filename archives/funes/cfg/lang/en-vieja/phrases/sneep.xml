@@ -10,7 +10,7 @@
 <epp:phrase name="sneep/comment:save">Guardar</epp:phrase>
 <epp:phrase name="sneep/comment:delete">Eliminar</epp:phrase>
 <epp:phrase name="sneep/comment:edit">Editar</epp:phrase>
-<epp:phrase name="sneep/comment:no_comments"><p class="sneep_message">Actualmente no hay comentarios para este artículo.</p></epp:phrase>
+<epp:phrase name="sneep/comment:no_comments"><p class="sneep_message">Actualmente no hay comentarios para este art&iacute;culo.</p></epp:phrase>
 <epp:phrase name="sneep/comment:tools_divider"> | </epp:phrase>
 <epp:phrase name="sneep/comment:need_to_log_in_to_add"><p>Usted necesita ingresar antes de poder agregar o editar los comentarios.</p></epp:phrase>
 <epp:phrase name="sneep/comment:need_to_log_in_to_view"><p>Usted necesita ingresar antes de poder ver los comentarios.</p></epp:phrase>
@@ -19,7 +19,7 @@
 <!-- SneepNote furniture -->
 <epp:phrase name="sneep/note:note_title"><h1 class="sneep_n_main_title">Notas</h1></epp:phrase>
 <epp:phrase name="sneep/note:add">Agregar</epp:phrase>
-<epp:phrase name="sneep/note:add_note"><h2 class="sneep_n_add_note">Agregar una Nota <span style="font-weight: normal; font-size: 75%;">- esto será visible para solo si está conectado.</span></h2></epp:phrase>
+<epp:phrase name="sneep/note:add_note"><h2 class="sneep_n_add_note">Agregar una Nota <span style="font-weight: normal; font-size: 75%;">- esto ser&aacute; visible para solo si est&aacute; conectado.</span></h2></epp:phrase>
 <epp:phrase name="sneep/note:cancel">Cancelar</epp:phrase>
 <epp:phrase name="sneep/note:save">Guardar</epp:phrase>
 <epp:phrase name="sneep/note:delete">Eliminar</epp:phrase>
@@ -29,7 +29,7 @@
 <epp:phrase name="sneep/note:need_to_log_in_to_add"><p>Necesita ingresar antes para poder agregar o editar notas.</p></epp:phrase>
 <epp:phrase name="sneep/note:need_to_log_in_to_view"><p>Necesita ingresar antes para poder ver las notas.</p></epp:phrase>
 <epp:phrase name="sneep/note:EPrint_not_found">Eprint no encuentra using id :<epc:pin name="objectid"/></epp:phrase>
-<epp:phrase name="sneep/note:note_title_label">Título de la Nota [opcional]: </epp:phrase>
+<epp:phrase name="sneep/note:note_title_label">T&iacute;tulo de la Nota [opcional]: </epp:phrase>
 <epp:phrase name="sneep/note:link_label"> Mostrar Notas </epp:phrase>
 <!-- SneepTag furniture -->
 <!-- NB watch out if changing anything that has an id attribute as some javascript may be looking for it -->
@@ -45,7 +45,7 @@
 <epp:phrase name="sneep/tag:need_to_log_in_to_add"><p>Necesita ingresar antes para poder agregar etiquetas.</p></epp:phrase>
 <epp:phrase name="sneep/tag:need_to_log_in_to_view"><p>Necesita ingresar antes para poder ver las etiquetas.</p></epp:phrase>
 <epp:phrase name="sneep/tag:EPrint_not_found">Eprint no encuentra using id :<epc:pin name="objectid"/></epp:phrase>
-<epp:phrase name="sneep/tag:objecttype_not_available"><epc:pin name="objecttype"/> no está disponible para etiquetar</epp:phrase>
+<epp:phrase name="sneep/tag:objecttype_not_available"><epc:pin name="objecttype"/> no est&aacute; disponible para etiquetar</epp:phrase>
 <epp:phrase name="sneep/tag:input_label"><span class="sneep_t_input_label">Etiquetar este tema<span style="font-size: 75%">(Puede introducir una lista separada por comas)</span>: </span></epp:phrase>
 <epp:phrase name="sneep/tag:link_label"> Mostrar Etiquetas </epp:phrase>
 <epp:phrase name="sneep/tag:link_label_hide"> Ocultar Etiquetas </epp:phrase>
@@ -61,7 +61,7 @@
 <epp:phrase name="sneep/tag_view:title"><span id="tag_global_view_title"><span id="tag_global_filter">Todas</span> las etiquetas para este repositorio <span id="tag_global_view">(nube)</span></span></epp:phrase>
 <epp:phrase name="sneep/tag_viewlink">Examinar todas las etiquetas
 </epp:phrase>
-<epp:phrase name="sneep/tag:back_from_index">&lt;&lt; Atrás</epp:phrase>
+<epp:phrase name="sneep/tag:back_from_index">&lt;&lt; Atr&aacute;s</epp:phrase>
 
 
 <epp:phrase name="sneep/error:heading">Error en <epc:pin name="component_name"/> </epp:phrase>
@@ -90,5 +90,5 @@
 <epp:phrase name="sneep/disallowed_tags"></epp:phrase>
 <epp:phrase name="sneep/disallowed_words"></epp:phrase>
 
-<epp:phrase name="cife/valoration">Valoración</epp:phrase>
+<epp:phrase name="cife/valoration">Valoraci&oacute;n</epp:phrase>
 </epp:phrases>

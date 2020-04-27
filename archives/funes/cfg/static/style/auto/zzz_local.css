@@ -11,11 +11,5 @@
  * name in this directory. eg. messages.css
  * 
 */
-@import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
-body {
-	
-	background-color: #fff;
-}
-.ep_toolbox_content, .ep_upload_doc, .ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom, .ep_view_group_by {
-    background-color: #e8e8ff;
-}
+
+

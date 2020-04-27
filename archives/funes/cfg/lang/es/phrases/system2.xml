@@ -1320,7 +1320,7 @@
   <epp:phrase id="Plugin/Screen/EPrint/ReleaseLock:item_released">Ha liberado exitosamente el bloqueo sobre este elemento.</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:help"><p style="margin-top: 0px">Para subir un documento para este repositorio, pulse el siguiente botón Consultar para seleccionar el fichero y el botón Subir para subirlo al repositorio. Usted puede luego añadir campos adicionales al documento (por ejemplo, imágenes de ficheros HTML) o subri más ficheros para crear documentos adicionales.</p>
-  <!--<p style="margin-bottom: 0px">Tal vez desee utilizar la herramienta <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA RoMEO</a> para verificar las políticas editoriales antes de depositar.</p>--></epp:phrase>
+  <!--<p style="margin-bottom: 0px">Tal vez desee utilizar la herramienta <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA RoMEO</a> para verificar las pol&iacute;ticas editoriales antes de depositar.</p>--></epp:phrase>
 
   <epp:phrase id="eprint_fieldname_subjects">Clasificación temática</epp:phrase>
 
@@ -1513,7 +1513,7 @@
 
   <epp:phrase id="lib/dataobj:document_title">Documento: <epc:pin name="doc" /></epp:phrase>
 
-  <epp:phrase id="lib/document:no_files">¡No ha <epc:pin name="fieldname">subido</epc:pin> ningún fichero!</epp:phrase>
+  <epp:phrase id="lib/document:no_files">¡No ha <epc:pin name="fieldname">subido</epc:pin> ning&uacute;n fichero!</epp:phrase>
 
   <epp:phrase id="lib/document:no_type">¡No ha <epc:pin name="fieldname">specificado un tipo de documento</epc:pin>!</epp:phrase>
 
@@ -1521,45 +1521,45 @@
 
   <epp:phrase id="lib/eprint:disklow_sub">Aviso: Poco espacio libre en disco</epp:phrase>
 
-  <epp:phrase id="lib/eprint:disklow"><p>La cantidad disponible de espacio en disco para el nuevo Eprints está por debajo del umbral necesario para el depósito. Pronto hará falta más espacio en disco.</p><p>Si le molesta este mensaje, disminuya el valor de "diskspace_warn_threshold" en el fichero de configuración. Si lo hace, no olvide restaurar su valor tras a&ntilde;adir más espacio en disco.</p><p>La forma común de a&ntilde;adir espacio en disco es establecer un enlace simbólico desde un directorio de la nueva unidad de disco hacia el directorio "documents" del depósito.</p></epp:phrase>
+  <epp:phrase id="lib/eprint:disklow"><p>La cantidad disponible de espacio en disco para el nuevo Eprints est&aacute; por debajo del umbral necesario para el dep&oacute;sito. Pronto har&aacute; falta m&aacute;s espacio en disco.</p><p>Si le molesta este mensaje, disminuya el valor de "diskspace_warn_threshold" en el fichero de configuraci&oacute;n. Si lo hace, no olvide restaurar su valor tras a&ntilde;adir m&aacute;s espacio en disco.</p><p>La forma com&uacute;n de a&ntilde;adir espacio en disco es establecer un enlace simb&oacute;lico desde un directorio de la nueva unidad de disco hacia el directorio "documents" del dep&oacute;sito.</p></epp:phrase>
 
   <epp:phrase id="lib/eprint:diskout_sub">ERROR: Sin Espacio en Disco</epp:phrase>
 
-  <epp:phrase id="lib/eprint:diskout"><p>No hay particiones disponibles que contengan suficiente espacio para crear nuevos Eprints.Esto necesita una solución urgente.</p><p>NO SE A&Ntilde;ADIR&Aacute;N NUEVOS EPRINTS HASTA QUE LO ARREGLE.</p><p>Para ampliar la capacidad, establezca un enlace simbólico desde un directorio de la nueva unidad de disco hacia el directorio "documents" del depósito.</p></epp:phrase>
+  <epp:phrase id="lib/eprint:diskout"><p>No hay particiones disponibles que contengan suficiente espacio para crear nuevos Eprints.Esto necesita una soluci&oacute;n urgente.</p><p>NO SE A&Ntilde;ADIR&Aacute;N NUEVOS EPRINTS HASTA QUE LO ARREGLE.</p><p>Para ampliar la capacidad, establezca un enlace simb&oacute;lico desde un directorio de la nueva unidad de disco hacia el directorio "documents" del dep&oacute;sito.</p></epp:phrase>
 
   <epp:phrase id="lib/eprint:no_type">No ha seleccionado un tipo para este documento.</epp:phrase>
 
-  <epp:phrase id="lib/eprint:invalid_type">Este documento parece no tener un tipo válido.</epp:phrase>
+  <epp:phrase id="lib/eprint:invalid_type">Este documento parece no tener un tipo v&aacute;lido.</epp:phrase>
 
   <epp:phrase id="lib/eprint:not_done_field">No ha cumplimentado el campo <epc:pin name="fieldname" /> requerido.</epp:phrase>
 
-  <epp:phrase id="lib/eprint:invalid_users">Los siguientes nombres de usuario no son válidos: <epc:pin name="usernames" />.</epp:phrase>
+  <epp:phrase id="lib/eprint:invalid_users">Los siguientes nombres de usuario no son v&aacute;lidos: <epc:pin name="usernames" />.</epp:phrase>
 
   <epp:phrase id="lib/eprint:least_one_sub">¡Necesita seleccionar al menos una materia del listado!</epp:phrase>
 
   <epp:phrase id="lib/eprint:cant_succ">No puede modificar un documento remitido por otra persona</epp:phrase>
 
-  <epp:phrase id="lib/eprint:invalid_id">El ID del documento en el campo "<epc:pin name="field" />" no es válido</epp:phrase>
+  <epp:phrase id="lib/eprint:invalid_id">El ID del documento en el campo "<epc:pin name="field" />" no es v&aacute;lido</epp:phrase>
 
   <epp:phrase id="lib/eprint:need_a_format">Se requiere que <epc:pin name="fieldname">suba</epc:pin> al menos uno de los siguientes formatos:</epp:phrase>
 
   <epp:phrase id="lib/eprint:eprint_gone_title">Docuemnto Eliminado</epp:phrase>
 
-  <epp:phrase id="lib/eprint:eprint_gone"><p>Está intentado acceder a un Eprint que ha sido eliminado del depósito.</p></epp:phrase>
+  <epp:phrase id="lib/eprint:eprint_gone"><p>Est&aacute; intentado acceder a un Eprint que ha sido eliminado del dep&oacute;sito.</p></epp:phrase>
 
-  <epp:phrase id="lib/eprint:later_version"><p>Hay una versión posterior para la publicación electrónica a la que está intentando acceder:<br /><epc:pin name="citation" /></p></epp:phrase>
+  <epp:phrase id="lib/eprint:later_version"><p>Hay una versi&oacute;n posterior para la publicaci&oacute;n electr&oacute;nica a la que est&aacute; intentando acceder:<br /><epc:pin name="citation" /></p></epp:phrase>
 
   <epp:phrase id="lib/eprint:curr_disp"><strong>[Mostrada Ahora]</strong></epp:phrase>
 
   <epp:phrase id="lib/history:before">Antes</epp:phrase>
 
-  <epp:phrase id="lib/history:after">Después</epp:phrase>
+  <epp:phrase id="lib/history:after">Despu&eacute;s</epp:phrase>
 
   <epp:phrase id="lib/history:system">SISTEMA</epp:phrase>
 
-  <epp:phrase id="lib/history:no_earlier">Revisiones anteriores no disponibles. Ningún diff posible. Mostrar todos los datos en esta revisión.</epp:phrase>
+  <epp:phrase id="lib/history:no_earlier">Revisiones anteriores no disponibles. Ning&uacute;n diff posible. Mostrar todos los datos en esta revisi&oacute;n.</epp:phrase>
 
-  <epp:phrase id="lib/history:no_file">Fichero de revisión no disponible.</epp:phrase>
+  <epp:phrase id="lib/history:no_file">Fichero de revisi&oacute;n no disponible.</epp:phrase>
 
   <epp:phrase id="lib/history:record">
     <div style="padding: 0.3em; margin-top: 2em; border: solid 1px black; background-color: #ccc;"><epc:pin name="item" /></div>
@@ -1571,25 +1571,25 @@
 
   <epp:phrase id="lib/history:no_such_item"><epc:pin name="datasetid" /> <epc:pin name="objectid" /> no existe. Puede que haya sido eliminado.</epp:phrase>
 
-  <epp:phrase id="history_fieldname_action">Acción</epp:phrase>
+  <epp:phrase id="history_fieldname_action">Acci&oacute;n</epp:phrase>
 
-  <epp:phrase id="history_fieldname_actor">Causa de la Acción</epp:phrase>
+  <epp:phrase id="history_fieldname_actor">Causa de la Acci&oacute;n</epp:phrase>
 
-  <epp:phrase id="history_fieldname_historyid">Número ID de Historia</epp:phrase>
+  <epp:phrase id="history_fieldname_historyid">N&uacute;mero ID de Historia</epp:phrase>
 
   <epp:phrase id="history_fieldname_timestamp">Timestamp</epp:phrase>
 
-  <epp:phrase id="history_fieldname_userid">Número ID de Usuario</epp:phrase>
+  <epp:phrase id="history_fieldname_userid">N&uacute;mero ID de Usuario</epp:phrase>
 
   <epp:phrase id="history_fieldname_details">Detalles</epp:phrase>
 
   <epp:phrase id="history_search_premble">Buscar los registros de los cambios realizados a los expedientes.</epp:phrase>
 
-  <epp:phrase id="history_search_title">Búsqueda de Historia</epp:phrase>
+  <epp:phrase id="history_search_title">B&uacute;squeda de Historia</epp:phrase>
 
-  <epp:phrase id="ordername_history_timestamp">Tiempo (el más antiguo primero)</epp:phrase>
+  <epp:phrase id="ordername_history_timestamp">Tiempo (el m&aacute;s antiguo primero)</epp:phrase>
 
-  <epp:phrase id="ordername_history_timestampdesc">Tiempo (el más reciente primero)</epp:phrase>
+  <epp:phrase id="ordername_history_timestampdesc">Tiempo (el m&aacute;s reciente primero)</epp:phrase>
 
   <epp:phrase id="ordername_history_objectid">Documento</epp:phrase>
 
@@ -1597,35 +1597,35 @@
 
   <epp:phrase id="history_fieldopt_action_modify">Modificado</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_inbox_to_buffer">Movido del &Aacute;rea de Trabajo a Revisón</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_inbox_to_buffer">Movido del &Aacute;rea de Trabajo a Revis&oacute;n</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_buffer_to_inbox">Movido desde Revisón al &Aacute;rea de Trabajo</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_buffer_to_inbox">Movido desde Revis&oacute;n al &Aacute;rea de Trabajo</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_buffer_to_archive">Movido desde Revisón al Depósito</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_buffer_to_archive">Movido desde Revis&oacute;n al Dep&oacute;sito</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_archive_to_buffer">Movido desde el Depósito a Revisón</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_archive_to_buffer">Movido desde el Dep&oacute;sito a Revis&oacute;n</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_archive_to_deletion">Movido desde el Depósito a Retirado</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_archive_to_deletion">Movido desde el Dep&oacute;sito a Retirado</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_move_deletion_to_archive">Movido desde Retirado al Depósito</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_move_deletion_to_archive">Movido desde Retirado al Dep&oacute;sito</epp:phrase>
 
   <epp:phrase id="history_fieldopt_action_mail_owner">Correo enviado al depositante del expediente</epp:phrase>
 
   <epp:phrase id="history_fieldopt_action_create">Creado</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_destroy">Destruído</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_destroy">Destru&iacute;do</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_reject_request">Rechazo de la Petición del Documento</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_reject_request">Rechazo de la Petici&oacute;n del Documento</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_accept_request">Aceptar Petición del Documento</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_accept_request">Aceptar Petici&oacute;n del Documento</epp:phrase>
 
-  <epp:phrase id="history_fieldopt_action_removal_request">Petición del Retiro del Recurso</epp:phrase>
+  <epp:phrase id="history_fieldopt_action_removal_request">Petici&oacute;n del Retiro del Recurso</epp:phrase>
 
   <epp:phrase id="history_fieldopt_action_note">Nota</epp:phrase>
 
   <epp:phrase id="history_fieldopt_action_other">Evento General</epp:phrase>
 
-  <epp:phrase id="lib/metafield:day">Día:</epp:phrase>
+  <epp:phrase id="lib/metafield:day">D&iacute;a:</epp:phrase>
 
   <epp:phrase id="lib/metafield:hour">Hora:</epp:phrase>
 
@@ -1641,11 +1641,11 @@
 
   <epp:phrase id="lib/metafield:lineage">Lineage</epp:phrase>
 
-  <epp:phrase id="lib/metafield:honourific">Título</epp:phrase>
+  <epp:phrase id="lib/metafield:honourific">T&iacute;tulo</epp:phrase>
 
-  <epp:phrase id="lib/metafield:more_spaces">Más espacios</epp:phrase>
+  <epp:phrase id="lib/metafield:more_spaces">M&aacute;s espacios</epp:phrase>
 
-  <epp:phrase id="lib/metafield:more_langs">Más idiomas</epp:phrase>
+  <epp:phrase id="lib/metafield:more_langs">M&aacute;s idiomas</epp:phrase>
 
   <epp:phrase id="lib/metafield:unspecified">SIN ESPECIFICAR</epp:phrase>
 
@@ -1653,7 +1653,7 @@
 
   <epp:phrase id="lib/metafield:unspecified_editperms">Sin Restricciones</epp:phrase>
 
-  <epp:phrase id="lib/metafield:true">Sí</epp:phrase>
+  <epp:phrase id="lib/metafield:true">S&iacute;</epp:phrase>
 
   <epp:phrase id="lib/metafield:false">No</epp:phrase>
 
@@ -1699,17 +1699,17 @@
 
   <epp:phrase id="lib/metafield:join_search"> <strong>O</strong> </epp:phrase>
 
-  <epp:phrase id="lib/metafield/itemref:lookup">Operaciones de búsqueda</epp:phrase>
+  <epp:phrase id="lib/metafield/itemref:lookup">Operaciones de b&uacute;squeda</epp:phrase>
 
   <epp:phrase id="lib/metafield/itemref:not_found"><i><epc:pin name="objtype" /> <epc:pin name="id" /> no encontrado.</i></epp:phrase>
 
   <epp:phrase id="lib/metafield/secret:show_value">[oculto]</epp:phrase>
 
-  <epp:phrase id="lib/searchexpression:bad_subscreen">Pantalla de búsqueda errónea: <epc:pin name="subscreen" /></epp:phrase>
+  <epp:phrase id="lib/searchexpression:bad_subscreen">Pantalla de b&uacute;squeda err&oacute;nea: <epc:pin name="subscreen" /></epp:phrase>
 
-  <epp:phrase id="lib/searchexpression:action_newsearch">Iniciar nueva búsqueda</epp:phrase>
+  <epp:phrase id="lib/searchexpression:action_newsearch">Iniciar nueva b&uacute;squeda</epp:phrase>
 
-  <epp:phrase id="lib/searchexpression:action_update">Actualizar la búsqueda</epp:phrase>
+  <epp:phrase id="lib/searchexpression:action_update">Actualizar la b&uacute;squeda</epp:phrase>
 
   <epp:phrase id="lib/searchexpression:form_problem"><p>Hay un problema con el formulario:</p></epp:phrase>
 
@@ -1729,17 +1729,17 @@
 
   <epp:phrase id="lib/searchexpression:export_error_title">Error Exportando Resultados</epp:phrase>
 
-  <epp:phrase id="lib/searchexpression:export_error_search"><p>La búsqueda no pudo ejecutarse correctamente.</p></epp:phrase>
+  <epp:phrase id="lib/searchexpression:export_error_search"><p>La b&uacute;squeda no pudo ejecutarse correctamente.</p></epp:phrase>
 
-  <epp:phrase id="lib/searchexpression:export_error_format"><p>El formato de salida solicitado no es válido.</p></epp:phrase>
+  <epp:phrase id="lib/searchexpression:export_error_format"><p>El formato de salida solicitado no es v&aacute;lido.</p></epp:phrase>
 
   <epp:phrase id="lib/searchfield:year_err">Un a&ntilde;o debe ser especificado como un a&ntilde;o individual, p.e. `2000', o como un rango de a&ntilde;os, p.e. `1990-2000', `1990-' o `-2000'</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:int_err">Una búsqueda numérica debe especificarse como un numero entero único, p.e. `23', o como un rango de números, p.e. `9-21', `17-' o `-93'</epp:phrase>
+  <epp:phrase id="lib/searchfield:int_err">Una b&uacute;squeda num&eacute;rica debe especificarse como un numero entero &uacute;nico, p.e. `23', o como un rango de n&uacute;meros, p.e. `9-21', `17-' o `-93'</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:date_err">Una búsqueda por fechas debe indicarse como una fecha individual o como un rango.</epp:phrase>
+  <epp:phrase id="lib/searchfield:date_err">Una b&uacute;squeda por fechas debe indicarse como una fecha individual o como un rango.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:no_words">El campo de búsqueda no contiene palabras indizables:: "<epc:pin name="words" />". El sistema ignora palabras muy peque&ntilde;as o comunes.</epp:phrase>
+  <epp:phrase id="lib/searchfield:no_words">El campo de b&uacute;squeda no contiene palabras indizables:: "<epc:pin name="words" />". El sistema ignora palabras muy peque&ntilde;as o comunes.</epp:phrase>
 
   <epp:phrase id="lib/searchfield:help_time">Introduzca una fecha o un rango de fechas. 
   <br />Ejemplos:  "<span class="ep_form_example">1985-</span>", 
@@ -1749,25 +1749,25 @@
 
   <epp:phrase id="lib/searchfield:help_boolean">Seleccione un valor.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_email">Introduzca algún texto a buscar.</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_email">Introduzca alg&uacute;n texto a buscar.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_datatype">Seleccione uno o más valores del listado. El valor por omisión es (Cualquiera).</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_datatype">Seleccione uno o m&aacute;s valores del listado. El valor por omisi&oacute;n es (Cualquiera).</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_set">Seleccione uno o más valores del listado, y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisión es (Cualquiera).</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_set">Seleccione uno o m&aacute;s valores del listado, y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisi&oacute;n es (Cualquiera).</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_subject">Seleccione uno o más valores del listado, y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisión es (Cualquiera).</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_subject">Seleccione uno o m&aacute;s valores del listado, y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisi&oacute;n es (Cualquiera).</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_namedset">Seleccione uno o más valores del listado, y si desea buscar registros con cualquiera de o con todos los valores. El valor por omisión es (Cualquiera).</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_namedset">Seleccione uno o m&aacute;s valores del listado, y si desea buscar registros con cualquiera de o con todos los valores. El valor por omisi&oacute;n es (Cualquiera).</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_username">Introduzca uno o más nombres de usuario (separados por espacios) y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisión es (Cualquiera).</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_username">Introduzca uno o m&aacute;s nombres de usuario (separados por espacios) y si quiere buscar registros con cualquiera de o con todos los valores. El valor por omisi&oacute;n es (Cualquiera).</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_url">Introduzca algún texto a buscar.</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_url">Introduzca alg&uacute;n texto a buscar.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_year">Introduzca un a&ntilde;o específico (p.e. 1999), o un rango de a&ntilde;os, p.e. `1990-2000', `1990-' o -2000'.</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_year">Introduzca un a&ntilde;o espec&iacute;fico (p.e. 1999), o un rango de a&ntilde;os, p.e. `1990-2000', `1990-' o -2000'.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_int">Introduzca un número individual (p.e. 93), o un rango de números, p.e. `17-23', `17-' o -23'.</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_int">Introduzca un n&uacute;mero individual (p.e. 93), o un rango de n&uacute;meros, p.e. `17-23', `17-' o -23'.</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:help_itemref">Seleccione un número ID individual de registro (p.e. 93), o un rango de números, p.e. `17-23', `17-' o -23'.</epp:phrase>
+  <epp:phrase id="lib/searchfield:help_itemref">Seleccione un n&uacute;mero ID individual de registro (p.e. 93), o un rango de n&uacute;meros, p.e. `17-23', `17-' o -23'.</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_is"><epc:pin name="name" /> es <epc:pin name="value" /></epp:phrase>
 
@@ -1783,19 +1783,19 @@
 
   <epp:phrase id="lib/searchfield:desc_year_orless"><epc:pin name="to" /> o antes de</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:desc_year_ormore"><epc:pin name="from" /> o después de</epp:phrase>
+  <epp:phrase id="lib/searchfield:desc_year_ormore"><epc:pin name="from" /> o despu&eacute;s de</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_int_between">entre <epc:pin name="from" /> y <epc:pin name="to" /> inclusive</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_int_orless"><epc:pin name="to" /> o menos</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:desc_int_ormore"><epc:pin name="from" /> o más</epp:phrase>
+  <epp:phrase id="lib/searchfield:desc_int_ormore"><epc:pin name="from" /> o m&aacute;s</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_date_between">entre <epc:pin name="from" /> y <epc:pin name="to" /> inclusive</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_date_orless"><epc:pin name="to" /> o antes de</epp:phrase>
 
-  <epp:phrase id="lib/searchfield:desc_date_ormore"><epc:pin name="from" /> o después de</epp:phrase>
+  <epp:phrase id="lib/searchfield:desc_date_ormore"><epc:pin name="from" /> o despu&eacute;s de</epp:phrase>
 
   <epp:phrase id="lib/searchfield:desc_ignored"> (Ignorando: <epc:pin name="list" />)</epp:phrase>
 
@@ -1809,17 +1809,17 @@
 
   <epp:phrase id="lib/session:some_error"><p><epc:phrase ref="archive_name" /> ha encontrado un error:</p></epp:phrase>
 
-  <epp:phrase id="lib/session:contact"><p>No dude en contactar con la administración de <a href="mailto:{$config{adminemail}}"><epc:phrase ref="archive_name" /></a> para dar detalles.</p></epp:phrase>
+  <epp:phrase id="lib/session:contact"><p>No dude en contactar con la administraci&oacute;n de <a href="mailto:{$config{adminemail}}"><epc:phrase ref="archive_name" /></a> para dar detalles.</p></epp:phrase>
 
-  <epp:phrase id="lib/session:cant_do_field">Error: No sé cómo mostrar el campo de tipo <epc:pin name="type" /></epp:phrase>
+  <epp:phrase id="lib/session:cant_do_field">Error: No s&eacute; c&oacute;mo mostrar el campo de tipo <epc:pin name="type" /></epp:phrase>
 
   <epp:phrase id="lib/session:username_title">Nombres de usuario</epp:phrase>
 
   <epp:phrase id="lib/session:error_title">Error</epp:phrase>
 
-  <epp:phrase id="lib/session:no_login">De algún modo está intentando acceder a una página para la que se requiere validación. Esto indica seguramente un fallo de configuración del servidor.</epp:phrase>
+  <epp:phrase id="lib/session:no_login">De alg&uacute;n modo est&aacute; intentando acceder a una p&aacute;gina para la que se requiere validaci&oacute;n. Esto indica seguramente un fallo de configuraci&oacute;n del servidor.</epp:phrase>
 
-  <epp:phrase id="lib/session:no_priv">No tiene los privilegios necesarios para utilizar esta función.</epp:phrase>
+  <epp:phrase id="lib/session:no_priv">No tiene los privilegios necesarios para utilizar esta funci&oacute;n.</epp:phrase>
 
   <epp:phrase id="lib/session:show_help"><epc:pin name="link"><img title="Show help" src="/style/images/help.gif" border="0" alt="+" /></epc:pin></epp:phrase>
 
@@ -1827,17 +1827,17 @@
 
   <epp:phrase id="lib/subject:top_level">(Nivel Superior)</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:use_auth_area">Utilice el área de usuario para depositar nuevos documentos</epp:phrase>
+  <epp:phrase id="lib/submissionform:use_auth_area">Utilice el &aacute;rea de usuario para depositar nuevos documentos</epp:phrase>
 
   <epp:phrase id="lib/submissionform:verify">Verificar: <epc:pin name="citation" /></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:invalid_eprint">¡El ID <epc:pin name="eprintid" /> no es un ID válido de documento!</epp:phrase>
+  <epp:phrase id="lib/submissionform:invalid_eprint">¡El ID <epc:pin name="eprintid" /> no es un ID v&aacute;lido de documento!</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:current_docs"><p>Aquí están los documentos actualmente anexados a este documento, y cuántos ficheros ha subido para cada uno de ellos.</p></epp:phrase>
+  <epp:phrase id="lib/submissionform:current_docs"><p>Aqu&iacute; est&aacute;n los documentos actualmente anexados a este documento, y cu&aacute;ntos ficheros ha subido para cada uno de ellos.</p></epp:phrase>
 
   <epp:phrase id="lib/submissionform:least_one"><p>Debe subir al menos uno de los siguientes formatos: <epc:pin name="list" />.</p></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:none_required"><p>En este momento puede subir uno o más formatos del documento. No es requerido, pero sí se le anima a ello.</p></epp:phrase>
+  <epp:phrase id="lib/submissionform:none_required"><p>En este momento puede subir uno o m&aacute;s formatos del documento. No es requerido, pero s&iacute; se le anima a ello.</p></epp:phrase>
 
   <epp:phrase id="lib/submissionform:plain">Ficheros de Texto Plano</epp:phrase>
 
@@ -1849,13 +1849,13 @@
 
   <epp:phrase id="lib/submissionform:no_files"><p>No se han subido ficheros con este formato.</p></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:here_to_view"><p><epc:pin name="link">Pulse aquí para ver y verificar los ficheros subidos</epc:pin> (en una nueva ventana del navegador)</p></epp:phrase>
+  <epp:phrase id="lib/submissionform:here_to_view"><p><epc:pin name="link">Pulse aqu&iacute; para ver y verificar los ficheros subidos</epc:pin> (en una nueva ventana del navegador)</p></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:sel_first">Necesita seleccionar el fichero que debería mostrarse primero cuando un lector desee ver su depósito.</epp:phrase>
+  <epp:phrase id="lib/submissionform:sel_first">Necesita seleccionar el fichero que deber&iacute;a mostrarse primero cuando un lector desee ver su dep&oacute;sito.</epp:phrase>
 
   <epp:phrase id="lib/submissionform:files_for_format">Estos son los ficheros que usted ha subido con este formato:</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:enter_url"><p>Por favor, introduzca la URL del documento que desea subir al archivo en el recuadro inferior.</p><p>Ocasionalmente, el subir objetos así puede no producir una copia totalmente precisa. Esto se debe a que deben hacerse algunas asunciones sobre la estructura del HTML para que el software no siga intentando subir la World Wide Web entera.</p></epp:phrase>
+  <epp:phrase id="lib/submissionform:enter_url"><p>Por favor, introduzca la URL del documento que desea subir al archivo en el recuadro inferior.</p><p>Ocasionalmente, el subir objetos as&iacute; puede no producir una copia totalmente precisa. Esto se debe a que deben hacerse algunas asunciones sobre la estructura del HTML para que el software no siga intentando subir la World Wide Web entera.</p></epp:phrase>
 
   <epp:phrase id="lib/submissionform:enter_compfile"><p>Introduzca el nombre del fichero comprimido (con su trayectoria completa) en el recuadro inferior.</p></epp:phrase>
 
@@ -1890,11 +1890,11 @@
 
   <epp:phrase id="lib/submissionform:fix_probs">Antes de depositar esta entrada en el archivo, es necesario corregir los siguientes problemas:</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:please_verify"><p><strong>¡Aún no ha terminado!</strong></p><p>Por favor, compruebe que todos los detalles acerca de su depósito son correctos, y que todos los ficheros de documento necesarios han sido correctamente subidos, incluyendo figuras.</p><p>Cuando esté conforme pulse en el botón <strong>Depositar el Documento Ahora</strong> al pie de esta página.</p></epp:phrase>
+  <epp:phrase id="lib/submissionform:please_verify"><p><strong>¡A&uacute;n no ha terminado!</strong></p><p>Por favor, compruebe que todos los detalles acerca de su dep&oacute;sito son correctos, y que todos los ficheros de documento necesarios han sido correctamente subidos, incluyendo figuras.</p><p>Cuando est&eacute; conforme pulse en el bot&oacute;n <strong>Depositar el Documento Ahora</strong> al pie de esta p&aacute;gina.</p></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:thanks"><p>Gracias.</p><p>Su documento se encuentra ahora a la espera de aprobación por parte de un editor. Suponiendo que no haya problemas, debería aparecer en el archivo principal durante los próximos días.</p><p><a href="{$config{userhome}}">Pulse aquí para ir a la página de usuario</a></p></epp:phrase>
+  <epp:phrase id="lib/submissionform:thanks"><p>Gracias.</p><p>Su documento se encuentra ahora a la espera de aprobaci&oacute;n por parte de un editor. Suponiendo que no haya problemas, deber&iacute;a aparecer en el archivo principal durante los pr&oacute;ximos d&iacute;as.</p><p><a href="{$config{userhome}}">Pulse aqu&iacute; para ir a la p&aacute;gina de usuario</a></p></epp:phrase>
 
-  <epp:phrase id="lib/submissionform:sure_delete"><p>¿Está absolutamente seguro de que desea borrar esta entrada? <epc:pin name="title" /></p></epp:phrase>
+  <epp:phrase id="lib/submissionform:sure_delete"><p>¿Est&aacute; absolutamente seguro de que desea borrar esta entrada? <epc:pin name="title" /></p></epp:phrase>
 
   <epp:phrase id="lib/submissionform:filled_wrong">El formulario no ha sido cumplimentado correctamente:</epp:phrase>
 
@@ -1904,15 +1904,15 @@
 
   <epp:phrase id="lib/submissionform:size_bytes">Tama&ntilde;o (Bytes)</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:shown_first">Este es el fichero primario. El enlace desde la página de sumario apuntará a este fichero.</epp:phrase>
+  <epp:phrase id="lib/submissionform:shown_first">Este es el fichero primario. El enlace desde la p&aacute;gina de sumario apuntar&aacute; a este fichero.</epp:phrase>
 
   <epp:phrase id="lib/submissionform:show_first">Convertir en Primario</epp:phrase>
 
   <epp:phrase id="lib/submissionform:action_cancel">Cancelar</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:action_doc_cancel">Detener la Edición del Documento</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_doc_cancel">Detener la Edici&oacute;n del Documento</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:action_save">Guardar para Más Adelante</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_save">Guardar para M&aacute;s Adelante</epp:phrase>
 
   <epp:phrase id="lib/submissionform:action_confirm">Confirmar</epp:phrase>
 
@@ -1932,41 +1932,41 @@
 
   <epp:phrase id="lib/submissionform:action_remove">Eliminar</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:action_later">Depositar el Documento Más Tarde</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_later">Depositar el Documento M&aacute;s Tarde</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_type">Editar: Tipo</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_meta">Editar: Información Bibliográfica</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_meta">Editar: Informaci&oacute;n Bibliogr&aacute;fica</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_linking">Editar: Sucesión/Comentario</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_linking">Editar: Sucesi&oacute;n/Comentario</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_format">Editar: Formatos de Almacenamiento de Documento</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_files">Editar: Documentos Anexados al Objeto</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_docmeta">Editar: Información del Documento</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_docmeta">Editar: Informaci&oacute;n del Documento</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_fileview">Editar: Subida del Fichero del Documento</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_upload">Editar: Subida del Fichero del Documento</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_verify">Editar: Verificación</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_verify">Editar: Verificaci&oacute;n</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_quickverify">Editar: Verificación</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_quickverify">Editar: Verificaci&oacute;n</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_done">Depósito Completado</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_done">Dep&oacute;sito Completado</epp:phrase>
 
   <epp:phrase id="lib/submissionform:title_error">Error</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_return">Ir a la Página de Inicio del Autor</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_return">Ir a la P&aacute;gina de Inicio del Autor</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:title_confirmdel">Confirmar Eliminación</epp:phrase>
+  <epp:phrase id="lib/submissionform:title_confirmdel">Confirmar Eliminaci&oacute;n</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:corrupt_err">Se detectó una inconsistencia en los datos enviados. Normalmente se debe a un acceso directo a esta página desde un marcador y no desde su página de usuario, o mediante el uso de los botones de adelante/atrás o refrescar de su navegador. Acceda siempre al mecanismo de depósito mediante su área de autor y utilice los botones del formulario. (Código <epc:pin name="line_no" />)</epp:phrase>
+  <epp:phrase id="lib/submissionform:corrupt_err">Se detect&oacute; una inconsistencia en los datos enviados. Normalmente se debe a un acceso directo a esta p&aacute;gina desde un marcador y no desde su p&aacute;gina de usuario, o mediante el uso de los botones de adelante/atr&aacute;s o refrescar de su navegador. Acceda siempre al mecanismo de dep&oacute;sito mediante su &aacute;rea de autor y utilice los botones del formulario. (C&oacute;digo <epc:pin name="line_no" />)</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:database_err">Ha habido un problema al acceder a la base de datos del archivo. Por favor, inténtelo más tarde. (Código <epc:pin name="line_no" />)</epp:phrase>
+  <epp:phrase id="lib/submissionform:database_err">Ha habido un problema al acceder a la base de datos del archivo. Por favor, int&eacute;ntelo m&aacute;s tarde. (C&oacute;digo <epc:pin name="line_no" />)</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:nosel_err">¡No ha seleccionado ningún objeto para editar, copiar, borrar o depositar!</epp:phrase>
+  <epp:phrase id="lib/submissionform:nosel_err">¡No ha seleccionado ning&uacute;n objeto para editar, copiar, borrar o depositar!</epp:phrase>
 
   <epp:phrase id="lib/submissionform:delete">Borrar</epp:phrase>
 
@@ -1978,7 +1978,7 @@
 
   <epp:phrase id="lib/submissionform:remove">Eliminar</epp:phrase>
 
-  <epp:phrase id="format_fieldhelp_arc_format">Por favor, seleccione un método de subida.</epp:phrase>
+  <epp:phrase id="format_fieldhelp_arc_format">Por favor, seleccione un m&eacute;todo de subida.</epp:phrase>
 
   <epp:phrase id="format_fieldopt_arc_format_plain">Fichero Normal</epp:phrase>
 
@@ -1988,7 +1988,7 @@
 
   <epp:phrase id="format_fieldopt_arc_format_targz">Archivo .tar.gz</epp:phrase>
 
-  <epp:phrase id="lib/submissionform:controls_at_bottom">Los botones de control están en la parte inferior de la página, debe leer el acuerdo de depósito.</epp:phrase>
+  <epp:phrase id="lib/submissionform:controls_at_bottom">Los botones de control est&aacute;n en la parte inferior de la p&aacute;gina, debe leer el acuerdo de dep&oacute;sito.</epp:phrase>
 
   <epp:phrase id="priv:action/eprint/deposit">Depositar Ahora</epp:phrase>
 
@@ -1997,10 +1997,10 @@
   <epp:phrase id="priv:action/eprint/remove_with_email">Destruir Recurso</epp:phrase>
 
   <epp:phrase id="lib/saved_search:mail">
-    <p>Este correo electrónico contiene su <epc:pin name="howoften" /> alerta de <epc:phrase ref="archive_name" />.</p>
-    <p>Número de nuevas (o actualizadas) envíos: <epc:pin name="n" />.</p>
+    <p>Este correo electr&oacute;nico contiene su <epc:pin name="howoften" /> alerta de <epc:phrase ref="archive_name" />.</p>
+    <p>N&uacute;mero de nuevas (o actualizadas) env&iacute;os: <epc:pin name="n" />.</p>
     <p>Su alerta es: <epc:pin name="search" /></p>
-    <p>Para cancelar, temporalmente deshabilite o altere su alerta, <epc:pin name="url">pulse aquí</epc:pin>.</p>
+    <p>Para cancelar, temporalmente deshabilite o altere su alerta, <epc:pin name="url">pulse aqu&iacute;</epc:pin>.</p>
     <epc:phrase ref="ruler" />
     <epc:pin name="matches" />
   </epp:phrase>
@@ -2011,17 +2011,17 @@
 
   <epp:phrase id="lib/saved_search:monthly">mensualmente</epp:phrase>
 
-  <epp:phrase id="lib/saved_search:sub_subj">Búsquedas Guardadas</epp:phrase>
+  <epp:phrase id="lib/saved_search:sub_subj">B&uacute;squedas Guardadas</epp:phrase>
 
   <epp:phrase id="lib/user:missed_field">No ha cumplimentado el campo <epc:pin name="field" /> requerido.</epp:phrase>
 
   <epp:phrase id="lib/user:editor_update_subject">Editar el Sumario</epp:phrase>
 
   <epp:phrase id="lib/user:editor_update_mail">
-    <p>Este correo es su <epc:pin name="howoften" /> sumario de registros pendientes de aprobación para su inclusión en <epc:phrase ref="archive_name" />.</p>
-    <p>Número de registros: <epc:pin name="n" />.</p>
-    <p>Sólo se listan los registros que coinciden con su perfil editorial. Su perfil es: <epc:pin name="search" /></p>
-    <p>Para cancelar o deshabilitar temporalmente esta actualización por correo, <epc:pin name="url">pulse aquí</epc:pin>.</p>
+    <p>Este correo es su <epc:pin name="howoften" /> sumario de registros pendientes de aprobaci&oacute;n para su inclusi&oacute;n en <epc:phrase ref="archive_name" />.</p>
+    <p>N&uacute;mero de registros: <epc:pin name="n" />.</p>
+    <p>S&oacute;lo se listan los registros que coinciden con su perfil editorial. Su perfil es: <epc:pin name="search" /></p>
+    <p>Para cancelar o deshabilitar temporalmente esta actualizaci&oacute;n por correo, <epc:pin name="url">pulse aqu&iacute;</epc:pin>.</p>
     <epc:phrase ref="ruler" />
     <epc:pin name="matches" />
   </epp:phrase>
@@ -2058,25 +2058,25 @@
 
   <epp:phrase id="lib/utils:month_00">Sin especificar</epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:title">Cambiar la Dirección de Correo Electrónico</epp:phrase>
+  <epp:phrase id="cgi/users/change_email:title">Cambiar la Direcci&oacute;n de Correo Electr&oacute;nico</epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:intro"><p>Para cambiar su dirección de correo electrónico introduzca el nuevo correo debajo. El sistema le enviará una URL a visitar para activar esta nueva dirección.</p><p>Este método asegura que siempre tengamos una dirección de correo electrónico válida para usted.</p><p>La dirección de correo electrónico que actualmente tenemos de usted es: <pin name="email" /></p></epp:phrase>
+  <epp:phrase id="cgi/users/change_email:intro"><p>Para cambiar su direcci&oacute;n de correo electr&oacute;nico introduzca el nuevo correo debajo. El sistema le enviar&aacute; una URL a visitar para activar esta nueva direcci&oacute;n.</p><p>Este m&eacute;todo asegura que siempre tengamos una direcci&oacute;n de correo electr&oacute;nico v&aacute;lida para usted.</p><p>La direcci&oacute;n de correo electr&oacute;nico que actualmente tenemos de usted es: <pin name="email" /></p></epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:no_email"><p>En realidad no proporcionó una nueva dirección de correo electrónico.</p></epp:phrase>
+  <epp:phrase id="cgi/users/change_email:no_email"><p>En realidad no proporcion&oacute; una nueva direcci&oacute;n de correo electr&oacute;nico.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:mail_sent"><p>Se ha enviado un correo a <b><epc:pin name="email" /></b> conteniendo el código requerido para confirmar esta nueva dirección de correo electrónico.</p><p>Este código sólo es válido durante un corto período de tiempo de <epc:pin name="maxdelta" />.</p></epp:phrase>
+  <epp:phrase id="cgi/users/change_email:mail_sent"><p>Se ha enviado un correo a <b><epc:pin name="email" /></b> conteniendo el c&oacute;digo requerido para confirmar esta nueva direcci&oacute;n de correo electr&oacute;nico.</p><p>Este c&oacute;digo s&oacute;lo es v&aacute;lido durante un corto per&iacute;odo de tiempo de <epc:pin name="maxdelta" />.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:changeemail">Solicitud de Cambio de Correo Electrónico</epp:phrase>
+  <epp:phrase id="cgi/users/change_email:changeemail">Solicitud de Cambio de Correo Electr&oacute;nico</epp:phrase>
 
-  <epp:phrase id="cgi/users/change_email:email_exists"><p>Ya existe un usuario con la dirección de correo <tt><epc:pin name="email" /></tt>.</p><p>Si esa es su dirección de correo, usted debe solamente <a href="../reset_password">establecer una nueva contrase&ntilde;a</a>.</p></epp:phrase>
+  <epp:phrase id="cgi/users/change_email:email_exists"><p>Ya existe un usuario con la direcci&oacute;n de correo <tt><epc:pin name="email" /></tt>.</p><p>Si esa es su direcci&oacute;n de correo, usted debe solamente <a href="../reset_password">establecer una nueva contrase&ntilde;a</a>.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/status:release">Versión de EPrints</epp:phrase>
+  <epp:phrase id="cgi/users/status:release">Versi&oacute;n de EPrints</epp:phrase>
 
   <epp:phrase id="cgi/users/status:database">Estado de la Base de Datos</epp:phrase>
 
   <epp:phrase id="cgi/users/status:indexer">Estado del Proceso de Indexar</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:indexer_running">Ejecutándose</epp:phrase>
+  <epp:phrase id="cgi/users/status:indexer_running">Ejecut&aacute;ndose</epp:phrase>
 
   <epp:phrase id="cgi/users/status:indexer_stopped">Parado</epp:phrase>
 
@@ -2098,21 +2098,21 @@
 
   <epp:phrase id="cgi/users/status:diskspace"><h2>Espacio en Disco</h2></epp:phrase>
 
-  <epp:phrase id="cgi/users/status:saved_searches"><h2>Búsquedas Guardadas y Alertas</h2></epp:phrase>
+  <epp:phrase id="cgi/users/status:saved_searches"><h2>B&uacute;squedas Guardadas y Alertas</h2></epp:phrase>
 
-  <epp:phrase id="cgi/users/status:subsent">Ultimo envío de correo completado</epp:phrase>
+  <epp:phrase id="cgi/users/status:subsent">Ultimo env&iacute;o de correo completado</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:subcount">Número Total</epp:phrase>
+  <epp:phrase id="cgi/users/status:subcount">N&uacute;mero Total</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:set_archive">Artículos en el Repositorio</epp:phrase>
+  <epp:phrase id="cgi/users/status:set_archive">Art&iacute;culos en el Repositorio</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:set_buffer">Bajo Revisión</epp:phrase>
+  <epp:phrase id="cgi/users/status:set_buffer">Bajo Revisi&oacute;n</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:set_inbox">Artículos en el Espacio de Trabajo</epp:phrase>
+  <epp:phrase id="cgi/users/status:set_inbox">Art&iacute;culos en el Espacio de Trabajo</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:set_deletion">Artículos Borrados</epp:phrase>
+  <epp:phrase id="cgi/users/status:set_deletion">Art&iacute;culos Borrados</epp:phrase>
 
-  <epp:phrase id="cgi/users/status:diskfree">Partición de Documento <pin name="dir" /></epp:phrase>
+  <epp:phrase id="cgi/users/status:diskfree">Partici&oacute;n de Documento <pin name="dir" /></epp:phrase>
 
   <epp:phrase id="cgi/users/status:mbfree"><pin name="mb" />Mb libres</epp:phrase>
 
@@ -2124,11 +2124,11 @@
 
   <epp:phrase id="Plugin/Screen/FirstTool:title">No hay Herramientas Disponibles</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Status:description">Información de Estado para este servidor.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Status:description">Informaci&oacute;n de Estado para este servidor.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Status:indexer_not_running">El proceso de indexado a texto completo no está ejecutándose en estos momentos. Usted debe iniciarlo para asegurar que la búsqueda a texto completo opere correctamente. <epc:pin name="start_button" /></epp:phrase>
+  <epp:phrase id="Plugin/Screen/Status:indexer_not_running">El proceso de indexado a texto completo no est&aacute; ejecut&aacute;ndose en estos momentos. Usted debe iniciarlo para asegurar que la b&uacute;squeda a texto completo opere correctamente. <epc:pin name="start_button" /></epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Status:indexer_stalled">El proceso de indexado a texto completo parece haberse atascado. Usted puede necesitar forzarlo a reiniciar para asegurar que la búsqueda a texto completo opere correctamente. <epc:pin name="force_start_button" /></epp:phrase>
+  <epp:phrase id="Plugin/Screen/Status:indexer_stalled">El proceso de indexado a texto completo parece haberse atascado. Usted puede necesitar forzarlo a reiniciar para asegurar que la b&uacute;squeda a texto completo opere correctamente. <epc:pin name="force_start_button" /></epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:force_start_indexer:title">Forzar Inicio del Proceso de Indexar</epp:phrase>
 
@@ -2140,15 +2140,15 @@
 
   <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:stop_indexer:description">Parar el proceso de indexado a texto completo.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:indexer_started">El Proceso de Indexar inició exitosamente.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:indexer_started">El Proceso de Indexar inici&oacute; exitosamente.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:indexer_stopped">El Proceso de Indexar paró exitosamente.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:indexer_stopped">El Proceso de Indexar par&oacute; exitosamente.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:cant_start_indexer">Es imposible iniciar el proceso de indexar. Debe revisar el fichero de log en <epc:pin name="logpath" /> para mayor información.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:cant_start_indexer">Es imposible iniciar el proceso de indexar. Debe revisar el fichero de log en <epc:pin name="logpath" /> para mayor informaci&oacute;n.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:cant_stop_indexer">Es imposible parar el proceso de indexar. Debe revisar el        fichero de log en <epc:pin name="logpath" /> para mayor información.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Admin/IndexerControl:cant_stop_indexer">Es imposible parar el proceso de indexar. Debe revisar el        fichero de log en <epc:pin name="logpath" /> para mayor informaci&oacute;n.</epp:phrase>
 
-  <epp:phrase id="cgi/export:no_id"><p>No fue especificado un Número ID válido de registro.</p></epp:phrase>
+  <epp:phrase id="cgi/export:no_id"><p>No fue especificado un N&uacute;mero ID v&aacute;lido de registro.</p></epp:phrase>
 
   <epp:phrase id="cgi/export:eprint_not_fount">Registro con ID <epc:pin name="eprintid" /> no fue encontrado.</epp:phrase>
 
@@ -2157,7 +2157,7 @@
     <p>Por favor, seleccione un formato de salida:</p>
   <epc:pin name="formats" /></epp:phrase>
 
-  <epp:phrase id="cgi/export:not_available"><p>El formato de salida solicitado '<epc:pin name="format" />' no está disponible.</p></epp:phrase>
+  <epp:phrase id="cgi/export:not_available"><p>El formato de salida solicitado '<epc:pin name="format" />' no est&aacute; disponible.</p></epp:phrase>
 
   <epp:phrase id="cgi/export:error_title">Error al exportar</epp:phrase>
 
@@ -2165,65 +2165,65 @@
 
   <epp:phrase id="cgi/login:forever">para siempre (hasta que me desconecte)</epp:phrase>
 
-  <epp:phrase id="cgi/login:bind">sí (más seguro)</epp:phrase>
+  <epp:phrase id="cgi/login:bind">s&iacute; (m&aacute;s seguro)</epp:phrase>
 
-  <epp:phrase id="cgi/login:dont_bind">no (más conveniente)</epp:phrase>
+  <epp:phrase id="cgi/login:dont_bind">no (m&aacute;s conveniente)</epp:phrase>
 
   <epp:phrase id="cgi/login:failed">Incorrecto nombre de usuario o contrase&ntilde;a.</epp:phrase>
 
-  <epp:phrase id="cgi/login:logged_in_as"><p>Usted ya está registrado como <epc:pin name="name" />.</p> <p>Si desea registrarse como un usuario diferente usted debe <a href="{$config{perl_url}}/users/logout">Desconectarse</a> primero.</p></epp:phrase>
+  <epp:phrase id="cgi/login:logged_in_as"><p>Usted ya est&aacute; registrado como <epc:pin name="name" />.</p> <p>Si desea registrarse como un usuario diferente usted debe <a href="{$config{perl_url}}/users/logout">Desconectarse</a> primero.</p></epp:phrase>
 
-  <epp:phrase id="cgi/login:message">Conexión exitosa.</epp:phrase>
+  <epp:phrase id="cgi/login:message">Conexi&oacute;n exitosa.</epp:phrase>
 
   <epp:phrase id="cgi/login:link_text"><p>Usted puede ahora ver <epc:pin name="link">su documento solicitado</epc:pin>.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/buffer:overview_title">Revisión</epp:phrase>
+  <epp:phrase id="cgi/users/buffer:overview_title">Revisi&oacute;n</epp:phrase>
 
   <epp:phrase id="cgi/users/buffer:buffer_scope"><p>Los siguientes registros coinciden con su perfil editorial, que es: <epc:pin name="scope" /></p></epp:phrase>
 
-  <epp:phrase id="cgi/users/buffer:buffer_blurb"><p>Pulse en el título de una entrada para verla, editarla, aceptarla o rechazarla.</p></epp:phrase>
+  <epp:phrase id="cgi/users/buffer:buffer_blurb"><p>Pulse en el t&iacute;tulo de una entrada para verla, editarla, aceptarla o rechazarla.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/buffer:title">Título</epp:phrase>
+  <epp:phrase id="cgi/users/buffer:title">T&iacute;tulo</epp:phrase>
 
   <epp:phrase id="cgi/users/buffer:sub_by">Enviado por</epp:phrase>
 
-  <epp:phrase id="cgi/users/buffer:sub_date">Fecha de Envío</epp:phrase>
+  <epp:phrase id="cgi/users/buffer:sub_date">Fecha de Env&iacute;o</epp:phrase>
 
   <epp:phrase id="cgi/users/buffer:invalid">INVALIDO</epp:phrase>
 
-  <epp:phrase id="cgi/users/buffer:return_staff">Pulse aquí para ir al Area de Usuario</epp:phrase>
+  <epp:phrase id="cgi/users/buffer:return_staff">Pulse aqu&iacute; para ir al Area de Usuario</epp:phrase>
 
-  <epp:phrase id="cgi/users/eprint_search:title_inbox">Búsqueda de Personal de Registros en las Areas de Trabajo de Usuario</epp:phrase>
+  <epp:phrase id="cgi/users/eprint_search:title_inbox">B&uacute;squeda de Personal de Registros en las Areas de Trabajo de Usuario</epp:phrase>
 
-  <epp:phrase id="cgi/users/eprint_search:title_buffer">Búsqueda de Personal de Registros bajo Revisión</epp:phrase>
+  <epp:phrase id="cgi/users/eprint_search:title_buffer">B&uacute;squeda de Personal de Registros bajo Revisi&oacute;n</epp:phrase>
 
-  <epp:phrase id="cgi/users/eprint_search:title_archive">Búsqueda de Personal de Registros en el Repositorio</epp:phrase>
+  <epp:phrase id="cgi/users/eprint_search:title_archive">B&uacute;squeda de Personal de Registros en el Repositorio</epp:phrase>
 
-  <epp:phrase id="cgi/users/eprint_search:title_deletion">Búsqueda de Personal de Registros Borrados</epp:phrase>
+  <epp:phrase id="cgi/users/eprint_search:title_deletion">B&uacute;squeda de Personal de Registros Borrados</epp:phrase>
 
-  <epp:phrase id="cgi/users/eprint_search:title">Búsquedas Disponibles para el Personal</epp:phrase>
+  <epp:phrase id="cgi/users/eprint_search:title">B&uacute;squedas Disponibles para el Personal</epp:phrase>
 
   <epp:phrase id="cgi/users/eprint_search:preamble"><p>¡No se asuste! Simplemente deje en blanco los campos por los que no quiere buscar.</p></epp:phrase>
 
-  <epp:phrase id="dataset_fieldname_dataset">Categoría del Registro</epp:phrase>
+  <epp:phrase id="dataset_fieldname_dataset">Categor&iacute;a del Registro</epp:phrase>
 
   <epp:phrase id="dataset_fieldopt_dataset_archive">Repositorio</epp:phrase>
 
   <epp:phrase id="dataset_fieldopt_dataset_deletion">Borrado</epp:phrase>
 
-  <epp:phrase id="dataset_fieldopt_dataset_buffer">Revisión(a la espera de aprobación)</epp:phrase>
+  <epp:phrase id="dataset_fieldopt_dataset_buffer">Revisi&oacute;n(a la espera de aprobaci&oacute;n)</epp:phrase>
 
   <epp:phrase id="dataset_fieldopt_dataset_inbox">Area de Trabajo de Usuario</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:status">Estado del Registro</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:description">Descripción</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:description">Descripci&oacute;n</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:actions">Acciones</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:views">Ver</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:stage_linking">Sucesión/Comentario</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:stage_linking">Sucesi&oacute;n/Comentario</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:stage_files">Ficheros</epp:phrase>
 
@@ -2235,41 +2235,41 @@
 
   <epp:phrase id="cgi/users/edit_eprint:cant_clone">Problema al copiar el Registro con el ID "<epc:pin name="id" />"</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:reject_form_intro"><p>Por favor, introduzca en el recuadro inferior la razón para devolver/eliminar este envío, y cualquier posible arreglo. Todo ello será enviado por correo al autor correspondiente.</p></epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:reject_form_intro"><p>Por favor, introduzca en el recuadro inferior la raz&oacute;n para devolver/eliminar este env&iacute;o, y cualquier posible arreglo. Todo ello ser&aacute; enviado por correo al autor correspondiente.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:remove_form_intro"><p>Por favor, introduzca en el recuadro inferior la razón para eliminar este envío. Todo ello será enviado por correo al autor correspondiente.</p></epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:remove_form_intro"><p>Por favor, introduzca en el recuadro inferior la raz&oacute;n para eliminar este env&iacute;o. Todo ello ser&aacute; enviado por correo al autor correspondiente.</p></epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:author_lang_pref"><p>El idioma preferido del autor es &quot;<epc:pin name="langpref" />&quot;.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:title_delete_form">Eliminación del Envío</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:title_delete_form">Eliminaci&oacute;n del Env&iacute;o</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:title_bounce_form">Devolución del Envío</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:title_bounce_form">Devoluci&oacute;n del Env&iacute;o</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:action_send">Enviar</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:action_cancel">Cancelar</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:no_user">No puedo encontrar los datos del usuario que envió este objeto.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:no_user">No puedo encontrar los datos del usuario que envi&oacute; este objeto.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:subject_bounce">Problema con el Envío</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:subject_bounce">Problema con el Env&iacute;o</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:mail_sent">Envío exitoso de correo.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:mail_sent">Env&iacute;o exitoso de correo.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:mail_fail">El envío fue eliminado/devuelto con éxito, pero por alguna razón no se pudo mandar un correo al usuario. Nombre de usuario: <strong><epc:pin name="username" /></strong>, correo <epc:pin name="email" />.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:mail_fail">El env&iacute;o fue eliminado/devuelto con &eacute;xito, pero por alguna raz&oacute;n no se pudo mandar un correo al usuario. Nombre de usuario: <strong><epc:pin name="username" /></strong>, correo <epc:pin name="email" />.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:bord_fail">El envío no pudo ser devuelto/eliminado - esto indica seguramente un error en la base de datos. Revise los logs.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:bord_fail">El env&iacute;o no pudo ser devuelto/eliminado - esto indica seguramente un error en la base de datos. Revise los logs.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:form_title">Página de Control del Registro</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:form_title">P&aacute;gina de Control del Registro</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:remove_title">Eliminación Exitosa</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:remove_title">Eliminaci&oacute;n Exitosa</epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:removed"><p>Registro Eliminado Exitosamente</p></epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:move_title">Traslado Exitoso</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:moved"><p>Registro Trasladado Exitosamente para su revisión.</p><p>Ahora puede <epc:pin name="link">editarlo</epc:pin> si así lo desea.</p></epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:moved"><p>Registro Trasladado Exitosamente para su revisi&oacute;n.</p><p>Ahora puede <epc:pin name="link">editarlo</epc:pin> si as&iacute; lo desea.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:view_unavailable">Esta vista no está disponible.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:view_unavailable">Esta vista no est&aacute; disponible.</epp:phrase>
 
   <epp:phrase id="mail_delete_reason.inbox">
     El siguiente registro fue borrado de su Area de Usuario:
@@ -2277,23 +2277,23 @@
     <epc:pin name="title" />
   </epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:action_not_allowed"><epc:pin name="action" />: No puede efectuar esta acción sobre este registro.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:action_not_allowed"><epc:pin name="action" />: No puede efectuar esta acci&oacute;n sobre este registro.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:cant_edit_deleted">La modificación de expedientes retirados no está permitida.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:cant_edit_deleted">La modificaci&oacute;n de expedientes retirados no est&aacute; permitida.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_inbox">Este registro está todaví en el área de trabajo de usuarios.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_inbox">Este registro est&aacute; todav&iacute; en el &aacute;rea de trabajo de usuarios.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_buffer">Este registro está en revisión. No aparecerá en el repositorio hasta que haya sido aprobado por un editor.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_buffer">Este registro est&aacute; en revisi&oacute;n. No aparecer&aacute; en el repositorio hasta que haya sido aprobado por un editor.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_archive">Este registro está en el repositorio con la URL:<br /><epc:pin name="link"><epc:pin name="url" /></epc:pin></epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_archive">Este registro est&aacute; en el repositorio con la URL:<br /><epc:pin name="link"><epc:pin name="url" /></epc:pin></epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:staff_item_is_in_deletion">Este registro ha sido retirado del repositorio.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:item_is_in_inbox">Este registro está todavía en su área de trabajo. No aparecerá en el repositorio hasta que lo deposite.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:item_is_in_inbox">Este registro est&aacute; todav&iacute;a en su &aacute;rea de trabajo. No aparecer&aacute; en el repositorio hasta que lo deposite.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:item_is_in_buffer">Este registro está en revisión. No aparecerá en el    repositorio hasta que haya sido revisado por un editor.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:item_is_in_buffer">Este registro est&aacute; en revisi&oacute;n. No aparecer&aacute; en el    repositorio hasta que haya sido revisado por un editor.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_eprint:item_is_in_archive">Este registro está en el repositorio con la URL<br /><epc:pin name="link"><epc:pin name="url" /></epc:pin></epp:phrase>
+  <epp:phrase id="cgi/users/edit_eprint:item_is_in_archive">Este registro est&aacute; en el repositorio con la URL<br /><epc:pin name="link"><epc:pin name="url" /></epc:pin></epp:phrase>
 
   <epp:phrase id="cgi/users/edit_eprint:item_is_in_deletion">Este registro ha sido retirado del repositorio.</epp:phrase>
 
@@ -2321,35 +2321,35 @@
 
   <epp:phrase id="cgi/users/edit_user:delete_title">Borrar Usuario</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_user:could_not_remove">No se pudo eliminar el usuario. Revise el log para más información.</epp:phrase>
+  <epp:phrase id="cgi/users/edit_user:could_not_remove">No se pudo eliminar el usuario. Revise el log para m&aacute;s informaci&oacute;n.</epp:phrase>
 
-  <epp:phrase id="cgi/users/edit_user:deleted"><p>El usuario &quot;<epc:pin name="username" />&quot; ha sido eliminado.</p><p>Cualquier registro asociado con ese usuario <em>no</em> ha sido eliminado. Todavía permanece asociado al id de usuario #<epc:pin name="userid" />.</p></epp:phrase>
+  <epp:phrase id="cgi/users/edit_user:deleted"><p>El usuario &quot;<epc:pin name="username" />&quot; ha sido eliminado.</p><p>Cualquier registro asociado con ese usuario <em>no</em> ha sido eliminado. Todav&iacute;a permanece asociado al id de usuario #<epc:pin name="userid" />.</p></epp:phrase>
 
-  <epp:phrase id="cgi/users/user_search:simple_search">Búsqueda de Usuario del Personal</epp:phrase>
+  <epp:phrase id="cgi/users/user_search:simple_search">B&uacute;squeda de Usuario del Personal</epp:phrase>
 
   <epp:phrase id="cgi/users/user_search:preamble"><p>Este formulario permite al personal buscar los registros de todos los usuarios registrados.</p></epp:phrase>
 
   <epp:phrase id="cgi/handle_http_error:404_title">404 Fichero no Encontrado</epp:phrase>
 
-  <epp:phrase id="cgi/handle_http_error:404_blurb"><p>No se pudo hallar el fichero: <code><pin name="url" /></code></p><p>El fichero indicado no pudo ser encontrado en este servidor. Si ha llegado a esta página siguiendo un enlace del archivo, por favor, contacte con la <a href="mailto:{$config{adminemail}}"><epc:phrase ref="archive_name" /> administración</a>.  En otro caso, por favor, revise que haya escrito la URL correctamente, o contacte con la persona o sitio que le proporcionó esta URL.</p></epp:phrase>
+  <epp:phrase id="cgi/handle_http_error:404_blurb"><p>No se pudo hallar el fichero: <code><pin name="url" /></code></p><p>El fichero indicado no pudo ser encontrado en este servidor. Si ha llegado a esta p&aacute;gina siguiendo un enlace del archivo, por favor, contacte con la <a href="mailto:{$config{adminemail}}"><epc:phrase ref="archive_name" /> administraci&oacute;n</a>.  En otro caso, por favor, revise que haya escrito la URL correctamente, o contacte con la persona o sitio que le proporcion&oacute; esta URL.</p></epp:phrase>
 
-  <epp:phrase id="cgi/paracite:title">Búsqueda por Referencia</epp:phrase>
+  <epp:phrase id="cgi/paracite:title">B&uacute;squeda por Referencia</epp:phrase>
 
   <epp:phrase id="cgi/paracite:no_reference"><p>ERROR: No se ha indicado ninguna referencia.</p></epp:phrase>
 
   <epp:phrase id="cgi/paracite:possible_matches"><h2>Posibles Coincidencias</h2></epp:phrase>
 
-  <epp:phrase id="cgi/paracite:paracite_link"><p>Quizás desee también intentar la búsqueda de su objeto utilizando el <epc:pin name="link">servicio de búsqueda asistido por ParaCite</epc:pin>.</p></epp:phrase>
+  <epp:phrase id="cgi/paracite:paracite_link"><p>Quiz&aacute;s desee tambi&eacute;n intentar la b&uacute;squeda de su objeto utilizando el <epc:pin name="link">servicio de b&uacute;squeda asistido por ParaCite</epc:pin>.</p></epp:phrase>
 
   <epp:phrase id="cgi/remind:rem_sent_title">Recordatorio Enviado</epp:phrase>
 
   <epp:phrase id="cgi/remind:archive_admin">Administrador del Repositorio</epp:phrase>
 
-  <epp:phrase id="cgi/remind:return_home">Ir a la página de inicio de <epc:phrase ref="archive_name" /></epp:phrase>
+  <epp:phrase id="cgi/remind:return_home">Ir a la p&aacute;gina de inicio de <epc:phrase ref="archive_name" /></epp:phrase>
 
   <epp:phrase id="cgi/remind:form_title">Formulario de Recordatorio de Nombre de Usuario y Contrase&ntilde;a</epp:phrase>
 
-  <epp:phrase id="cgi/remind:form_blurb">Si ha olvidado su nombre de usuario y/o contrase&ntilde;a, escriba su email en el recuadro inferior y su nombre de usuario y contrase&ntilde;a le serán enviados por correo.</epp:phrase>
+  <epp:phrase id="cgi/remind:form_blurb">Si ha olvidado su nombre de usuario y/o contrase&ntilde;a, escriba su email en el recuadro inferior y su nombre de usuario y contrase&ntilde;a le ser&aacute;n enviados por correo.</epp:phrase>
 
   <epp:phrase id="cgi/remind:send">Enviar</epp:phrase>
 
@@ -2359,13 +2359,13 @@
 
   <epp:phrase id="cgi/set_lang:changed_to"><p>El idioma preferido ha sido establecido como <epc:pin name="lang" /></p></epp:phrase>
 
-  <epp:phrase id="cgi/set_lang:cleared"><p>Su preferencia de idiomna ha sido eliminado. Desde ahora, en este repositorio utilizará el lenguaje más aproximado a la configuración de su navegador. Atualmente es <epc:pin name="lang" />.</p></epp:phrase>
+  <epp:phrase id="cgi/set_lang:cleared"><p>Su preferencia de idiomna ha sido eliminado. Desde ahora, en este repositorio utilizar&aacute; el lenguaje m&aacute;s aproximado a la configuraci&oacute;n de su navegador. Atualmente es <epc:pin name="lang" />.</p></epp:phrase>
 
   <epp:phrase id="cgi/set_lang:default_lang"><p>El idioma por defecto de este repositorio es <epc:pin name="lang" />.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_lang:cache_warning"><p>Algunas páginas pueden residir en la caché de su navegador. Utilice el botón de "actualizar" de su navegador para obtener la página en el idioma que ha solicitado.</p></epp:phrase>
+  <epp:phrase id="cgi/set_lang:cache_warning"><p>Algunas p&aacute;ginas pueden residir en la cach&eacute; de su navegador. Utilice el bot&oacute;n de "actualizar" de su navegador para obtener la p&aacute;gina en el idioma que ha solicitado.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_lang:back_to_lastpage"><p><epc:pin name="link">Vuelta a la página en la que estaba antes</epc:pin></p></epp:phrase>
+  <epp:phrase id="cgi/set_lang:back_to_lastpage"><p><epc:pin name="link">Vuelta a la p&aacute;gina en la que estaba antes</epc:pin></p></epp:phrase>
 
   <epp:phrase id="cgi/set_lang:lang_changed">Idioma Cambiado</epp:phrase>
 
@@ -2373,29 +2373,29 @@
 
   <epp:phrase id="cgi/set_lang:failed">Cambio de Idioma Fallido</epp:phrase>
 
-  <epp:phrase id="cgi/set_lang:clear_cookie">Eliminar las Cookies - seleccionar el idioma mediante la configuración de su navegador</epp:phrase>
+  <epp:phrase id="cgi/set_lang:clear_cookie">Eliminar las Cookies - seleccionar el idioma mediante la configuraci&oacute;n de su navegador</epp:phrase>
 
   <epp:phrase id="cgi/set_lang:lang_es"><epc:pin name="link"><img src="/style/images/flags/flag_es.png" alt="[es]" />Espa&ntilde;ol</epc:pin></epp:phrase>
 
-  <epp:phrase id="cgi/set_lang:lang_en"><epc:pin name="link"><img src="/style/images/flags/flag_en.png" alt="[en]" />Inglés</epc:pin></epp:phrase>
+  <epp:phrase id="cgi/set_lang:lang_en"><epc:pin name="link"><img src="/style/images/flags/flag_en.png" alt="[en]" />Ingl&eacute;s</epc:pin></epp:phrase>
 
-  <epp:phrase id="cgi/user_eprints:record_link"><p><epc:pin name="userlink">Pulse aquí para ver el registro del usuario.</epc:pin></p></epp:phrase>
+  <epp:phrase id="cgi/user_eprints:record_link"><p><epc:pin name="userlink">Pulse aqu&iacute; para ver el registro del usuario.</epc:pin></p></epp:phrase>
 
-  <epp:phrase id="cgi/user_eprints:n_eprints"><p>Número de registros enviados por este usuario: <epc:pin name="n" /></p></epp:phrase>
+  <epp:phrase id="cgi/user_eprints:n_eprints"><p>N&uacute;mero de registros enviados por este usuario: <epc:pin name="n" /></p></epp:phrase>
 
   <epp:phrase id="cgi/user_eprints:title">Registros enviados por <epc:pin name="name" /></epp:phrase>
 
-  <epp:phrase id="cgi/view_eprint:code_title">Introduzca el código ID del registro</epp:phrase>
+  <epp:phrase id="cgi/view_eprint:code_title">Introduzca el c&oacute;digo ID del registro</epp:phrase>
 
-  <epp:phrase id="cgi/view_eprint:invalid_code">El código ID especificado no es un ID válido.</epp:phrase>
+  <epp:phrase id="cgi/view_eprint:invalid_code">El c&oacute;digo ID especificado no es un ID v&aacute;lido.</epp:phrase>
 
-  <epp:phrase id="cgi/view_eprint:enter_code">Por favor, introduzca el código ID del registro que desea ver debajo. Puede introducir un código ID estándar, un código ID completo de Open Archives o simplemente los dígitos a la derecha de un código ID.</epp:phrase>
+  <epp:phrase id="cgi/view_eprint:enter_code">Por favor, introduzca el c&oacute;digo ID del registro que desea ver debajo. Puede introducir un c&oacute;digo ID est&aacute;ndar, un c&oacute;digo ID completo de Open Archives o simplemente los d&iacute;gitos a la derecha de un c&oacute;digo ID.</epp:phrase>
 
   <epp:phrase id="cgi/register:no_web_signup"><p>El registro no se ha habilitado en este sistema.</p></epp:phrase>
 
   <epp:phrase id="cgi/register:missing_field"><p>No ha cumplimentado el campo &quot;<epc:pin name="fieldname" />&quot;.</p></epp:phrase>
 
-  <epp:phrase id="cgi/register:email_exists"><p>Ya existe un usuario con la dirección <tt><epc:pin name="email" /></tt>.</p><p>Más que registrarse, debería simplemente <a href="reset_password">cambiar su contrase&ntilde;a</a>.</p></epp:phrase>
+  <epp:phrase id="cgi/register:email_exists"><p>Ya existe un usuario con la direcci&oacute;n <tt><epc:pin name="email" /></tt>.</p><p>M&aacute;s que registrarse, deber&iacute;a simplemente <a href="reset_password">cambiar su contrase&ntilde;a</a>.</p></epp:phrase>
 
   <epp:phrase id="cgi/register:username_exists"><p>Otro usuario ya tiene el nombre de usuario <tt><epc:pin name="username" /></tt>.</p></epp:phrase>
 
@@ -2405,7 +2405,7 @@
 
   <epp:phrase id="register_fieldname_lang">Su idioma preferido</epp:phrase>
 
-  <epp:phrase id="register_fieldhelp_lang">Esto establecerá qué idioma se emplea en los correos automáticos</epp:phrase>
+  <epp:phrase id="register_fieldhelp_lang">Esto establecer&aacute; qu&eacute; idioma se emplea en los correos autom&aacute;ticos</epp:phrase>
 
   <epp:phrase id="cgi/register:register_agreement"></epp:phrase>
 
@@ -2415,19 +2415,19 @@
 
   <epp:phrase id="cgi/set_password:reset"><p>Si se ha registrado pero ha olvidado la contrase&ntilde;a, puede indicar una nueva contrase&ntilde;a utilizando el <a href="reset_password">Formulario de Restablecimiento de Contrase&ntilde;a</a>.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_password:disabled"><p>Esta propiedad no está disponible en este sistema.</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:disabled"><p>Esta propiedad no est&aacute; disponible en este sistema.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_password:no_email"><p>No indicó una dirección de correo electrónico.</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:no_email"><p>No indic&oacute; una direcci&oacute;n de correo electr&oacute;nico.</p></epp:phrase>
 
   <epp:phrase id="cgi/set_password:error_title">Error</epp:phrase>
 
-  <epp:phrase id="cgi/set_password:no_such_user"><p>No hay ninguna cuenta con la dirección de correo "<epc:pin name="email" />".</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:no_such_user"><p>No hay ninguna cuenta con la direcci&oacute;n de correo "<epc:pin name="email" />".</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_password:no_priv"><p>El usuario con la dirección de correo electrónico <epc:pin name="email" /> no puede cambiar su contrase&ntilde;a con este procedimiento. Si ello supone un problema, por favor, contacte con el administrador del sitio.</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:no_priv"><p>El usuario con la direcci&oacute;n de correo electr&oacute;nico <epc:pin name="email" /> no puede cambiar su contrase&ntilde;a con este procedimiento. Si ello supone un problema, por favor, contacte con el administrador del sitio.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_password:no_password"><p>No indicó una contrase&ntilde;a.</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:no_password"><p>No indic&oacute; una contrase&ntilde;a.</p></epp:phrase>
 
-  <epp:phrase id="cgi/set_password:mail_sent"><p>Se ha enviado un correo a <b><epc:pin name="email" /></b> conteniendo el código requerido para confirmar esta contrase&ntilde;a.</p><p>Este código sólo es válido durante un breve período de tiempo de <epc:pin name="maxdelta" />.</p></epp:phrase>
+  <epp:phrase id="cgi/set_password:mail_sent"><p>Se ha enviado un correo a <b><epc:pin name="email" /></b> conteniendo el c&oacute;digo requerido para confirmar esta contrase&ntilde;a.</p><p>Este c&oacute;digo s&oacute;lo es v&aacute;lido durante un breve per&iacute;odo de tiempo de <epc:pin name="maxdelta" />.</p></epp:phrase>
 
   <epp:phrase id="cgi/set_password:account">Restablecer Contrase&ntilde;a</epp:phrase>
 
@@ -2435,27 +2435,27 @@
 
   <epp:phrase id="cgi/latest:intro"></epp:phrase>
 
-  <epp:phrase id="cgi/latest:none"><p>No hay nada nuevo durante los últimos 7 días.</p></epp:phrase>
+  <epp:phrase id="cgi/latest:none"><p>No hay nada nuevo durante los &uacute;ltimos 7 d&iacute;as.</p></epp:phrase>
 
   <epp:phrase id="cgi/latest_tool:title">Ultimas <epc:pin name="n" /> Incorporaciones a <epc:phrase ref="archive_name" /></epp:phrase>
 
   <epp:phrase id="cgi/latest_tool:title_matching">Ultimas <epc:pin name="n" /> Incorporaciones a <epc:phrase ref="archive_name" /> donde <epc:pin name="search" /></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:title">Confirmación del Cambio de Registro</epp:phrase>
+  <epp:phrase id="cgi/confirm:title">Confirmaci&oacute;n del Cambio de Registro</epp:phrase>
 
-  <epp:phrase id="cgi/confirm:err_title">Error: El Cambio de Registro Falló</epp:phrase>
+  <epp:phrase id="cgi/confirm:err_title">Error: El Cambio de Registro Fall&oacute;</epp:phrase>
 
-  <epp:phrase id="cgi/confirm:bad_user"><p>Usuario no encontrado. Seguramente indica un problema con la base de datos, pero, por favor, revise los parámetros de la URL con cuidado.</p></epp:phrase>
+  <epp:phrase id="cgi/confirm:bad_user"><p>Usuario no encontrado. Seguramente indica un problema con la base de datos, pero, por favor, revise los par&aacute;metros de la URL con cuidado.</p></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:pin_mismatch"><p>El pin de confirmación es incorrecto. Por favor, pruebe a <a href="reset_password">restablecer su contrase&ntilde;a</a> para generar un correo con un nuevo número pin de confirmación.</p></epp:phrase>
+  <epp:phrase id="cgi/confirm:pin_mismatch"><p>El pin de confirmaci&oacute;n es incorrecto. Por favor, pruebe a <a href="reset_password">restablecer su contrase&ntilde;a</a> para generar un correo con un nuevo n&uacute;mero pin de confirmaci&oacute;n.</p></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:pin_timeout"><p>El número pin de confirmación ha expirado. Por favor, repita la petición de <a href="reset_password">restablecimiento de contrase&ntilde;a</a> o de <a href="register">registro</a>, y confírmela tanpronto como reciba el correo electrónicost.</p></epp:phrase>
+  <epp:phrase id="cgi/confirm:pin_timeout"><p>El n&uacute;mero pin de confirmaci&oacute;n ha expirado. Por favor, repita la petici&oacute;n de <a href="reset_password">restablecimiento de contrase&ntilde;a</a> o de <a href="register">registro</a>, y conf&iacute;rmela tanpronto como reciba el correo electr&oacute;nicost.</p></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:no_pin"><p>Actualmente no hay cambios pendientes de confirmación para este usuario. Seguramente significa que ya ha confirmado el cambio. Intente la <a href="{$config{userhome}}">validación</a>.</p></epp:phrase>
+  <epp:phrase id="cgi/confirm:no_pin"><p>Actualmente no hay cambios pendientes de confirmaci&oacute;n para este usuario. Seguramente significa que ya ha confirmado el cambio. Intente la <a href="{$config{userhome}}">validaci&oacute;n</a>.</p></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:set_email"><p>Su dirección de correo electrónico ha sido cambiada a <strong><pin name="newemail" /></strong></p></epp:phrase>
+  <epp:phrase id="cgi/confirm:set_email"><p>Su direcci&oacute;n de correo electr&oacute;nico ha sido cambiada a <strong><pin name="newemail" /></strong></p></epp:phrase>
 
-  <epp:phrase id="cgi/confirm:set_password"><p>Su contrase&ntilde;a ha sido cambiada a la nueva que solicitó.</p></epp:phrase>
+  <epp:phrase id="cgi/confirm:set_password"><p>Su contrase&ntilde;a ha sido cambiada a la nueva que solicit&oacute;.</p></epp:phrase>
 
   <epp:phrase id="cgi/confirm:username"><p>Su nombre de usuario en el sistema es: <strong><epc:pin name="username" /></strong></p></epp:phrase>
 
@@ -2463,7 +2463,7 @@
 
   <epp:phrase id="cgi/openurl:empty_query_title">Ninguna Solicitud Dada</epp:phrase>
 
-  <epp:phrase id="cgi/openurl:empty_query_blurb"><p>El resolvedor OpenURL sólo soporta argumentos CGI.</p></epp:phrase>
+  <epp:phrase id="cgi/openurl:empty_query_blurb"><p>El resolvedor OpenURL s&oacute;lo soporta argumentos CGI.</p></epp:phrase>
 
   <epp:phrase id="cgi/openurl:no_match_title">Ninguna Coincidencia de Expediente Encontrada</epp:phrase>
 
@@ -2475,7 +2475,7 @@
 
   <epp:phrase id="bin/generate_views:intro"><div class="ep_view_intro">Por favor, seleccione un valor para consultar del listado siguiente.</div></epp:phrase>
 
-  <epp:phrase id="bin/generate_views:subject_blurb"><div class="ep_view_blurb">Número de registros en este nivel: <strong><epc:pin name="n" /></strong>.</div></epp:phrase>
+  <epp:phrase id="bin/generate_views:subject_blurb"><div class="ep_view_blurb">N&uacute;mero de registros en este nivel: <strong><epc:pin name="n" /></strong>.</div></epp:phrase>
 
   <epp:phrase id="bin/generate_views:browsetitle">Consultar Registros</epp:phrase>
 
@@ -2483,17 +2483,17 @@
 
   <epp:phrase id="bin/generate_views:timestamp"><div class="ep_view_timestamp">Este listado fue generado el <strong><epc:pin name="time" /></strong>.</div></epp:phrase>
 
-  <epp:phrase id="general:userhome_link"><p><a href="{$config{userhome}}">Ir a la Página de Inicio del Area de Usuario de <epc:phrase ref="archive_name" /></a></p></epp:phrase>
+  <epp:phrase id="general:userhome_link"><p><a href="{$config{userhome}}">Ir a la P&aacute;gina de Inicio del Area de Usuario de <epc:phrase ref="archive_name" /></a></p></epp:phrase>
 
-  <epp:phrase id="general:frontpage_link"><p><a href="{$config{frontpage}}">Ir a la Página de Inicio de <epc:phrase ref="archive_name" /></a></p></epp:phrase>
+  <epp:phrase id="general:frontpage_link"><p><a href="{$config{frontpage}}">Ir a la P&aacute;gina de Inicio de <epc:phrase ref="archive_name" /></a></p></epp:phrase>
 
-  <epp:phrase id="general:bad_param"><p>Parámetros erróneos. No intente acceder directamente a este script.</p></epp:phrase>
+  <epp:phrase id="general:bad_param"><p>Par&aacute;metros err&oacute;neos. No intente acceder directamente a este script.</p></epp:phrase>
 
   <epp:phrase id="general:disabled_feature_title">Propiedad Deshabilitada</epp:phrase>
 
   <epp:phrase id="general:disabled_feature_body"><p>Esta propiedad ha sido deshabilitada para este repositorio.</p></epp:phrase>
 
-  <epp:phrase id="general:email_failed"><p>El sistema es actualmente incapaz de enviar el correo. Por favor, inténtelo más tarde. Si el problema continúa, por favor, contante al <a href="mailto:{$config{adminemail}}">administrador</a> con los detalles.</p></epp:phrase>
+  <epp:phrase id="general:email_failed"><p>El sistema es actualmente incapaz de enviar el correo. Por favor, int&eacute;ntelo m&aacute;s tarde. Si el problema contin&uacute;a, por favor, contante al <a href="mailto:{$config{adminemail}}">administrador</a> con los detalles.</p></epp:phrase>
 
   <epp:phrase id="general:dataset_object_eprint">Registro</epp:phrase>
 
@@ -2501,17 +2501,17 @@
 
   <epp:phrase id="general:dataset_object_document">Formato</epp:phrase>
 
-  <epp:phrase id="general:dataset_object_saved_search">Búsqueda Guardada</epp:phrase>
+  <epp:phrase id="general:dataset_object_saved_search">B&uacute;squeda Guardada</epp:phrase>
 
   <epp:phrase id="general:dataset_object_subject">Materia</epp:phrase>
 
   <epp:phrase id="eprint_fieldname_eprintid">ID de Registro</epp:phrase>
 
-  <epp:phrase id="eprint_fieldname_rev_number">Revisión</epp:phrase>
+  <epp:phrase id="eprint_fieldname_rev_number">Revisi&oacute;n</epp:phrase>
 
   <epp:phrase id="eprint_fieldname_eprint_status">Estado del Registro</epp:phrase>
 
-  <epp:phrase id="eprint_fieldopt_eprint_status_buffer">Bajo Revisión</epp:phrase>
+  <epp:phrase id="eprint_fieldopt_eprint_status_buffer">Bajo Revisi&oacute;n</epp:phrase>
 
   <epp:phrase id="eprint_fieldopt_eprint_status_inbox">Area de Trabajo de Usuario</epp:phrase>
 
@@ -2523,11 +2523,11 @@
 
   <epp:phrase id="eprint_fieldname_status_changed">Ultimo Cambio de Estado</epp:phrase>
 
-  <epp:phrase id="eprint_fieldhelp_type">Por favor, seleccione el tipo más apropiado para su depósito.</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_type">Por favor, seleccione el tipo m&aacute;s apropiado para su dep&oacute;sito.</epp:phrase>
 
-  <epp:phrase id="eprint_fieldname_succeeds">Ultima Versión de</epp:phrase>
+  <epp:phrase id="eprint_fieldname_succeeds">Ultima Versi&oacute;n de</epp:phrase>
 
-  <epp:phrase id="eprint_fieldhelp_succeeds">Si este documento es una versión revisada de otro documento en el archivo, por favor, introduzca su código ID en este recuadro.</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_succeeds">Si este documento es una versi&oacute;n revisada de otro documento en el archivo, por favor, introduzca su c&oacute;digo ID en este recuadro.</epp:phrase>
 
   <epp:phrase id="eprint_fieldname_commentary">Comentario sobre</epp:phrase>
 
@@ -2543,7 +2543,7 @@
 
   <epp:phrase id="eprint_fieldopt_metadata_visibility_show">Siempre Visible</epp:phrase>
 
-  <epp:phrase id="eprint_fieldopt_metadata_visibility_no_search">Ocultar en resultados de búsqueda</epp:phrase>
+  <epp:phrase id="eprint_fieldopt_metadata_visibility_no_search">Ocultar en resultados de b&uacute;squeda</epp:phrase>
 
   <epp:phrase id="eprint_fieldname_latitude">Latitud</epp:phrase>
 
@@ -2555,23 +2555,23 @@
 
   <epp:phrase id="eprint_fieldname_documents">Documentos</epp:phrase>
 
-  <epp:phrase id="user_fieldname_userid">Número ID de Usuario</epp:phrase>
+  <epp:phrase id="user_fieldname_userid">N&uacute;mero ID de Usuario</epp:phrase>
 
-  <epp:phrase id="user_fieldname_rev_number">Revisión</epp:phrase>
+  <epp:phrase id="user_fieldname_rev_number">Revisi&oacute;n</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_newemail">Introduzca su nueva dirección de correo electrónico</epp:phrase>
+  <epp:phrase id="user_fieldhelp_newemail">Introduzca su nueva direcci&oacute;n de correo electr&oacute;nico</epp:phrase>
 
   <epp:phrase id="user_fieldhelp_username"></epp:phrase>
 
   <epp:phrase id="user_fieldname_password">Contrase&ntilde;a</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_password">Dejar este campo en blanco no afectará a la contrase&ntilde;a.</epp:phrase>
+  <epp:phrase id="user_fieldhelp_password">Dejar este campo en blanco no afectar&aacute; a la contrase&ntilde;a.</epp:phrase>
 
   <epp:phrase id="user_fieldname_usertype">Tipo de Usuario</epp:phrase>
 
   <epp:phrase id="user_fieldhelp_usertype"></epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_newpassword">Establecer una contrase&ntilde;a. No será activada hasta que introduzca un código de seguridad que le será enviado.</epp:phrase>
+  <epp:phrase id="user_fieldhelp_newpassword">Establecer una contrase&ntilde;a. No ser&aacute; activada hasta que introduzca un c&oacute;digo de seguridad que le ser&aacute; enviado.</epp:phrase>
 
   <epp:phrase id="user_fieldname_editorsubjects">Materias de Editor</epp:phrase>
 
@@ -2581,35 +2581,35 @@
 
   <epp:phrase id="user_fieldhelp_joined"></epp:phrase>
 
-  <epp:phrase id="user_fieldname_email">Dirección de Correo Electrónico</epp:phrase>
+  <epp:phrase id="user_fieldname_email">Direcci&oacute;n de Correo Electr&oacute;nico</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_email">La dirección de correo electrónico para este usuario</epp:phrase>
+  <epp:phrase id="user_fieldhelp_email">La direcci&oacute;n de correo electr&oacute;nico para este usuario</epp:phrase>
 
   <epp:phrase id="user_fieldname_lang">Idioma Preferido</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_lang">Su idioma preferido. Siempre que sea posible, se le enviará información en este idioma.</epp:phrase>
+  <epp:phrase id="user_fieldhelp_lang">Su idioma preferido. Siempre que sea posible, se le enviar&aacute; informaci&oacute;n en este idioma.</epp:phrase>
 
-  <epp:phrase id="user_fieldname_editperms">Restricción de Derechos Editoriales</epp:phrase>
+  <epp:phrase id="user_fieldname_editperms">Restricci&oacute;n de Derechos Editoriales</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_editperms">El usuario sólo podrá aprobar y modificar registros que satisfagan las siguientes reglas. Si no hay condiciones de restricción, el usuario será capaz de editar cualquier registro.</epp:phrase>
+  <epp:phrase id="user_fieldhelp_editperms">El usuario s&oacute;lo podr&aacute; aprobar y modificar registros que satisfagan las siguientes reglas. Si no hay condiciones de restricci&oacute;n, el usuario ser&aacute; capaz de editar cualquier registro.</epp:phrase>
 
-  <epp:phrase id="user_fieldname_frequency">Frecuencia de envíos por correo de registros bajo revisión editorial</epp:phrase>
+  <epp:phrase id="user_fieldname_frequency">Frecuencia de env&iacute;os por correo de registros bajo revisi&oacute;n editorial</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_frequency">Cuán a menudo quiere que se le envíe un listado con todos los objetos que esperan por revisión editorial que satisfagan sus derechos editoriales.</epp:phrase>
+  <epp:phrase id="user_fieldhelp_frequency">Cu&aacute;n a menudo quiere que se le env&iacute;e un listado con todos los objetos que esperan por revisi&oacute;n editorial que satisfagan sus derechos editoriales.</epp:phrase>
 
   <epp:phrase id="user_fieldopt_frequency_never">Nunca</epp:phrase>
 
-  <epp:phrase id="user_fieldopt_frequency_daily">Una vez al Día</epp:phrase>
+  <epp:phrase id="user_fieldopt_frequency_daily">Una vez al D&iacute;a</epp:phrase>
 
   <epp:phrase id="user_fieldopt_frequency_weekly">Una vez a la Semana</epp:phrase>
 
   <epp:phrase id="user_fieldopt_frequency_monthly">Una vez al Mes</epp:phrase>
 
-  <epp:phrase id="user_fieldname_mailempty">Enviar Resultados Vacíos</epp:phrase>
+  <epp:phrase id="user_fieldname_mailempty">Enviar Resultados Vac&iacute;os</epp:phrase>
 
-  <epp:phrase id="user_fieldhelp_mailempty">Si no hay objetos en espera de ser revisados, dentro de sus derechos editoriales, ¿debería el repositorio enviarle un correo vacío?</epp:phrase>
+  <epp:phrase id="user_fieldhelp_mailempty">Si no hay objetos en espera de ser revisados, dentro de sus derechos editoriales, ¿deber&iacute;a el repositorio enviarle un correo vac&iacute;o?</epp:phrase>
 
-  <epp:phrase id="user_radio_mailempty"><label><epc:pin name="true" />Sí, envínme un correo aunque no tenga registros para revisar.</label><br /><label><epc:pin name="false" />No. Envínme un correo sólo cuando contenga algo que pueda editar y aprobar dentro de mis derechos editoriales.</label></epp:phrase>
+  <epp:phrase id="user_radio_mailempty"><label><epc:pin name="true" />S&iacute;, env&iacute;nme un correo aunque no tenga registros para revisar.</label><br /><label><epc:pin name="false" />No. Env&iacute;nme un correo s&oacute;lo cuando contenga algo que pueda editar y aprobar dentro de mis derechos editoriales.</label></epp:phrase>
 
   <epp:phrase id="user_fieldname_latitude">Latitud</epp:phrase>
 
@@ -2621,40 +2621,40 @@
 
   <epp:phrase id="document_fieldname_docid">ID del Documento</epp:phrase>
 
-  <epp:phrase id="document_fieldname_pos">Número del documento (sin objeto)</epp:phrase>
+  <epp:phrase id="document_fieldname_pos">N&uacute;mero del documento (sin objeto)</epp:phrase>
 
   <epp:phrase id="document_fieldname_eprintid">ID del regostro propietario</epp:phrase>
 
-  <epp:phrase id="document_fieldname_rev_number">Revisión de Metadatos</epp:phrase>
+  <epp:phrase id="document_fieldname_rev_number">Revisi&oacute;n de Metadatos</epp:phrase>
 
   <epp:phrase id="document_fieldhelp_language">Por favor, indique el idioma primario de este documento.</epp:phrase>
 
   <epp:phrase id="document_fieldhelp_format">Por favor, seleccione el formato de almacenamiento de este documento.</epp:phrase>
 
-  <epp:phrase id="document_fieldname_formatdesc">Descripción</epp:phrase>
+  <epp:phrase id="document_fieldname_formatdesc">Descripci&oacute;n</epp:phrase>
 
-  <epp:phrase id="document_fieldhelp_formatdesc">Puede suministrar una breve descripción adicional del documento.</epp:phrase>
+  <epp:phrase id="document_fieldhelp_formatdesc">Puede suministrar una breve descripci&oacute;n adicional del documento.</epp:phrase>
 
-  <epp:phrase id="document_fieldhelp_security">Por favor, indique el "nivel de seguridad" requerido para este documento. ¿A quién se le permite descargarlo?</epp:phrase>
+  <epp:phrase id="document_fieldhelp_security">Por favor, indique el "nivel de seguridad" requerido para este documento. ¿A qui&eacute;n se le permite descargarlo?</epp:phrase>
 
-  <epp:phrase id="document_fieldhelp_license">Especificar una licencia explícita para este documento (no afecta los derechos de acceso que usted concede al final de este proceso de depósito). Este repositorio permite licencias <a href="http://creativecommons.org/about/licenses/" target="_blank">Creative Commons</a>.</epp:phrase>
+  <epp:phrase id="document_fieldhelp_license">Especificar una licencia expl&iacute;cita para este documento (no afecta los derechos de acceso que usted concede al final de este proceso de dep&oacute;sito). Este repositorio permite licencias <a href="http://creativecommons.org/about/licenses/" target="_blank">Creative Commons</a>.</epp:phrase>
 
-  <epp:phrase id="document_fieldname_date_embargo">Fecha de expiración de embargo</epp:phrase>
+  <epp:phrase id="document_fieldname_date_embargo">Fecha de expiraci&oacute;n de embargo</epp:phrase>
 
-  <epp:phrase id="document_fieldhelp_date_embargo">La fecha en la cual la editorial -o patrocinador- impuso que el embargo expire. En dicha fecha o después de ella, este documento será puesto accesible públicamente.
-  <br />Ejemplo: <span class="ep_form_example">2006 - todos los documentos puestos accesibles públicamente el 1ro de Enero de 2006</span>
-  <br />Ejemplo: <span class="ep_form_example">2006 Junio - todos los documentos puestos accesibles públicamente el 1ro de Junio de 2006</span>
+  <epp:phrase id="document_fieldhelp_date_embargo">La fecha en la cual la editorial -o patrocinador- impuso que el embargo expire. En dicha fecha o despu&eacute;s de ella, este documento ser&aacute; puesto accesible p&uacute;blicamente.
+  <br />Ejemplo: <span class="ep_form_example">2006 - todos los documentos puestos accesibles p&uacute;blicamente el 1ro de Enero de 2006</span>
+  <br />Ejemplo: <span class="ep_form_example">2006 Junio - todos los documentos puestos accesibles p&uacute;blicamente el 1ro de Junio de 2006</span>
   </epp:phrase>
 
   <epp:phrase id="document_fieldname_main">Fichero principal</epp:phrase>
 
-  <epp:phrase id="document_fieldhelp_main">El fichero con el cual está ligado.</epp:phrase>
+  <epp:phrase id="document_fieldhelp_main">El fichero con el cual est&aacute; ligado.</epp:phrase>
 
   <epp:phrase id="subject_fieldname_name">Nombre de Materia</epp:phrase>
 
-  <epp:phrase id="subject_fieldname_rev_number">Revisión</epp:phrase>
+  <epp:phrase id="subject_fieldname_rev_number">Revisi&oacute;n</epp:phrase>
 
-  <epp:phrase id="subject_fieldhelp_name">Este es el nombre "en pantalla" de la materia, el único que los usuarios verán.</epp:phrase>
+  <epp:phrase id="subject_fieldhelp_name">Este es el nombre "en pantalla" de la materia, el &uacute;nico que los usuarios ver&aacute;n.</epp:phrase>
 
   <epp:phrase id="subject_fieldname_ancestors">Ancestros</epp:phrase>
 
@@ -2666,11 +2666,11 @@
 
   <epp:phrase id="subject_fieldhelp_depositable">¿Pueden los usuarios a&ntilde;adir objetos a esta materia?</epp:phrase>
 
-  <epp:phrase id="subject_radio_depositable"><label><epc:pin name="true" />Sí, los usuarios pueden a&ntilde;adir registros a esta materia.</label><br /><label><epc:pin name="false" />No. (En cuyo caso seguramente debería tener algún hijo).</label></epp:phrase>
+  <epp:phrase id="subject_radio_depositable"><label><epc:pin name="true" />S&iacute;, los usuarios pueden a&ntilde;adir registros a esta materia.</label><br /><label><epc:pin name="false" />No. (En cuyo caso seguramente deber&iacute;a tener alg&uacute;n hijo).</label></epp:phrase>
 
   <epp:phrase id="subject_fieldname_subjectid">Cadena ID de la Materia</epp:phrase>
 
-  <epp:phrase id="subject_fieldhelp_subjectid">Esta es la clave interna de esta materia. Se utiliza en la base de datos y para generar los nombres de los ficheros de "vistas". Sólo debería contener a-z, 0-9 y barra "/" y guión bajo "_". Si introduce la ID de una materia existente, esa materia será enlazada como hijo de la materia actual.</epp:phrase>
+  <epp:phrase id="subject_fieldhelp_subjectid">Esta es la clave interna de esta materia. Se utiliza en la base de datos y para generar los nombres de los ficheros de "vistas". S&oacute;lo deber&iacute;a contener a-z, 0-9 y barra "/" y gui&oacute;n bajo "_". Si introduce la ID de una materia existente, esa materia ser&aacute; enlazada como hijo de la materia actual.</epp:phrase>
 
   <epp:phrase id="history_fieldname_objectid">ID de Objeto</epp:phrase>
 
@@ -2680,7 +2680,7 @@
 
   <epp:phrase id="dataset_name_deletion">Eliminado</epp:phrase>
 
-  <epp:phrase id="dataset_name_buffer">Revisión</epp:phrase>
+  <epp:phrase id="dataset_name_buffer">Revisi&oacute;n</epp:phrase>
 
   <epp:phrase id="dataset_name_inbox">Area de Trabajo del Usuario</epp:phrase>
 
@@ -2688,7 +2688,7 @@
 
   <epp:phrase id="dataset_name_subject">Materias</epp:phrase>
 
-  <epp:phrase id="dataset_name_saved_search">Búsquedas Guardadas</epp:phrase>
+  <epp:phrase id="dataset_name_saved_search">B&uacute;squedas Guardadas</epp:phrase>
 
   <epp:phrase id="dataset_name_user">Usuarios</epp:phrase>
 
@@ -2696,15 +2696,15 @@
 
   <epp:phrase id="Plugin/Screen:tool_divide"> | </epp:phrase>
 
-  <epp:phrase id="Plugin/Screen:more">más...</epp:phrase>
+  <epp:phrase id="Plugin/Screen:more">m&aacute;s...</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen:unknown_action">Esta pantalla (<epc:pin name="screen" />) no conoce cómo procesar esta acción: <epc:pin name="action" />.</epp:phrase>
+  <epp:phrase id="Plugin/Screen:unknown_action">Esta pantalla (<epc:pin name="screen" />) no conoce c&oacute;mo procesar esta acci&oacute;n: <epc:pin name="action" />.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen:unknown_screen">La pantalla solicitada no existe, o tiene un error fatal: <epc:pin name="screen" />.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen:screen_not_allowed">Usted no puede ver esta pantalla: <epc:pin name="screen" />.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen:action_not_allowed">Usted no puede realizar esta acción.</epp:phrase>
+  <epp:phrase id="Plugin/Screen:action_not_allowed">Usted no puede realizar esta acci&oacute;n.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen:message_message">Mensaje</epp:phrase>
 
@@ -2714,7 +2714,7 @@
 
   <epp:phrase id="Plugin/Screen:no_render_subclass">Error. $screen->render debe ser sub-clasificado para sub-classed for <epc:pin name="screen" />.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Review:list_desc">Registros bajo revisión</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Review:list_desc">Registros bajo revisi&oacute;n</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Status:title">Estados</epp:phrase>
 
@@ -2738,27 +2738,27 @@
 
   <epp:phrase id="Plugin/Screen/NewUser:action:cancel:title">Cancelar</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/NewUser:no_username">¡No introdujo ningún nombre de usuario!</epp:phrase>
+  <epp:phrase id="Plugin/Screen/NewUser:no_username">¡No introdujo ning&uacute;n nombre de usuario!</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/NewUser:user_exists">¡Ya existe un usuario con el nombre de usuario "<epc:pin name="username" />"!</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/NewUser:db_error">Error registrando al usuario.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/NewEPrint:action:create:description">Iniciar un nuevo depósito.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/NewEPrint:action:create:description">Iniciar un nuevo dep&oacute;sito.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint:deposit">Depositar</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint:owner_denied">Aunque usted es el due&ntilde;o de este documento no podrá ver esta pantalla: <epc:pin name="screen" />. Esto puede ser porque ha depositado el objeto y no puede realizar más cambios en él.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint:owner_denied">Aunque usted es el due&ntilde;o de este documento no podr&aacute; ver esta pantalla: <epc:pin name="screen" />. Esto puede ser porque ha depositado el objeto y no puede realizar m&aacute;s cambios en &eacute;l.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/FirstTool:no_tools">Lo sentimos, pero no tiene el derecho de usar ninguna herramienta</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Items:db_error">Error en Base de Datos</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Items:list_desc">Sus Depósitos</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Items:list_desc">Sus Dep&oacute;sitos</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Import:title">Importar Registros</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Import:intro">Siga los pasos siguientes para importar expedientes en su área de trabajo.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Import:intro">Siga los pasos siguientes para importar expedientes en su &aacute;rea de trabajo.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Import:action:test:title">Corrida de prueba</epp:phrase>
 
@@ -2768,43 +2768,43 @@
 
   <epp:phrase id="Plugin/Screen/Import:test_completed">Corrida de prueba completada: <epc:pin name="count" /> objeto(s) encontrados.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Import:test_failed">Corrida de prueba fallida: <epc:pin name="count" /> objeto(s) encontrados antes de que un error causara que la corrida de prueba abortara su ejecución. Revise cuidadosamente cualquier mensaje de aviso antes de proceder.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Import:test_failed">Corrida de prueba fallida: <epc:pin name="count" /> objeto(s) encontrados antes de que un error causara que la corrida de prueba abortara su ejecuci&oacute;n. Revise cuidadosamente cualquier mensaje de aviso antes de proceder.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Import:import_completed">Importación completada: <epc:pin name="count" /> objeto(s) importados.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Import:import_completed">Importaci&oacute;n completada: <epc:pin name="count" /> objeto(s) importados.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Import:import_failed">Importación fallida: <epc:pin name="count" /> objeto(s) importados antes de que un error causara que la importación abortara.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Import:import_failed">Importaci&oacute;n fallida: <epc:pin name="count" /> objeto(s) importados antes de que un error causara que la importaci&oacute;n abortara.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Import:import_errors">Fueron producidos los avisos siguientes:<br /><epc:pin name="errors" /></epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Import:step1">Cortar y pegar los expedientes importados<br /><i>o</i><br />Subir fichero importado</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Import:step2">Seleccione el formato de importación</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Import:step2">Seleccione el formato de importaci&oacute;n</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Deposit:title">Depositar objeto</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Deposit:description">Depositar objeto</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Deposit:validation_errors">No es posible depositar debido a errores de validación.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Deposit:validation_errors">No es posible depositar debido a errores de validaci&oacute;n.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Deposit:item_deposited">El objeto ha sido depositado.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Deposit:item_not_deposited">Por alguna razón no es posible depositar.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Deposit:item_not_deposited">Por alguna raz&oacute;n no es posible depositar.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Deposit:in_buffer">Su documento no aparecerá en el sitio Web público hasta que sea revisado por un editor.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Deposit:in_buffer">Su documento no aparecer&aacute; en el sitio Web p&uacute;blico hasta que sea revisado por un editor.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Error:title">Error</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Error:description">Error</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:title">Destruir registro (con notificación)</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:title">Destruir registro (con notificaci&oacute;n)</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:description">Borrar permanentemente del sistema este registro, pero enviar un correo al usuario que lo depositó para informarle el por qué.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:description">Borrar permanentemente del sistema este registro, pero enviar un correo al usuario que lo deposit&oacute; para informarle el por qu&eacute;.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:item_removed">El objeto ha sido borrado.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:item_not_removed">El objeto no se pudo borrar.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RejectWithEmail:description">Devolver este objeto al área de trabajo del usuario y enviarle un correo al que lo depositó para explicarle por qué no puede ser aceptado todavía.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RejectWithEmail:description">Devolver este objeto al &aacute;rea de trabajo del usuario y enviarle un correo al que lo deposit&oacute; para explicarle por qu&eacute; no puede ser aceptado todav&iacute;a.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RejectWithEmail:item_removed">El objeto ha sido borrado.</epp:phrase>
 
@@ -2832,13 +2832,13 @@
 
   <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_archive:description">Trasladar el objeto hacia el repositorio.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:title">Trasladar a Revisión</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:title">Trasladar a Revisi&oacute;n</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:description">Trasladar el objeto hacia revisión.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:description">Trasladar el objeto hacia revisi&oacute;n.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_inbox:title">Devolver al Area de Trabajo</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_inbox:description">Devolver al área de trabajo del usuario, permitiéndole realizarle cambios y volverlo a depositar.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_inbox:description">Devolver al &aacute;rea de trabajo del usuario, permiti&eacute;ndole realizarle cambios y volverlo a depositar.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_deletion:title">Retirar objeto</epp:phrase>
 
@@ -2860,7 +2860,7 @@
 
   <epp:phrase id="Plugin/Screen/EPrint/Messages:title">Mensajes</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/Messages:no_messages">Ningún mensaje con respecto a este objeto.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/Messages:no_messages">Ning&uacute;n mensaje con respecto a este objeto.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/View:title">Ver Objeto</epp:phrase>
 
@@ -2876,21 +2876,21 @@
 
   <epp:phrase id="Plugin/Screen/EPrint/View:no_subclass">render_status debe haber sido have been subclassed.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:title">Nueva versión</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:title">Nueva versi&oacute;n</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:description">Utilice esto para enviar una nueva versión de este documento. Será creada una copia exacta a la que le podrá realizar cambios. Este documento y su nueva versión estarán enlazadas.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:description">Utilice esto para enviar una nueva versi&oacute;n de este documento. Ser&aacute; creada una copia exacta a la que le podr&aacute; realizar cambios. Este documento y su nueva versi&oacute;n estar&aacute;n enlazadas.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:success">Nueva versión  creada exitosamente en su área de trabajo. Está viendo ahora la nueva versión.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/NewVersion:success">Nueva versi&oacute;n  creada exitosamente en su &aacute;rea de trabajo. Est&aacute; viendo ahora la nueva versi&oacute;n.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:action:use_as_template:title">Utilizar como plantilla</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:action:use_as_template:description">Crear un nuevo registro utilizando este documento como plantilla. No existirá ninguna conexión entre estos dos documentos.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:action:use_as_template:description">Crear un nuevo registro utilizando este documento como plantilla. No existir&aacute; ninguna conexi&oacute;n entre estos dos documentos.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:success">Nuevo registro creado existosamente en su área de trabajo utilizando el documento anterior como plantilla. Está viendo ahora el nuevo registro.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:success">Nuevo registro creado existosamente en su &aacute;rea de trabajo utilizando el documento anterior como plantilla. Est&aacute; viendo ahora el nuevo registro.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:mail">
-    <div style="font-size: 11pt">Petición de Eliminación</div>
-    <p>Usuario <epc:pin name="user" /> (Correo Electrónico: <epc:pin name="email" />) solicitó la eliminación del siguiente registro:</p>
+    <div style="font-size: 11pt">Petici&oacute;n de Eliminaci&oacute;n</div>
+    <p>Usuario <epc:pin name="user" /> (Correo Electr&oacute;nico: <epc:pin name="email" />) solicit&oacute; la eliminaci&oacute;n del siguiente registro:</p>
 
     <p><epc:pin name="citation" /></p>
 
@@ -2899,49 +2899,49 @@
     <p>Usted debe <epc:pin name="url">ver los detalles del documento</epc:pin> antes de determinar si hay que retirarlo de la parte activa del repositorio.</p>
   </epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:reason">No fue dada ninguna razón.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:reason">No fue dada ninguna raz&oacute;n.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:title">Eliminación Solicitada</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:title">Eliminaci&oacute;n Solicitada</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:description">Solicitud de que este registro sea eliminado del repositorio.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:subject">Petición de eliminación de documento</epp:phrase>
+  <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:subject">Petici&oacute;n de eliminaci&oacute;n de documento</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:action:send:title">Enviar</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:action:cancel:title">Cancelar</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:intro">
-    <p><em>Por favor, Dése cuenta que no animamos en lo absoluto la eliminación de documentos del repositorio. Si usted sube una nueva versión de un documento, aparecerá un enlace a la última versión en la versión más antigua. De este modo, cualquiera que encuentre la antigua podrá ver la más nueva que ha sido depositada.</em></p>
+    <p><em>Por favor, D&eacute;se cuenta que no animamos en lo absoluto la eliminaci&oacute;n de documentos del repositorio. Si usted sube una nueva versi&oacute;n de un documento, aparecer&aacute; un enlace a la &uacute;ltima versi&oacute;n en la versi&oacute;n m&aacute;s antigua. De este modo, cualquiera que encuentre la antigua podr&aacute; ver la m&aacute;s nueva que ha sido depositada.</em></p>
   </epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearches:description">Ver y configurar las búsquedas guardadas</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearches:description">Ver y configurar las b&uacute;squedas guardadas</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearches:intro"><p>Usted puede ver sus búsquedas guardadas y solicitar recibir un correo electrónico de actualización periódicamente si cambia alguno en la búsqueda.</p></epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearches:intro"><p>Usted puede ver sus b&uacute;squedas guardadas y solicitar recibir un correo electr&oacute;nico de actualizaci&oacute;n peri&oacute;dicamente si cambia alguno en la b&uacute;squeda.</p></epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearches:no_searches"><p>En estos momentos no tiene búsquedas guardadas.</p></epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearches:no_searches"><p>En estos momentos no tiene b&uacute;squedas guardadas.</p></epp:phrase>
 
   <epp:phrase id="Plugin/Screen/User/SavedSearch/Edit:title">Configuraciones</epp:phrase>
 
-  <epp:phrase id="saved_search_mail">Alerta de correo electrónico</epp:phrase>
+  <epp:phrase id="saved_search_mail">Alerta de correo electr&oacute;nico</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:sure_delete"><p>¿Está seguro de querer borrar esta búsqueda guardada?</p></epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:sure_delete"><p>¿Est&aacute; seguro de querer borrar esta b&uacute;squeda guardada?</p></epp:phrase>
 
   <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:title">Borrar</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:remove">Sí, borrarla</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:remove">S&iacute;, borrarla</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:item_removed">Borrar búsqueda guardada.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearch/Remove:item_removed">Borrar b&uacute;squeda guardada.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SavedSearch/Run:title">Hacer búsqueda</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SavedSearch/Run:title">Hacer b&uacute;squeda</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SaveSearch:db_error">Algo anduvo mal creando su búsqueda guardada. Lo sentimos.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SaveSearch:db_error">Algo anduvo mal creando su b&uacute;squeda guardada. Lo sentimos.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SaveSearch:done">Búsqueda exitosamente almacenada.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SaveSearch:done">B&uacute;squeda exitosamente almacenada.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/User/SaveSearch:not_your_search">¡Esa búsqueda ha expirado o no fue creada por usted!</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/SaveSearch:not_your_search">¡Esa b&uacute;squeda ha expirado o no fue creada por usted!</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Public/SavedSearch:not_public">Esta búsqueda guardada no está disponible al público.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Public/SavedSearch:not_public">Esta b&uacute;squeda guardada no est&aacute; disponible al p&uacute;blico.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:no_such_subject">No such subject: <epc:pin name="id" />.</epp:phrase>
 
@@ -2949,23 +2949,23 @@
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:subjectid"><p>ID de materia: <epc:pin name="id" /></p></epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:problem_ancestor">El nuevo hijo es un ancestro de esta materia (Esto causará un ciclo)</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:problem_ancestor">El nuevo hijo es un ancestro de esta materia (Esto causar&aacute; un ciclo)</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:problem_noid">No fue dado ningú ID para el nuevo hijo</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:problem_noid">No fue dado ning&uacute; ID para el nuevo hijo</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:problems"><h2>Problemas</h2></epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:location">Localización(ones) en la Jerarquía</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:location">Localizaci&oacute;n(ones) en la Jerarqu&iacute;a</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:subject">Materia</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:inarchive">Documentos en el Repositorio</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:inbuffer">Documentos bajo Revisón</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:inbuffer">Documentos bajo Revis&oacute;n</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:nparents">Número de Padres</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:nparents">N&uacute;mero de Padres</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:nchildren">Número de Hijos</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:nchildren">N&uacute;mero de Hijos</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:action_delete">Borrar</epp:phrase>
 
@@ -2991,13 +2991,13 @@
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:error_badsubject">La materia especificada no existe, o un error de base de datos ha ocurrido.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:unlinked">Desenlazar materia. Esta nodo de materia todavía existe en otros lugares en el árbol de materia.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:unlinked">Desenlazar materia. Esta nodo de materia todav&iacute;a existe en otros lugares en el &aacute;rbol de materia.</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Subject/Edit:removed">Materia eliminada. Este nodo de materia ha sido borrado.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:linked">Enlazó el nodo existente de materia "<epc:pin name="newchild" />" como un hijo de este nodo de materia.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:linked">Enlaz&oacute; el nodo existente de materia "<epc:pin name="newchild" />" como un hijo de este nodo de materia.</epp:phrase>
 
-  <epp:phrase id="Plugin/Screen/Subject/Edit:description">Modificar el(los) árbol(es) de materia</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Subject/Edit:description">Modificar el(los) &aacute;rbol(es) de materia</epp:phrase>
 
   <epp:phrase id="Plugin/Screen/Staff/EPrintSearch:description">Buscar documentos en este repositorio.</epp:phrase>
 
@@ -3013,19 +3013,19 @@
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:title">Subida de documento</epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:create_failed">Creación del documento fallida.</epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:create_failed">Creaci&oacute;n del documento fallida.</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:upload_failed">Subida de fichero fallida.</epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:no_document">Acción intentada en un documento inexistente: <epc:pin name="docid" /></epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:no_document">Acci&oacute;n intentada en un documento inexistente: <epc:pin name="docid" /></epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:bad_document">El documento especificado no pertenece al objeto actual.</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:no_file">El fichero no existe.</epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:bad_button">Botón interno desconocido: <epc:pin name="button" /></epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:bad_button">Bot&oacute;n interno desconocido: <epc:pin name="button" /></epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:bad_doc_button">Botón interno desconocido del documento: <epc:pin name="button" /></epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:bad_doc_button">Bot&oacute;n interno desconocido del documento: <epc:pin name="button" /></epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:show_options">Mostrar opciones</epp:phrase>
 
@@ -3039,11 +3039,11 @@
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:delete_file">Borrar</epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:delete_file_confirm">Borrar fichero <epc:pin name="filename" />: ¿está seguro?</epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:delete_file_confirm">Borrar fichero <epc:pin name="filename" />: ¿est&aacute; seguro?</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:delete_document">Borrar documento</epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:delete_document_confirm">Borrar documento completo: ¿está seguro?</epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:delete_document_confirm">Borrar documento completo: ¿est&aacute; seguro?</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:upload_blurb">Por favor, suba un fichero.</epp:phrase>
 
@@ -3051,7 +3051,7 @@
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:add_files"><epc:pin name="link">¿Necesita a&ntilde;adir ficheros adicionales a este documento?</epc:pin></epp:phrase>
 
-  <epp:phrase id="Plugin/InputForm/Component/Upload:really_add">¡Espere! ¿Está verdaderamente seguro de que quiere a&ntilde;adir otro fichero a este documento? Haga esto solamente si el fichero es directamente requerido por el documento. Por ejemplo, una imagen requerida por un documento HTML. Si está segur desea entonces pulsar ACEPTAR. La mayor parte del tiempo usted desea pulsar Cancelar, entonces utilice Nuevo Fichero de Documento encima.</epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Upload:really_add">¡Espere! ¿Est&aacute; verdaderamente seguro de que quiere a&ntilde;adir otro fichero a este documento? Haga esto solamente si el fichero es directamente requerido por el documento. Por ejemplo, una imagen requerida por un documento HTML. Si est&aacute; segur desea entonces pulsar ACEPTAR. La mayor parte del tiempo usted desea pulsar Cancelar, entonces utilice Nuevo Fichero de Documento encima.</epp:phrase>
 
   <epp:phrase id="Plugin/InputForm/Component/Upload:really_next">¡Espere! Ha seleccionado un fichero para subir, pero verdaderamente no lo ha subido. ¿Desea continuar sin subir el fichero?</epp:phrase>
 
@@ -3103,11 +3103,11 @@
 
   <epp:phrase id="Plugin/Import/XML:expected">Esperando <epc:pin name="elements" /></epp:phrase>
 
-  <epp:phrase id="Plugin/Import/XML:unexpected_xml">Esperando solamente texto, se encontró: <epc:pin name="xml" /></epp:phrase>
+  <epp:phrase id="Plugin/Import/XML:unexpected_xml">Esperando solamente texto, se encontr&oacute;: <epc:pin name="xml" /></epp:phrase>
 
   <epp:phrase id="Plugin/Import/DefaultXML:no_subclass">xml_to_epdata debe ser sobreshould be overridden.</epp:phrase>
 
-  <epp:phrase id="Plugin/Import/DefaultXML:unexpected_xml">Esperando solamente texto, se encontró: <epc:pin name="xml" /></epp:phrase>
+  <epp:phrase id="Plugin/Import/DefaultXML:unexpected_xml">Esperando solamente texto, se encontr&oacute;: <epc:pin name="xml" /></epp:phrase>
 
   <epp:phrase id="languages_typename_aa">Afar</epp:phrase>
 
@@ -3129,31 +3129,31 @@
 
   <epp:phrase id="languages_typename_be">Bielorruso</epp:phrase>
 
-  <epp:phrase id="languages_typename_bg">Búlgaro</epp:phrase>
+  <epp:phrase id="languages_typename_bg">B&uacute;lgaro</epp:phrase>
 
   <epp:phrase id="languages_typename_bh">Bihari</epp:phrase>
 
   <epp:phrase id="languages_typename_bi">Bislama</epp:phrase>
 
-  <epp:phrase id="languages_typename_bn">Bengalí; Bangla</epp:phrase>
+  <epp:phrase id="languages_typename_bn">Bengal&iacute;; Bangla</epp:phrase>
 
   <epp:phrase id="languages_typename_bo">Tibetano</epp:phrase>
 
-  <epp:phrase id="languages_typename_br">Bretón</epp:phrase>
+  <epp:phrase id="languages_typename_br">Bret&oacute;n</epp:phrase>
 
-  <epp:phrase id="languages_typename_ca">Catalán</epp:phrase>
+  <epp:phrase id="languages_typename_ca">Catal&aacute;n</epp:phrase>
 
   <epp:phrase id="languages_typename_co">Corsican</epp:phrase>
 
   <epp:phrase id="languages_typename_cs">Checo</epp:phrase>
 
-  <epp:phrase id="languages_typename_cy">Galés</epp:phrase>
+  <epp:phrase id="languages_typename_cy">Gal&eacute;s</epp:phrase>
 
-  <epp:phrase id="languages_typename_da">Danés</epp:phrase>
+  <epp:phrase id="languages_typename_da">Dan&eacute;s</epp:phrase>
 
-  <epp:phrase id="languages_typename_de">Alemán</epp:phrase>
+  <epp:phrase id="languages_typename_de">Alem&aacute;n</epp:phrase>
 
-  <epp:phrase id="languages_typename_dz">Butanés</epp:phrase>
+  <epp:phrase id="languages_typename_dz">Butan&eacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_el">Griego</epp:phrase>
 
@@ -3167,23 +3167,23 @@
 
   <epp:phrase id="languages_typename_fa">Persa</epp:phrase>
 
-  <epp:phrase id="languages_typename_fi">Finlandés</epp:phrase>
+  <epp:phrase id="languages_typename_fi">Finland&eacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_fj">Fiji</epp:phrase>
 
   <epp:phrase id="languages_typename_fo">Faroese</epp:phrase>
 
-  <epp:phrase id="languages_typename_fr">Francés</epp:phrase>
+  <epp:phrase id="languages_typename_fr">Franc&eacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_fy">Frisian</epp:phrase>
 
-  <epp:phrase id="languages_typename_ga">Irlandés</epp:phrase>
+  <epp:phrase id="languages_typename_ga">Irland&eacute;s</epp:phrase>
 
-  <epp:phrase id="languages_typename_gd">Escocés Gaélico</epp:phrase>
+  <epp:phrase id="languages_typename_gd">Escoc&eacute;s Ga&eacute;lico</epp:phrase>
 
   <epp:phrase id="languages_typename_gl">Gallego</epp:phrase>
 
-  <epp:phrase id="languages_typename_gn">Guaraní</epp:phrase>
+  <epp:phrase id="languages_typename_gn">Guaran&iacute;</epp:phrase>
 
   <epp:phrase id="languages_typename_gu">Gujarati</epp:phrase>
 
@@ -3195,7 +3195,7 @@
 
   <epp:phrase id="languages_typename_hr">Croata</epp:phrase>
 
-  <epp:phrase id="languages_typename_hu">Húngaro</epp:phrase>
+  <epp:phrase id="languages_typename_hu">H&uacute;ngaro</epp:phrase>
 
   <epp:phrase id="languages_typename_hy">Armenio</epp:phrase>
 
@@ -3213,15 +3213,15 @@
 
   <epp:phrase id="languages_typename_iu">Inuktitut</epp:phrase>
 
-  <epp:phrase id="languages_typename_ja">Japonés</epp:phrase>
+  <epp:phrase id="languages_typename_ja">Japon&eacute;s</epp:phrase>
 
-  <epp:phrase id="languages_typename_jw">Javanés</epp:phrase>
+  <epp:phrase id="languages_typename_jw">Javan&eacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_ka">Georgian</epp:phrase>
 
   <epp:phrase id="languages_typename_kk">Kazakh</epp:phrase>
 
-  <epp:phrase id="languages_typename_kl">Groenlandés</epp:phrase>
+  <epp:phrase id="languages_typename_kl">Groenland&eacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_km">Camboyano</epp:phrase>
 
@@ -3233,7 +3233,7 @@
 
   <epp:phrase id="languages_typename_ku">Kurdo</epp:phrase>
 
-  <epp:phrase id="languages_typename_ky">kirguís</epp:phrase>
+  <epp:phrase id="languages_typename_ky">kirgu&iacute;s</epp:phrase>
 
   <epp:phrase id="languages_typename_la">Latin</epp:phrase>
 
@@ -3385,21 +3385,21 @@
 
   <epp:phrase id="saved_search_fieldname_id">Buscar ID</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldname_name">Nombre de la búsqueda</epp:phrase>
+  <epp:phrase id="saved_search_fieldname_name">Nombre de la b&uacute;squeda</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldhelp_name">Este nombre será utilizado para referirse a esta búsqueda guardada</epp:phrase>
+  <epp:phrase id="saved_search_fieldhelp_name">Este nombre ser&aacute; utilizado para referirse a esta b&uacute;squeda guardada</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldname_spec">Condiciones de búsqueda guardada</epp:phrase>
+  <epp:phrase id="saved_search_fieldname_spec">Condiciones de b&uacute;squeda guardada</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldhelp_spec">Registros nuevos o cambiados que coincidan con esta búsqueda les serán enviados por correo.</epp:phrase>
+  <epp:phrase id="saved_search_fieldhelp_spec">Registros nuevos o cambiados que coincidan con esta b&uacute;squeda les ser&aacute;n enviados por correo.</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldname_frequency">Frecuencia de envío por correo electrónico de la búsqueda guardada</epp:phrase>
+  <epp:phrase id="saved_search_fieldname_frequency">Frecuencia de env&iacute;o por correo electr&oacute;nico de la b&uacute;squeda guardada</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldhelp_frequency">¿Con qué frecuencia usted quiere que le sea enviada esta alerta? El establecimiento de "nunca" deshabilitará esta alerta.</epp:phrase>
+  <epp:phrase id="saved_search_fieldhelp_frequency">¿Con qu&eacute; frecuencia usted quiere que le sea enviada esta alerta? El establecimiento de "nunca" deshabilitar&aacute; esta alerta.</epp:phrase>
 
   <epp:phrase id="saved_search_fieldopt_frequency_never">Nunca</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldopt_frequency_daily">Una vez al Día</epp:phrase>
+  <epp:phrase id="saved_search_fieldopt_frequency_daily">Una vez al D&iacute;a</epp:phrase>
 
   <epp:phrase id="saved_search_fieldopt_frequency_weekly">Una vez a la Semana</epp:phrase>
 
@@ -3407,17 +3407,17 @@
 
   <epp:phrase id="saved_search_fieldname_userid">ID de Usuario del Due&ntilde;o</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldname_mailempty">Enviar resultados vacíos</epp:phrase>
+  <epp:phrase id="saved_search_fieldname_mailempty">Enviar resultados vac&iacute;os</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldhelp_mailempty">Si no hay nuevos objetos que coincidan con su búsqueda guardada, desde la última vez que se la enviaron resultados, ¿quiere todavía ser avisado por correo?</epp:phrase>
+  <epp:phrase id="saved_search_fieldhelp_mailempty">Si no hay nuevos objetos que coincidan con su b&uacute;squeda guardada, desde la &uacute;ltima vez que se la enviaron resultados, ¿quiere todav&iacute;a ser avisado por correo?</epp:phrase>
 
-  <epp:phrase id="saved_search_radio_mailempty"><label><epc:pin name="true" />Sí, envínme un correo de alerta vacío.</label><br /><label><epc:pin name="false" />No. Solamente envínme correos de  alertas con contenido.</label></epp:phrase>
+  <epp:phrase id="saved_search_radio_mailempty"><label><epc:pin name="true" />S&iacute;, env&iacute;nme un correo de alerta vac&iacute;o.</label><br /><label><epc:pin name="false" />No. Solamente env&iacute;nme correos de  alertas con contenido.</label></epp:phrase>
 
-  <epp:phrase id="saved_search_fieldname_public">¿Hacer la búsqueda pública?</epp:phrase>
+  <epp:phrase id="saved_search_fieldname_public">¿Hacer la b&uacute;squeda p&uacute;blica?</epp:phrase>
 
-  <epp:phrase id="saved_search_fieldhelp_public">¿Desea tener la posibilidad de enlazarse directamente a esta búsqueda a través de una URL pública?</epp:phrase>
+  <epp:phrase id="saved_search_fieldhelp_public">¿Desea tener la posibilidad de enlazarse directamente a esta b&uacute;squeda a trav&eacute;s de una URL p&uacute;blica?</epp:phrase>
 
-  <epp:phrase id="saved_search_radio_public"><label><epc:pin name="true" />Sí, hacer esta búsqueda disponible para cualquiera.</label><br /><label><epc:pin name="false" />No. Solamente yo tendré acceso a esta búsqueda.</label></epp:phrase>
+  <epp:phrase id="saved_search_radio_public"><label><epc:pin name="true" />S&iacute;, hacer esta b&uacute;squeda disponible para cualquiera.</label><br /><label><epc:pin name="false" />No. Solamente yo tendr&eacute; acceso a esta b&uacute;squeda.</label></epp:phrase>
 
   <epp:phrase id="mail_view">
     <div class="ep_mail_view">
@@ -3458,13 +3458,13 @@
 
   <epp:phrase id="Plugin/Screen/Public/RequestCopy:title">Solicitar una copia</epp:phrase>
 
-  <epp:phrase id="request_fieldname_requester_email">Dirección de correo electrónico</epp:phrase>
+  <epp:phrase id="request_fieldname_requester_email">Direcci&oacute;n de correo electr&oacute;nico</epp:phrase>
 
-  <epp:phrase id="request_fieldname_reason">Razón</epp:phrase>
+  <epp:phrase id="request_fieldname_reason">Raz&oacute;n</epp:phrase>
 
-  <epp:phrase id="request_fieldhelp_reason">Usted puede introducir una justificación por la cual solicita este documento.</epp:phrase>
+  <epp:phrase id="request_fieldhelp_reason">Usted puede introducir una justificaci&oacute;n por la cual solicita este documento.</epp:phrase>
 
-  <epp:phrase id="request:no_email">Debe especificar una dirección de correo electrónico.</epp:phrase>
+  <epp:phrase id="request:no_email">Debe especificar una direcci&oacute;n de correo electr&oacute;nico.</epp:phrase>
 
   <epp:phrase id="request/request_email:subject">Solicitud para &quot;<epc:pin name="eprint" />&quot;</epp:phrase>
 
@@ -3472,7 +3472,7 @@
 
   <p><epc:pin name="eprint" /><br /><epc:pin name="document" /></p>
 
-  <p>La siguiente razón fue dada:</p>
+  <p>La siguiente raz&oacute;n fue dada:</p>
 
   <epc:pin name="reason" />
 
@@ -3500,12 +3500,12 @@
 
   <p>It may not always be straightforward to provide full text. Your local library may also be able to help you. For more general queries you may also contact the <a href="mailto:{$config{adminemail}}">administrator</a>.</p>
 
-  <p>Se ha dado la siguiente razón:</p>
+  <p>Se ha dado la siguiente raz&oacute;n:</p>
 
   <epc:pin name="reason" />
   </epp:phrase>
 
-  <epp:phrase id="request/response_email:body_oa"><p>El recurso que usted solicita se encuentra ahora accesible públicamente:</p>
+  <epp:phrase id="request/response_email:body_oa"><p>El recurso que usted solicita se encuentra ahora accesible p&uacute;blicamente:</p>
 
   <p><epc:pin name="eprint" /><br />(<epc:pin name="document" />)</p>
   </epp:phrase>

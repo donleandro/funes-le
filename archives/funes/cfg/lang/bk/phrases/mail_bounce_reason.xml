@@ -4,15 +4,15 @@
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
 
 <epp:phrase id="mail_bounce_reason">
-No se proporcionó ninguna razón.
+No se proporcion&oacute; ninguna raz&oacute;n.
 </epp:phrase>
 
 
 <epp:phrase id="mail_bounce_body">
-<div style="font-size: 11pt">Devolución de Documento</div>
+<div style="font-size: 11pt">Devoluci&oacute;n de Documento</div>
 <p>Desafortunadamente su documento <b><epc:pin name="title"/></b> no pudo ser aceptado en <epc:phrase ref="archive_name" /> en su estado actual.</p>
 <p><epc:pin name="reason" /></p>
-<p>El documento ha sido devuelto a su área de trabajo. Usted puede <epc:pin name="edit_link">editarlo</epc:pin>, arreglar el problema y volver a depositarlo.</p>
+<p>El documento ha sido devuelto a su &aacute;rea de trabajo. Usted puede <epc:pin name="edit_link">editarlo</epc:pin>, arreglar el problema y volver a depositarlo.</p>
 </epp:phrase>
 
 </epp:phrases>

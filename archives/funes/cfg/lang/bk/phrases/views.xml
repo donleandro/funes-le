@@ -6,7 +6,7 @@
      <epp:phrase id="viewname_eprint_people">Persona</epp:phrase>
      <epp:phrase id="viewname_eprint_status">Estado</epp:phrase>
      <epp:phrase id="viewname_eprint_year">A&ntilde;o</epp:phrase>
-     <epp:phrase id="viewname_eprint_subjects">Término Clave</epp:phrase>
+     <epp:phrase id="viewname_eprint_subjects">T&eacute;rmino Clave</epp:phrase>
      <epp:phrase id="viewname_eprint_types">Tipo</epp:phrase>
           <epp:phrase id="viewname_eprint_creators">Autor</epp:phrase>
         <epp:phrase id="viewname_eprint_divisions">Nivel Educativo</epp:phrase>

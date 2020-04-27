@@ -21,27 +21,27 @@
     <epp:phrase id="user_fieldopt_os_other">Otro</epp:phrase>
 
     <epp:phrase id="user_fieldname_hideemail">Ocultar Email</epp:phrase>
-    <epp:phrase id="user_fieldhelp_hideemail">Esta opción permite o impide que se muestre la dirección de correo electrónico del usuario en su página pública de resumen.</epp:phrase>
-    <epp:phrase id="user_radio_hideemail"><label><epc:pin name="false"/> Permitir que la dirección de correo electrónico sea visible a todos los usuarios.</label><br/><label><epc:pin name="true"/> Ocultar la dirección de correo electrónico a los usuarios. El administrador podrá verla para comunicarse con usted.</label></epp:phrase>
+    <epp:phrase id="user_fieldhelp_hideemail">Esta opci&oacute;n permite o impide que se muestre la direcci&oacute;n de correo electr&oacute;nico del usuario en su p&aacute;gina p&uacute;blica de resumen.</epp:phrase>
+    <epp:phrase id="user_radio_hideemail"><label><epc:pin name="false"/> Permitir que la direcci&oacute;n de correo electr&oacute;nico sea visible a todos los usuarios.</label><br/><label><epc:pin name="true"/> Ocultar la direcci&oacute;n de correo electr&oacute;nico a los usuarios. El administrador podr&aacute; verla para comunicarse con usted.</label></epp:phrase>
 
 
     <epp:phrase id="user_fieldname_dept">Departamento</epp:phrase>
     <epp:phrase id="user_fieldhelp_dept">El nombre del departamento o centro institucional donde trabaja.</epp:phrase>
 
-    <epp:phrase id="user_fieldname_org">Institución</epp:phrase>
-    <epp:phrase id="user_fieldhelp_org">El nombre de la institución en la que trabaja.</epp:phrase>
+    <epp:phrase id="user_fieldname_org">Instituci&oacute;n</epp:phrase>
+    <epp:phrase id="user_fieldhelp_org">El nombre de la instituci&oacute;n en la que trabaja.</epp:phrase>
 
-    <epp:phrase id="user_fieldname_address">Dirección Postal</epp:phrase>
-    <epp:phrase id="user_fieldhelp_address">Su dirección postal completa de tal forma que pueda recibir eventualmente envíos postales.</epp:phrase>
+    <epp:phrase id="user_fieldname_address">Direcci&oacute;n Postal</epp:phrase>
+    <epp:phrase id="user_fieldhelp_address">Su direcci&oacute;n postal completa de tal forma que pueda recibir eventualmente env&iacute;os postales.</epp:phrase>
 
-    <epp:phrase id="user_fieldname_country">País</epp:phrase>
+    <epp:phrase id="user_fieldname_country">Pa&iacute;s</epp:phrase>
     <epp:phrase id="user_fieldhelp_country"></epp:phrase>
 
     <epp:phrase id="user_fieldname_url">URL Pagina Web</epp:phrase>
-    <epp:phrase id="user_fieldhelp_url">El enlace de su página web personal.</epp:phrase>
+    <epp:phrase id="user_fieldhelp_url">El enlace de su p&aacute;gina web personal.</epp:phrase>
 
     <epp:phrase id="user_fieldname_expertise">Especialidad</epp:phrase>
-    <epp:phrase id="user_fieldhelp_expertise">Por favor haga una lista de palabras/frases que describan sus áreas de trabajo o especialización con los términos que puedan ser utilizados por alguien que busque documentos en esas áreas. Evite términos demasiado generales generales ("Matemáticas") y términos demasiado concretos ( "mi teoría sobre el uso del signo igual") que no es probable que se hagan en una búsqueda. Introduzca tantas palabras/frases clave como desee.</epp:phrase>
+    <epp:phrase id="user_fieldhelp_expertise">Por favor haga una lista de palabras/frases que describan sus &aacute;reas de trabajo o especializaci&oacute;n con los t&eacute;rminos que puedan ser utilizados por alguien que busque documentos en esas &aacute;reas. Evite t&eacute;rminos demasiado generales generales ("Matem&aacute;ticas") y t&eacute;rminos demasiado concretos ( "mi teor&iacute;a sobre el uso del signo igual") que no es probable que se hagan en una b&uacute;squeda. Introduzca tantas palabras/frases clave como desee.</epp:phrase>
 
     <epp:phrase id="user_section_prefs">Preferencias del usuario</epp:phrase>
 

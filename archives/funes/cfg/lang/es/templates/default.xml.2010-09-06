@@ -13,7 +13,7 @@
     <link rel="Search" href="{$config{perl_url}}/search"/>
     <epc:pin ref="head"/>
   </head>
-  <body bgcolor="#ffffff" text="#000000" onload="{$config{onload}}">
+  <body bgcolor="#ffffff" text="#000000">
     <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
     <epc:pin ref="pagetop"/>
     <div class="ep_tm_header ep_noprint">
@@ -24,7 +24,7 @@
     <div><a href="http://www.uniandes.edu.co" target="_blank"><img alt="Uniandes" src="{$config{base_url}}/images/uniandes.jpg" border="0" /></a></div>
     </td>
           <td align="center">
-    <div><a href="/" target="_blank"><img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/></a></div>
+    <div><a href="http://funes.uniandes.edu.co" target="_blank"><img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/></a></div>
     </td>
     <td align="right" style="white-space: nowrap">
     <div><a href="http://www.mineducacion.gov.co/"><img alt="Ministerio de Educacion" src="{$config{base_url}}/images/men.gif" border="0"/></a></div>
@@ -33,7 +33,7 @@
       <tr>
       <td align="left" valign="middle"> </td>
       <td align="center" valign="middle">
-     <div><a href="/" target="_blank"><img alt="Funes" src="{$config{base_url}}/images/funesTexto.jpg" border="0" /></a></div>
+     <div><a href="http://funes.uniandes.edu.co" target="_blank"><img alt="Funes" src="{$config{base_url}}/images/funesTexto.jpg" border="0" /></a></div>
  </td>
       <td align="right" valign="middle"> </td>
     </tr>
@@ -67,57 +67,47 @@
                                        <strong> B&uacute;squedas </strong>
                                         <ul>
                                                 <li class="navlink">
-                                                        <a href="/cgi/search/simple">Simple</a>
+                                                        <a href="http://funes.uniandes.edu.co/cgi/search/simple">Simple</a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/cgi/search/advanced">Avanzada</a>
+                                                        <a href="http://funes.uniandes.edu.co/cgi/search/advanced">Avanzada</a>
                                                 </li>
                                         </ul>
                                 </li>
                                 <li class="navtitle">
                                         <strong> Explorar por </strong>
                                         <ul>
-                                               <li class="navlink">
-                                                        <a href="/view/subjects/">T&eacute;rmino Clave</a>
+                                                <li class="navlink">
+                                                        <a href="http://funes.uniandes.edu.co/view/year/"> A&ntilde;o </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/view/creators/">Autor</a>
-                                                </li>
-
-                                                <li class="navlink">
-                                                        <a href="/view/valoration/">Valoraci&oacute;n</a>
+                                                        <a href="http://funes.uniandes.edu.co/view/creators/"> Autor </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/view/enfoque/">Enfoque</a>
+                                                        <a href="http://funes.uniandes.edu.co/view/enfoque/"> Enfoque </a>
                                                 </li>
-                                                <li class="navlink">
-                                                        <a href="/view/divisions/">Nivel Educativo</a>
+                                                                        <li class="navlink">
+                                                        <a href="http://funes.uniandes.edu.co/view/divisions/"> Nivel Educativo </a>
                                                 </li>
-                                                <li class="navlink">
-                                                        <a href="/view/revista/">Revista</a>
+                                                                        <li class="navlink">
+                                                        <a href="http://funes.uniandes.edu.co/view/subjects/"> T&eacute;rmino Clave </a>
                                                 </li>
-                                                <li class="navlink">
-                                                        <a href="/view/editorial/">Editorial</a>
-                                                </li>
-                                                <li class="navlink">
-                                                        <a href="/view/year/">A&ntilde;o</a>
-                                                </li>                                                
                                         </ul>
                                 </li>
                                 <li class="navtitle">
                                        <strong> Acerca de </strong>
                                         <ul>
                                                 <li class="navlink">
-                                                        <a href="/information.html"> Funes </a>
+                                                        <a href="http://funes.uniandes.edu.co/information.html"> Funes </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/legales.html"> Cuestiones Legales </a>
+                                                        <a href="http://funes.uniandes.edu.co/legales.html"> Cuestiones Legales </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/policies.html"> Pol&iacute;ticas de Uso </a>
+                                                        <a href="http://funes.uniandes.edu.co/policies.html"> Pol&iacute;ticas de Uso </a>
                                                 </li>
                                                 <li class="navlink">
-                                                        <a href="/help/index.html#Depositing"> Dep&oacute;sito de Registros </a>
+                                                        <a href="http://funes.uniandes.edu.co/help/index.html#Depositing"> Dep&oacute;sito de Registros </a>
                                                 </li>                         
                                         </ul>
                                 </li>  
@@ -145,17 +135,23 @@
  <hr class="ep_tm_last"/>
  <div style="font-size: 100%;">
    <div>
-  <epc:phrase ref="archive_name" /> es un proyecto de  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a> (<a href="http://cife.uniandes.edu.co/">CIFE</a>, <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogot&aacute;, Colombia), en colaboraci&oacute;n con el grupo <a href="http://fqm193.ugr.es/">FQM-193</a> del Plan Andaluz de Investigaci&oacute;n, Desarrollo e Innovaci&oacute;n de la Junta de Andaluc&iacute;a. <epc:phrase ref="archive_name" /> tiene el patrocinio del <a href="www.mineducacion.gov.co/">Ministerio de Educaci&oacute;n Nacional de Colombia</a>.
+  <epc:phrase ref="archive_name" /> es un proyecto de  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a> (<a href="http://matematicas.uniandes.edu.co/">Departamento de Matem&aacute;ticas</a>, <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogot&aacute;, Colombia), en colaboraci&oacute;n con el grupo <a href="http://fqm193.ugr.es/">FQM-193</a> del Plan Andaluz de Investigaci&oacute;n, Desarrollo e Innovaci&oacute;n de la Junta de Andaluc&iacute;a. <epc:phrase ref="archive_name" /> tiene el patrocinio del <a href="www.mineducacion.gov.co/">Ministerio de Educaci&oacute;n Nacional de Colombia</a>.
    </div>
-   <hr style="width: 100%; height: 2px;"/>
-<table style="width: 100%; text-align: center; margin-left: 0px; margin-right: auto;" border="0" cellpadding="6" cellspacing="6">
+   <hr style="width: 100%; height: 2px;"/> <br></br><br></br><br></br>
+<table style="width: 70%; text-align: left; margin-left: 0px; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
  <tbody>
    <tr>
-     <td style="text-align: center;" valign="undefined"><a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a></td>
-     <td style="text-align: center;" valign="undefined"><a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a></td>
+     <td style="text-align: center;" valign="undefined"><a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 125px; height: 60px;" alt="una empresa docente" src="http://funes.uniandes.edu.co/images/ued.gif"/></a></td>
+     <td align="undefined" valign="undefined">
+     <div style="text-align: center;"><a href="http://matematicas.uniandes.edu.co/">Departamento de<br/>
+Matem&aacute;ticas</a></div>
+     </td>
+     <td>
+     <div style="text-align: center;"><a href="http://cife.uniandes.edu.co/web/index.php">CIFE</a></div>
+     </td>
 
-     <td style="text-align: center;" valign="undefined"><a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a></td>
-     <td style="text-align: center;" valign="undefined"><a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a></td>
+     <td style="text-align: center;" valign="undefined"><a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 150px; height: 50px;" alt="Grupo FQM-193" src="http://funes.uniandes.edu.co/images/FQM.gif"/></a></td>
+     <td style="text-align: center;" valign="undefined"><a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 154px; height: 50px;" alt="Universidad de Granada" src="http://funes.uniandes.edu.co/images/ugr.gif"/></a></td>
    </tr>
  </tbody>
 </table>

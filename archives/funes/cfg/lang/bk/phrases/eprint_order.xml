@@ -5,13 +5,13 @@
 
 <!-- Sort Order names -->
 
-    <epp:phrase id="ordername_eprint_byyear">por a&ntilde;o (el más reciente primero)</epp:phrase>
-    <epp:phrase id="ordername_eprint_byyearoldest">por a&ntilde;o (el más antiguo primero)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byyear">por a&ntilde;o (el m&aacute;s reciente primero)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byyearoldest">por a&ntilde;o (el m&aacute;s antiguo primero)</epp:phrase>
     <epp:phrase id="ordername_eprint_byname">por nombre de autor</epp:phrase>
-    <epp:phrase id="ordername_eprint_bytitle">por título</epp:phrase>
+    <epp:phrase id="ordername_eprint_bytitle">por t&iacute;tulo</epp:phrase>
 
-    <epp:phrase id="ordername_eprint_bytitlerev">por título (orden inverso)</epp:phrase>
-    <epp:phrase id="ordername_eprint_bystatuschanged">por estado de cambios (el más reciente primero)</epp:phrase>
-    <epp:phrase id="ordername_eprint_bystatuschangedoldest">por estado de cambios (el más antiguo primero)</epp:phrase>
+    <epp:phrase id="ordername_eprint_bytitlerev">por t&iacute;tulo (orden inverso)</epp:phrase>
+    <epp:phrase id="ordername_eprint_bystatuschanged">por estado de cambios (el m&aacute;s reciente primero)</epp:phrase>
+    <epp:phrase id="ordername_eprint_bystatuschangedoldest">por estado de cambios (el m&aacute;s antiguo primero)</epp:phrase>
 
 </epp:phrases>
