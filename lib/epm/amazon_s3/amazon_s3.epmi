@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm id='http://134.122.17.78/id/epm/amazon_s3' xmlns='http://eprints.org/ep2/data/2.0'>
+  <epmid>amazon_s3</epmid>
+  <eprintid>115</eprintid>
+  <uri>http://bazaar.eprints.org/id/epm/amazon_s3</uri>
+  <documents>
+    <document id='http://134.122.17.78/id/document/457'>
+      <docid>457</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/1506'>
+          <fileid>1506</fileid>
+          <datasetid>document</datasetid>
+          <objectid>457</objectid>
+          <filename>epm/amazon_s3/cfg/cfg.d/amazon_s3.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>a0d6f8a4728a1eff5b1a92aa66329052</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>531</filesize>
+          <mtime>2011-07-19 09:35:51</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/1507'>
+          <fileid>1507</fileid>
+          <datasetid>document</datasetid>
+          <objectid>457</objectid>
+          <filename>plugins/EPrints/Plugin/Storage/AmazonS3.pm</filename>
+          <mime_type>application/x-not-regular-file</mime_type>
+          <hash>f6981d567670ec42e4d7225f11fbcbac</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>4802</filesize>
+          <mtime>2011-07-19 09:35:51</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/1508'>
+          <fileid>1508</fileid>
+          <datasetid>document</datasetid>
+          <objectid>457</objectid>
+          <filename>plugins/LWP/UserAgent/AmazonS3.pm</filename>
+          <mime_type>application/x-not-regular-file</mime_type>
+          <hash>25d6211fe59dd9433706c04317910de9</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5102</filesize>
+          <mtime>2011-07-19 09:35:51</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/1509'>
+          <fileid>1509</fileid>
+          <datasetid>document</datasetid>
+          <objectid>457</objectid>
+          <filename>static/images/epm/amazon_s3.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>fcfabe6c3154116f12dab9e1d2b9f444</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>144784</filesize>
+          <mtime>2011-07-19 09:35:51</mtime>
+        </file>
+      </files>
+      <eprintid>115</eprintid>
+      <pos>1</pos>
+      <placement>1</placement>
+      <mime_type>image/png</mime_type>
+      <format>other</format>
+      <language>en</language>
+      <security>public</security>
+      <main>static/images/epm/amazon_s3.png</main>
+      <content>install</content>
+    </document>
+    <document id='http://134.122.17.78/id/document/458'>
+      <docid>458</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/1510'>
+          <fileid>1510</fileid>
+          <datasetid>document</datasetid>
+          <objectid>458</objectid>
+          <filename>static/images/epm/amazon_s3.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>fcfabe6c3154116f12dab9e1d2b9f444</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>144784</filesize>
+          <mtime>2011-07-19 09:35:51</mtime>
+        </file>
+      </files>
+      <eprintid>115</eprintid>
+      <pos>2</pos>
+      <placement>2</placement>
+      <mime_type>image/png</mime_type>
+      <format>image/png</format>
+      <language>en</language>
+      <security>public</security>
+      <main>static/images/epm/amazon_s3.png</main>
+      <content>coverimage</content>
+    </document>
+  </documents>
+  <version>1.0.1</version>
+  <controller>EPMC::Cfgd</controller>
+  <creators>
+    <item>
+      <name>
+        <family>Brody</family>
+        <given>Tim</given>
+      </name>
+      <id>tdb2@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <datestamp>2011-07-19 09:35:51</datestamp>
+  <title>Amazon S3 Storage Backend</title>
+  <description>Use Amazon S3 to store and disseminate your repository content. Will full support for cloud based delivery built in, this allows users to download content from their local Amazon point of presence, saving valuable bandwidth in your repository. </description>
+  <icon>images/epm/amazon_s3.png</icon>
+</epm>

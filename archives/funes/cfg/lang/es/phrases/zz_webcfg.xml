@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+<epp:phrase id="cgi/users/status:users">Número de Usuarios</epp:phrase>
+
+  <!-- This file is used to add phrases from the phrase editor screen -->
+
+    <epp:phrase id="lib/searchfield:desc_all_in"><epc:pin name="name"/> que contienen <epc:pin name="value"/></epp:phrase>
+
+    <epp:phrase id="searchfield_name_q">Registros</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/View:description">Agregar o eliminar campos de metadatos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/View:title">Administrar los campos de metadados</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:must_fulfill">Los Registros Recuperados Deben Cumplir</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:help"><p style="margin-top: 0px">Para subir (cargar) un documento a este repositorio, pulse el botón para seleccionar archivos que se encuentra abajo y seleccione el archivo. En seguida, pulse el botón "Cargar" para cargar el archivo al repositorio. Usted puede agregar archivos adicionales al documento (como imágenes para un archivo HTML) o subir más archivos para crear documentos adicionales. 
+Le sugerimos que use el siguiente esquema para dar nombre a los archivos (sin usar tildes): ApellidoAutorFechaPrimeraPalabraTitulo. Por ejemplo: Rodriguez2008Numeros.pdf</p>
+        <!--<p style="margin-bottom: 0px">Es posible que usted desee usar la herramienta <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA RoMEO</a> para verificar las políticas de publicación antes de realizar el depósito.</p>--></epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:add_format">Cargar</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:as_depositor">Ésta es una ventana de un usuario que ha propuesto registros.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Edit:title">Edición del Registro</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:delete_document_confirm">Confirme que desea eliminar el archivo</epp:phrase>
+
+    <epp:phrase id="content_typename_accepted">Versión Aceptada</epp:phrase>
+
+    <epp:phrase id="content_typename_coverimage">Imagen de Cubierta</epp:phrase>
+
+    <epp:phrase id="content_typename_draft">Versión de Borrador</epp:phrase>
+
+    <epp:phrase id="content_typename_metadata">Metadatos Adicionales</epp:phrase>
+
+    <epp:phrase id="content_typename_other">Otro</epp:phrase>
+
+    <epp:phrase id="content_typename_presentation">Presentación</epp:phrase>
+
+    <epp:phrase id="content_typename_published">Versión Publicada</epp:phrase>
+
+    <epp:phrase id="content_typename_submitted">Versión Enviada a Revisión</epp:phrase>
+
+    <epp:phrase id="content_typename_supplemental">Material Complementario</epp:phrase>
+
+    <epp:phrase id="content_typename_updated">Versión Actualizada</epp:phrase>
+
+    <epp:phrase id="licenses_typename_cc_by_nc_nd">Creative Commons Reconocimiento No Comercial Sin Obras Derivadas</epp:phrase>
+
+    <epp:phrase id="document_fieldhelp_license">Especifique una licencia explícita para este documento (esto no afecta los derechos de acceso que usted concede al final del proceso de depósito). Este repositorio permite licencias de <a xmlns="http://creativecommons.org/licenses/by-nd/2.5/deed.es_CO" href="http://creativecommons.org/international/co/" target="_blank">Creative Commons</a>. El tipo de licencia más usual para los documentos en Funes es la de <a xmlns="http://creativecommons.org/licenses/by-nd/2.5/deed.es_CO" href="http://creativecommons.org/licenses/by-nc-nd/2.5/co/" target="_blank">Reconocimiento - No Comercial - Sin Obras Derivadas</a>.</epp:phrase>
+
+    <epp:phrase id="licenses_typename_cc_by_nd">Creative Commons Reconocimiento Sin Obras Derivadas</epp:phrase>
+
+    <epp:phrase id="subject_fieldhelp_subjectid">Ayuda para campos de ayuda</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_subjectid">Identificación de término clave</epp:phrase>
+
+    <epp:phrase id="cgi/login:title">Inicio de sesión</epp:phrase>
+<epp:phrase id="Plugin/Screen/Login:title">Inicio de sesion</epp:phrase>
+
+<epp:phrase id="maxdelta">una semana</epp:phrase>
+
+
+    <epp:phrase id="metapage_title_subjects_help">Si es la primera vez que introduce información para un registro, por favor mire la ayuda (botón "?" a la derecha del título de cada campo).</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_subjects"> Usted puede descargar un <a href="http://funes.uniandes.edu.co/643/3/Funes_TerminosClave.pdf">archivo pdf</a> con la lista completa de términos clave o abrir en <a target="_blank" href="http://funes.uniandes.edu.co/643/2/Funes_TerminosClave.htm">otra ventana</a> de su navegador esta lista.
+    <br/>
+    Por favor, escoja los términos clave que mejor caractericen su documento. Usted debe escoger al menos un término clave perteneciente a las categorías numeradas del 1 al 11, puesto que estos son los términos clave que caracterizan su registro dentro de la educación matemática. La última rama del árbol se denomina "Otros términos clave específicos no incluidos en las secciones anteriores" e incluye, por orden alfabético términos clave que no se han incluido en las ramas anteriores. Procure ser tan específico como sea posible. Si no encuentra un término clave concreto, utilice el término clave de la categoría en la que usted considera que debería estar. Si hay un término clave que usted considera necesario y que no se encuentra en el listado, por favor inclúyalo en el campo de comentarios y sugerencias que aparece abajo, con una explicación breve de por qué debería aparecer en el listado. El editor de Funes tendrá en cuenta su sugerencia y valorará la necesidad de incliurlo. Tenga en cuenta que el editor puede eliminar o agregar términos clave a su registro, con el propósito de que este se identifique de la manera más clara y eficiente posible dentro del repositorio.
+</epp:phrase>
+
+    <epp:phrase id="lib/metafield:given_names">Nombres</epp:phrase>
+    <epp:phrase id="citation_pres_type_keynote">Conferencia presentada en </epp:phrase>
+    <epp:phrase id="citation_pres_type_ lecture">Curso dictado en </epp:phrase>
+    <epp:phrase id="citation_pres_type_ poster">Cartel presentado en </epp:phrase>
+    <epp:phrase id="citation_pres_type_ panel">Participación en mesa redonda en </epp:phrase>
+    <epp:phrase id="citation_pres_type_paper">Comunicación presentada en </epp:phrase>
+    <epp:phrase id="citation_pres_type_speech">Taller realizado en </epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_edited_book">Un libro compuesto de capítulos con diferentes autores. El libro debe tener uno o más editores e ISBN. Los capítulos deben tener un rango de páginas en el que se ubican dentro del libro.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_edited_book">Libro Editado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_creators">Introduzca los autores en el orden correspondiente. En el caso de un libro editado, introduzca los datos de los editores del libro. Observe que si un autor o editor ya tiene registros publicados, sus datos aparecerán tan pronto usted comience a introducir el apellido. Incluya únicamente el primer apellido de cada autor. Si hay más de cuatro autores, pulse el botón [More input rows]. En el caso de que el autor sea una institución, utilice el campo de apellido y escriba un espacio en el campo de nombre.
+<br/>Ejemplo: [<span class="ep_form_Ejemplo">Rodríguez</span>] [<span class="ep_form_Ejemplo">Vilma María</span>] [<span class="ep_form_Ejemplo">vm.rodriguez@servidor.edu.co</span>]
+<br/>Ejemplo: [<span class="ep_form_Ejemplo">González-López</span>] [<span class="ep_form_Ejemplo">Juan</span>] [<span class="ep_form_Ejemplo">juan@servidor.com</span>]
+<br/>Ejemplo: [<span class="ep_form_Ejemplo">Castillo</span>] [<span class="ep_form_Ejemplo">Mario</span>] []
+<br/>Ejemplo: [<span class="ep_form_Ejemplo">de Castro</span>] [<span class="ep_form_Ejemplo">Carlos E.</span>] []
+</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_conference_item">El documento de una conferencia, comunicación, taller, cartel, curso o participación en una mesa redonda realizados en algún evento o institución. Si usted tiene únicamente el o los archivos de PowerPoint (u otro formato) de su presentación, puede crear el registro con esos archivos sin necesidad de incluir archivos adicionales. Si el documento de la conferencia ha sido publicado en las actas del congreso o en un libro editado con isbn, editores y rango de páginas para el documento, utilice alguna de las secciones anteriores (aquí puede incluir los archivos de la presentación).</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_actas_congresos">Un documento publicado en un libro de actas de congresos. El libro de actas debe tener ISBN asignado y editores. En caso contrario, seleccione la opción "Conferencia, Comunicación, Cartel, Taller, Curso o Participación en Mesa Redonda".</epp:phrase>
+
+    <epp:phrase id="eprint_typename_conference_item">Conferencia, Comunicación, Cartel, Taller, Curso o Participación en Mesa Redonda</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:subjects_search_bar"><div class="ep_subjectinput_searchbar">Buscar el término clave (no use tildes): <epc:pin name="input"/> <epc:pin name="search_button"/> <epc:pin name="clear_button"/></div></epp:phrase>
+    
+    <epp:phrase id="unpublished_work">Documento no publicado</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:subject_bounce">Su propuesta de documento para Funes</epp:phrase>
+
+    <epp:phrase id="mail_bounce_body">
+<div style="font-size: 11pt">Devolución de su documento a su área de trabajo</div>
+<p>Desafortunadamente su documento <b><epc:pin name="title"/></b> no pudo ser aceptado para su publicación en <epc:phrase ref="archive_name"/>.</p>
+<p><epc:pin name="reason"/></p>
+<p>El documento ha sido devuelto a su área de trabajo. Usted puede <epc:pin name="edit_link">editarlo</epc:pin>, para revisarlo y, si es el caso, volver a depositarlo.</p>
+</epp:phrase>
+
+    <epp:phrase id="deposit_agreement_text">
+<p><strong>Para trabajos depositados por su propio autor:</strong> 
+Al depositar la colección de archivos y metadatos bibliográficos asociados a este registro, otorgo a <epc:phrase ref="archive_name"/> el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea.</p>
+<p>Declaro que este material es de mi propiedad intelectual y entiendo que <epc:phrase ref="archive_name"/> no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos archivos o metadatos. (Se insta a todos los autores a destacar sus derechos de autor en la página de título del documento principal de sus registros en <epc:phrase ref="archive_name"/>.)</p>
+
+<p><strong>Para trabajos depositados por personas distintas a su autor:</strong> Por la presente, declaro que la colección de archivos y metadatos bibliográficos asociados al registro que estoy depositando en <epc:phrase ref="archive_name"/> es de dominio público. Si éste no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos archivos o metadatos.</p>
+
+<p>Pulsar en el botón de depósito indica que usted está de acuerdo con estos términos.</p>
+    </epp:phrase>
+
+    <epp:phrase id="lib/metafield:family_names">Primer Apellido</epp:phrase>
+
+    <epp:phrase id="user_section_account">Detalles de la Cuenta (por favor use minúsculas con la primera letra de los nombres propios en mayúscula)</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_abstract">El resumen del documento. Si el documento original no tiene un resumen, por favor describa brevemente su contenido. No es posible asignar formato (e.g., negritas, cursivas) al texto. Por favor, procure, en la medida de lo posible, que el resumen tenga máximo 100 palabras de extensión. Cuando copie este texto de otra fuente, tenga cuidado de eliminar los cortes de palabras que puedan existir en el documento original así como con otro tipos de caracteres que pueden quedar inapropiadamente escritos.</epp:phrase>
+
+    <epp:phrase id="lib/user:editor_update_subject">Funes: registros pendientes de revisión</epp:phrase>
+ <epp:phrase id="lib/user:editor_update_mail">
+<p>Tiene <epc:pin name="n"/> <a href="{$config{userhome}}?screen=Review"> registros  pendientes de revisión en Funes</a>.</p>
+<div style="border: solid 1px #99f; padding: 1em">
+<div style="display: none"><hr/></div>
+<epc:pin name="matches"/>
+<div style="display: none"><hr/></div>
+</div>
+<p>Este mensaje de correo electrónico es el resumen que se envía <epc:pin name="howoften"/> sobre los registros que están pendientes de aprobación para ser agregados a <epc:phrase ref="archive_name"/>.</p>
+<p>Solamente se presentan los registros que coinciden con su responsabilidad editorial. Su responsabilidad editorial es: <epc:pin name="search"/></p>
+<p>Para cancelar o desactivar temporalmente esta actualización de correo electrónico,, <epc:pin name="url">pulse aquí</epc:pin>.</p>
+</epp:phrase>
+
+
+
+    <epp:phrase id="Plugin/Screen/DataSets:title">Bases de datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_editorial">Búsquedas</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Acciones</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_config">Configuración</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:title">Admn deposito</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:description">Descripción</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:title">Tablas</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:description">Administración de los depósitos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:action:reload_config:title">Cargar la Configuración</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:title">Listas datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:description">Listados de bases de datos</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:results_page_size">Páginas</epp:phrase>
+
+    <epp:phrase id="datasetname_event_queue">Cola de eventos</epp:phrase>
+
+    <epp:phrase id="datasethelp_event_queue">Listado de eventos</epp:phrase>
+
+    <epp:phrase id="datasetname_file">Nombre archivo</epp:phrase>
+
+    <epp:phrase id="datasethelp_file">Nombre archivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:page_title">Nombre página</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_filter">Filtro</epp:phrase>
+
+    <epp:phrase id="lib/metafield:join_fields">Unir campos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Details:title">Meta campo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Destroy:title">Eliminar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Details:other">Otros</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Details:title">Detalles</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Edit:title">Editar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/View:page_title">Perfil</epp:phrase>
+
+    <epp:phrase id="user_fieldname_saved_searches">Búsquedas guardadas</epp:phrase>
+
+    <epp:phrase id="user_fieldname_preference">Preferencias</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:usertype:title">Tipo de usuario</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:default:title">Detalles de la cuenta</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/View:title">Ver</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:remove_column_confirm">Confirmar eliminar</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_counter">Ayuda</epp:phrase>
+
+    <epp:phrase id="lib/paginate:remove_column">Eliminar</epp:phrase>
+
+    <epp:phrase id="lib/paginate:move_right">Derecha</epp:phrase>
+
+    <epp:phrase id="lib/paginate:move_left">Izquierda</epp:phrase>
+
+    <epp:phrase id="lib/paginate:add_column">Agregar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Error:title">Error en el título</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/File:title">Cargar un archivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/URL:title">Cargar desde URL</epp:phrase>
+
+    <epp:phrase id="archive_name">Funes</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Deposit:title">Depositar registro</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:title">Eliminar registro</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:title">Eliminar registro (con notificación)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:help">Esta página muestra los elementos pendientes de revisión.
+  Haga click sobre un icono a la derecha de un elemento para:
+  <ul>
+    <li>Ver el elemento en detalle, incluyendo acciones adicionales</li>
+    <li>Editar el elemento</li>
+    <li>Regresar el elemento al depositante (y notificar al usuario depositante)</li>
+    <li>Eliminar el elemento (y notificar al usuario depositante)</li>
+    <li>Mover el elemento al repositorio</li>
+  </ul>
+  Para reordenar la lista de elementos, haga click en el título de la columna según la cual desee ordenar. Haciendo click una segunda vez revertirá el ordenamiento.<br/>
+  Puede modificar las columnas desplegadas (Mover columna a la izquierda, Eliminar columna, Mover columna a la derecha). Para añadir una nueva columna, utilice el menú en la parte inferior de la página.</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/remove_with_email">Eliminar Recurso</epp:phrase>
+
+    <epp:phrase id="saved_search_radio_mailempty"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Sí, envíenme un correo de alerta vacío.</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/>No. Solamente envíenme correos de  alertas con contenido.</label></epp:phrase>
+
+    <epp:phrase id="user_radio_mailempty"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Sí, envíenme un correo aunque no tenga registros para revisar.</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/>No. Envíenme un correo sólo cuando contenga algo que pueda editar y aprobar dentro de mis derechos editoriales.</label></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/RejectWithEmail:title">Devolución del registro (con notificación)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:title">Plugins instalados</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_divisions">ID de términos clave</epp:phrase>
+
+    <epp:phrase id="[&quot;eprint_fieldname_editors_id&quot; not defined]"/>
+
+    <epp:phrase id="eprint_fieldname_related_url_url">URL de URL relacionada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors_id">ID de editores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_related_url_type">Tipo URL relacionada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_funders">Financiadores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_projects">Proyectos</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_sortvalue_sortvalue">Valor de orden del campo término clave</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_sortvalue_lang">Idioma de orden del campo término clave</epp:phrase>
+
+    <epp:phrase id="datasetname_triple">Nombre de base de datos triple</epp:phrase>
+
+    <epp:phrase id="datasetname_upload_progress">Poceso de carga de la base de datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:bad_file">Agregar archivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:add_file">Agregar archivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:add_directory">Agregar carpeta</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_sortvalue">Valor para ordenar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:help">Listado</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:datasets">Tablas de datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:edit_dataset&quot; ">Editar</epp:phrase>
+
+    <epp:phrase id="eprint_typename_actas_congresos">Contribución a actas de congreso</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_article&quot; not defined">Un artículo en una publicación seriada periódica. Incluye artículos en revistas de investigación, periódicos y boletines, entre otros. Los artículos no tienen necesariamente que haber sido revisados por pares. Puede ser un artículo publicado en un medio electrónico.</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_article">Un artículo en una publicación seriada periódica. Incluye artículos en revistas de investigación, periódicos y boletines, entre otros. Los artículos no tienen necesariamente que haber sido revisados por pares. Puede ser un artículo publicado en un medio electrónico.</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_book_section">Un capítulo o sección de un libro. No incluye trabajos presentados en congresos que hayan sido publicados en el libro de actas. Para estos trabajos, seleccione la opción "Contribución en actas de congresos".</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_book">Un libro publicado. Incluye libros editados y actas de congresos, entre otros. Puede ser un libro publicado en medio electrónico (como CD) siempre que tenga un ISBN asignado.</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_monograph">Un documento que no ha sido publicado. Aquí se incluyen los trabajos de título de grado.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_monograph">Documento no publicado</epp:phrase>
+
+    <epp:phrase id="eprint_typename_teaching_resource">Recursos de enseñanza</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_teaching_resource">Actividades de enseñanza: apuntes, ejercicios, exámenes o curso de los programas.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_image">Imagen</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_image">Fotografía digital o una imagen o figura en formato electrónico.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_video">Video</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_video">Un video digital</epp:phrase>
+
+    <epp:phrase id="eprint_typename_audio">Audio</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_audio">Una grabación de sonido digital.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_dataset">Dataset</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_dataset">Una colección limitada de datos cuantitativos (por ejemplo, hoja de cálculo o archivo de datos XML).</epp:phrase>
+
+    <epp:phrase id="eprint_typename_experiment">Experimento</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_experiment">Los datos experimentales con los análisis intermedios y el resumen de los resultados.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_other">Otros</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_other">Algo dentro del ámbito del repositorio, pero que no está cubierto en las otras categorías.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_id">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_issn">ISSN</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_volume">Volumen</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_number">Número</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_pagerange">Rango de páginas</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_date_type">Tipo de fecha</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_date_type_published">Publicación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_date_type_submitted">Presentación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_date_type_completed">Terminación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_id_number">Número de identificación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_related_url">URLs relacionadas</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_subjects">Términos clave</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contact_email">Dirección de correo electrónico de contacto</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_suggestions">Comentarios y sugerencias</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors">Editores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_series">Número de la serie</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_isbn">ISBN</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_thesis_type_engd">Especialización</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_thesis_type_other">Otro</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_book_title">Título del libro</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_pres_type">Tipo de presentación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_paper">Comunicación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_lecture">Curso</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_speech">Taller</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_poster">Poster</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_keynote">Conferencia</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_panel">Mesa redonda</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_other">Otro</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_event_title">Nombre del evento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_event_type">Tipo de evento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_event_location">Lugar de celebración del evento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_event_dates">Fechas del evento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_event_type_workshop">Curso</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_event_type_conference">Congreso o similar</epp:phrase>
+
+    <epp:phrase id="metapage_title_subjects">Términos clave</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_technical_report">Documento en revisión por pares</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_project_report">Informe</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_manual">Manual</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_discussion_paper">Documento de debate</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_monograph_type">Tipo de documento</epp:phrase>
+
+    <epp:phrase id="datasetname_subject">Términos clave</epp:phrase>
+
+    <epp:phrase id="user_typename_admin">Administrador</epp:phrase>
+
+    <epp:phrase id="user_fieldname_country">País</epp:phrase>
+
+    <epp:phrase id="user_fieldname_org">Institución</epp:phrase>
+
+    <epp:phrase id="user_typename_user">Usuario registrado</epp:phrase>
+
+    <epp:phrase id="user_typename_editor">Editor</epp:phrase>
+
+    <epp:phrase id="user_fieldname_hideemail">Ocultar Email</epp:phrase>
+
+    <epp:phrase id="user_radio_hideemail"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Permitir que la dirección de correo electrónico sea visible a todos los usuarios.</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/>Ocultar la dirección de correo electrónico a los usuarios. El administrador podrá verla para comunicarse con usted.</label></epp:phrase>
+
+    <epp:phrase id="user_fieldname_dept">Departamento</epp:phrase>
+
+    <epp:phrase id="user_section_personal">Datos personales</epp:phrase>
+
+    <epp:phrase id="user_fieldname_url">URL página web</epp:phrase>
+
+    <epp:phrase id="document_typename_application/pdf">PDF</epp:phrase>
+
+    <epp:phrase id="security_typename_public">Cualquier persona</epp:phrase>
+
+    <epp:phrase id="security_typename_validuser">Usuarios registrados solamente</epp:phrase>
+
+    <epp:phrase id="security_typename_staffonly">Personal del repositorio solamente</epp:phrase>
+
+    <epp:phrase id="page:id_code">Código ID</epp:phrase>
+
+    <epp:phrase id="page:deposited_by">Depositado por</epp:phrase>
+
+    <epp:phrase id="page:deposited_on">Fecha de modificación más reciente</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_full_text_status">Estado del archivo de texto completo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_full_text_status_none">Ninguno</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_full_text_status_public">Público</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_full_text_status_restricted">Restringido</epp:phrase>
+
+    <epp:phrase id="page:fulltext"/>
+
+    <epp:phrase id="Trasladar al repositorio">Publicar en Funes</epp:phrase>
+
+    <epp:phrase id="page:edit_link">Personal del repositorio solamente: <epc:pin name="link">página de control del documento</epc:pin></epp:phrase>
+
+    <epp:phrase id="dynamic:logged_in"><epc:pin name="user"/> | 
+       <epc:pin name="tools"/> | <a href="{$config{perl_url}}/logout" id="logged_in">Terminar Sesión</a> 
+    </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_archive:title">Publicar en Funes</epp:phrase>
+
+    <epp:phrase id="user_fieldname_items_fields"><epc:phrase ref="Plugin/Screen/Items:title"/> Campos</epp:phrase>
+
+    <epp:phrase id="document_typename_text/html">HTML</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_valoration">Valoración</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_editorial">Editorial</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_revista">Revista</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_divisions">Nivel educativo</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_enfoque">Enfoque</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:indextitle"><epc:pin name="viewname"/>: <epc:pin name="value"/></epp:phrase>
+
+    <epp:phrase id="cgi/lookup/name:authored">cgi/lookup/name:authored</epp:phrase>
+
+    <epp:phrase id="validate:missing_given">validate:missing_given</epp:phrase>
+
+    <epp:phrase id="validate:need_creators_or_editors">validate:need_creators_or_editors</epp:phrase>
+
+</epp:phrases>

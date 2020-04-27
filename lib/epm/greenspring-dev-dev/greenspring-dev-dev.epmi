@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm id='http://134.122.17.78/id/epm/greenspring-dev-dev' xmlns='http://eprints.org/ep2/data/2.0'>
+  <epmid>greenspring-dev-dev</epmid>
+  <eprintid>1124</eprintid>
+  <uri>http://bazaar.eprints.org/id/epm/greenspring-dev-dev</uri>
+  <documents>
+    <document id='http://134.122.17.78/id/document/3291'>
+      <docid>3291</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/16424'>
+          <fileid>16424</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>epm/greenspring/cfg/cfg.d/greenspring.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>5e4c4bb1e798ad5798f6c216e1b46aa7</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1185</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16425'>
+          <fileid>16425</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>static/images/epm/greenspring.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>fe6b9b1a1350883a44c1aee4ef76590e</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>18921</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16426'>
+          <fileid>16426</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/auto/style.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>59b144248b9f9cf90a9e2dbec8156129</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>4584</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16427'>
+          <fileid>16427</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/auto/style_ep_mod.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>31ce01c8025164e4c5eca7bc3fd2e38a</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1371</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16428'>
+          <fileid>16428</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/back.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>7743cc05b54928d3addbf58c67009997</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>157</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16429'>
+          <fileid>16429</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/blue_back.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>cabbead85b65d9aed3388934d3fb8e8b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>977</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16430'>
+          <fileid>16430</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/blue_bar.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>5f48300e23a523287f1e55df0bbc167f</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>306</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16431'>
+          <fileid>16431</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/delete.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>a1c25cf09f19c19efba28e278f123e77</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>607</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16432'>
+          <fileid>16432</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/footer.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>2be1275a731c22213b981fa43e218cb7</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>160</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16433'>
+          <fileid>16433</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/graphic.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>734751899091fe21d7d072bf9ec86c63</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>8483</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16434'>
+          <fileid>16434</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/green_logo.jpg</filename>
+          <mime_type>image/jpeg</mime_type>
+          <hash>0eeb8c2c598be9681e98d93bc9b137cc</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>27917</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16435'>
+          <fileid>16435</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/help.gif</filename>
+          <mime_type>image/gif</mime_type>
+          <hash>49c89c5e5b59121df1238fe3067deea6</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>599</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16436'>
+          <fileid>16436</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/left.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>48c503f648ae52d4a0b99fa0cb8aa0b8</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>557</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16437'>
+          <fileid>16437</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/link.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>9f7a688b6c96b353bcc79f3b3c4e99fa</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1133</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16438'>
+          <fileid>16438</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/menu.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>85160dba483f64847b63b2529a168978</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>175</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16439'>
+          <fileid>16439</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/minus.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>9158011139b5e7214c90d1aefaf895d8</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>412</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16440'>
+          <fileid>16440</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/multi_down.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>619b1c74145d04904d2f0375bb0963e6</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>502</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16441'>
+          <fileid>16441</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/multi_up.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>fe5f4f30c98da33318ca1a12eb8eb92b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>489</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16442'>
+          <fileid>16442</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/pattern.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>7caeff294465a069edd17429046c9936</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3744</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16443'>
+          <fileid>16443</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/plus.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>a541a7efe4aa267e8880af0db4472454</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>437</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16444'>
+          <fileid>16444</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/red_back.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>4cf1ddeebfa4081cd22d06987cf9302b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>818</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16445'>
+          <fileid>16445</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/right.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>cf98179b92bc128605dfe5788d6e0b95</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>562</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16446'>
+          <fileid>16446</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/row_blue.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>c413ee83829daecc4b75c82497540006</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>483</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16447'>
+          <fileid>16447</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/sorting_down_arrow.gif</filename>
+          <mime_type>image/gif</mime_type>
+          <hash>b8bff512b44dd57a24360ee1774f93e1</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>358</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16448'>
+          <fileid>16448</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/sorting_up_arrow.gif</filename>
+          <mime_type>image/gif</mime_type>
+          <hash>81230fc1e7800392c1eb8415b6f66d4c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>250</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16449'>
+          <fileid>16449</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/toolbox.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>523fd5184c7dcddfa2e7aa6725341a8a</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>989</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16450'>
+          <fileid>16450</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/static/style/images/toolbox_title.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>083bb0b0a7063f4ddac1d91dfd73df12</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>887</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16451'>
+          <fileid>16451</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/templates/default.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>938121dddc0d50cb48d59a00c87be364</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3633</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/16452'>
+          <fileid>16452</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3291</objectid>
+          <filename>themes/greenspring/templates/secure.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>c4ad49660eddec26b1a6ee45c9039671</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3640</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+      </files>
+      <eprintid>1124</eprintid>
+      <pos>1</pos>
+      <placement>1</placement>
+      <mime_type>application/xml</mime_type>
+      <format>other</format>
+      <language>en</language>
+      <security>public</security>
+      <main>themes/greenspring/templates/secure.xml</main>
+      <content>install</content>
+    </document>
+    <document id='http://134.122.17.78/id/document/3292'>
+      <docid>3292</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/16453'>
+          <fileid>16453</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3292</objectid>
+          <filename>static/images/epm/greenspring.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>fe6b9b1a1350883a44c1aee4ef76590e</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>18921</filesize>
+          <mtime>2019-06-25 02:39:57</mtime>
+        </file>
+      </files>
+      <eprintid>1124</eprintid>
+      <pos>2</pos>
+      <placement>2</placement>
+      <mime_type>image/png</mime_type>
+      <format>image</format>
+      <language>en</language>
+      <security>public</security>
+      <main>static/images/epm/greenspring.png</main>
+      <content>coverimage</content>
+    </document>
+  </documents>
+  <version>1.0.1</version>
+  <controller>EPMC::Theme</controller>
+  <creators>
+    <item>
+      <name>
+        <family>McSweeney</family>
+        <given>Patrick</given>
+      </name>
+      <id>pm5@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <datestamp>2019-06-25 02:39:57</datestamp>
+  <title>Green Spring Theme</title>
+  <description>As a homage to the EPrints Green theme dcarters green spring theme comes to eprints.</description>
+  <icon>images/epm/greenspring.png</icon>
+</epm>

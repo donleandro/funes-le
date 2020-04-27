@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE html SYSTEM "entities.dtd" >
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
+  <head>
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+    <script type="text/javascript" src="{$config{rel_path}}/javascript/auto.js"><!-- padder --></script>
+    <style type="text/css" media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/auto.css);</style>
+    <style type="text/css" media="print">@import url(<epc:print expr="$config{rel_path}"/>/style/print.css);</style>
+    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="Top" href="{$config{frontpage}}"/>
+    <link rel="Search" href="{$config{http_cgiurl}}/search"/>
+    <epc:pin ref="head"/>
+    <style type='text/css' media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/nojs.css);</style>
+    <script type="text/javascript" src="{$config{rel_path}}/javascript/jscss.js"><!-- padder --></script>
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <epc:pin ref="pagetop"/>
+
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="green", allows you to change the colour of the text - other classes are: "blue", "orange", "red", "purple" and "yellow" -->
+          <h1><span class="green"><epc:phrase ref="archive_name"/></span>repository</h1>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+            <!-- put class="first" in the a tag for the first page in the menu -->
+            <!-- put class="last" in the a tag for the last page in the menu -->
+            <li class="tab_selected"><a href="{$config{http_url}}">Home</a></li>
+            <li><a href="{$config{http_url}}/information.html">About</a></li>
+            <li><a href="{$config{http_url}}/view/year/">Browse by Year</a></li>
+            <li><a href="{$config{http_url}}/view/creators/">Browse by Author</a></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <table class="ep_tm_searchbar" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="left"><epc:pin ref="login_status"/></td>
+      <td align="right" style="white-space: nowrap">
+        <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
+          <input class="ep_tm_searchbarbox" size="20" type="text" name="q"/>
+          <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search"/>
+          <input type="hidden" name="_action_search" value="Search"/>
+          <input type="hidden" name="_order" value="bytitle"/>
+          <input type="hidden" name="basic_srchtype" value="ALL"/>
+          <input type="hidden" name="_satisfyall" value="ALL"/>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+
+<div id="site_content">
+  <div class="sidebar">
+    <epc:pin ref="toolbar" />
+  </div>
+  <div id="content">
+    <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
+    <epc:pin ref="page"/>
+  </div>
+</div>
+
+    <div id="footer">
+<a href="{$config{http_url}}/eprints/">More information and software credits</a>
+ | <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.dcarter.co.uk">design by dcarter</a></div>
+
+
+  </body>
+</html>
+

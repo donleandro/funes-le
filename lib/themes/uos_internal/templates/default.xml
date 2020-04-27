@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE html SYSTEM "entities.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <epc:pin ref="head"/>
+
+    <link rel="stylesheet" href="{$config{rel_path}}/soton_template/Styles/fluidgrid.css" />
+   <link rel="stylesheet" href="{$config{rel_path}}/soton_template/Styles/base.css" />
+    <link rel="stylesheet" href="{$config{rel_path}}/soton_template/Styles/site.css" />
+    <link rel="stylesheet" href="{$config{rel_path}}/soton_template/Styles/awesome.css" />
+<!--
+	    <script type="text/javascript" src="{$config{rel_path}}/soton_template/Scripts/jquery-1.9.0.min.js"></script>
+	    <script type="text/javascript" src="{$config{rel_path}}/soton_template/Scripts/jquery.mobilemenu.js"></script>
+        <script type="text/javascript" src="{$config{rel_path}}/soton_template/Scripts/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="{$config{rel_path}}/soton_template/Scripts/jquery.respond.min.js"></script>
+        
+	    <script type="text/javascript">
+	        $(document).ready(function () { MobileMenu(); });
+	        
+	        $().ready(function () { $("#email-form").validate({ rules: { title: "required", name: "required", email: { email: true, required: true }, subject: "required", message: "required" }, messages: { name: "Please enter your name", email: { email: "Please enter a valid email address", required: "Please enter your email address" }, subject: "Please enter a subject", message: "Please enter a message" } }); });
+    	</script>
+-->
+
+ </head>
+ <body>
+ <epc:pin ref="pagetop"/>
+ <div class="container">
+
+
+<div class="row medium branding">
+	<div class="eight columns">
+ 		<epc:phrase ref="template_top_left_title"/>
+        </div>
+</div>
+
+<div class="row navigation">
+
+ <epc:phrase ref="lib/lang/en/phrases:ep_tm_menu_browse"/>
+</div>
+
+
+
+ <div class="row small content">
+	<div class="two columns">
+                <div class="menu vertical">
+                    <h1 class="hide-on-desktop hide-on-tablet">Sub Menu</h1>
+                  <epc:pin ref="login_status"/>
+                    
+                </div>
+	</div>
+	<div class="ten columns">
+	      <div class="ep_tm_page_content">
+	        <h1 class="ep_tm_pagetitle">
+	          <epc:pin ref="title"/>
+	        </h1>
+	        <epc:pin ref="page"/>
+	      </div>   	
+
+	</div>
+</div>
+
+<div class="row small trailer">
+   <div class="twelve columns ">
+    <p>
+	<epc:phrase ref="template:about_eprints"/>
+    </p>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

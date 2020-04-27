@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm id='http://134.122.17.78/id/epm/uos_branding-dev' xmlns='http://eprints.org/ep2/data/2.0'>
+  <epmid>uos_branding-dev</epmid>
+  <eprintid>1108</eprintid>
+  <uri>http://bazaar.eprints.org/id/epm/uos_branding-dev</uri>
+  <documents>
+    <document id='http://134.122.17.78/id/document/3058'>
+      <docid>3058</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/15273'>
+          <fileid>15273</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>epm/uos_branding/cfg/cfg.d/x_uos_branding.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>7c39e2c22b638c2f947daf30cab86564</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>30</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15274'>
+          <fileid>15274</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>lang/en/phrases/zz_soton_template.xml</filename>
+          <mime_type>text/xml</mime_type>
+          <hash>e29307947b10e5b4d91924d101077bdc</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>4904</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15275'>
+          <fileid>15275</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>static/images/epm/uos_branding.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>a514e234cd75d70a823349fd7ce8aba4</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>31694</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15276'>
+          <fileid>15276</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Images/logo-transparent.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>7fb3ba8034cc64bb407e373395027397</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>59190</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15277'>
+          <fileid>15277</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Images/logo.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>1043611cdd0d5152165bc0a76958347c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>89133</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15278'>
+          <fileid>15278</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Scripts/jquery-1.9.0.min.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>0652da382b6fceb033dfe2b6c06d4d11</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>93068</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15279'>
+          <fileid>15279</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Scripts/jquery.mobilemenu.js</filename>
+          <mime_type>text/html</mime_type>
+          <hash>addddf8d6981d63ae92172ffdba09fdd</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3403</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15280'>
+          <fileid>15280</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Scripts/jquery.respond.min.js</filename>
+          <mime_type>text/html</mime_type>
+          <hash>e921c7867803acfcfb8d4f4c57e9daeb</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>4052</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15281'>
+          <fileid>15281</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Scripts/jquery.validate.min.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>98d3d89b934d07a0b6ea9ae3bcee0fa7</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>23282</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15282'>
+          <fileid>15282</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Styles/base.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>be73dbbac9c4da892959f55e2c7d1d62</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2958</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15283'>
+          <fileid>15283</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Styles/fluidgrid.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>ac2cd0cd7024e928cc3bf2b05494927a</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5217</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15284'>
+          <fileid>15284</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/static/soton_template/Styles/site.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>355f5f728980c70f804a807a1ade7388</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>6624</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+        <file id='http://134.122.17.78/id/file/15285'>
+          <fileid>15285</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3058</objectid>
+          <filename>themes/uos_internal/templates/default.xml</filename>
+          <mime_type>text/xml</mime_type>
+          <hash>559064631fc2a8f44ea73b0eae49800a</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2875</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+      </files>
+      <eprintid>1108</eprintid>
+      <pos>1</pos>
+      <placement>1</placement>
+      <mime_type>text/xml</mime_type>
+      <format>text</format>
+      <language>en</language>
+      <security>public</security>
+      <main>themes/uos_internal/templates/default.xml</main>
+      <content>install</content>
+    </document>
+    <document id='http://134.122.17.78/id/document/3059'>
+      <docid>3059</docid>
+      <rev_number>1</rev_number>
+      <files>
+        <file id='http://134.122.17.78/id/file/15286'>
+          <fileid>15286</fileid>
+          <datasetid>document</datasetid>
+          <objectid>3059</objectid>
+          <filename>static/images/epm/uos_branding.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>a514e234cd75d70a823349fd7ce8aba4</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>31694</filesize>
+          <mtime>2019-03-19 16:50:22</mtime>
+        </file>
+      </files>
+      <eprintid>1108</eprintid>
+      <pos>2</pos>
+      <placement>2</placement>
+      <mime_type>image/png</mime_type>
+      <format>image</format>
+      <language>en</language>
+      <security>public</security>
+      <main>static/images/epm/uos_branding.png</main>
+      <content>coverimage</content>
+    </document>
+  </documents>
+  <version>0.9.7</version>
+  <creators>
+    <item>
+      <name>
+        <family>Chen-Wilson</family>
+        <given>Lisha</given>
+      </name>
+    </item>
+    <item>
+      <name>
+        <family>Field</family>
+        <given>Adam</given>
+      </name>
+    </item>
+    <item>
+      <name>
+        <family>McSweeney</family>
+        <given>Patrick</given>
+      </name>
+    </item>
+  </creators>
+  <datestamp>2019-03-19 16:50:22</datestamp>
+  <title>University of Southampton Internal Branding (Rights Reserved)</title>
+  <description>This theme brands your repository in the University of Southampton internal brand.  Provided as a theme example and for ease of use for University of Southampton users.  You have permission to install this for testing and development purposes, but no permission is granted to use this on public-facing repositories.</description>
+  <icon>images/epm/uos_branding.png</icon>
+</epm>
